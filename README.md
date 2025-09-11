@@ -1,4 +1,4 @@
-<img width="1359" height="767" alt="image" src="https://github.com/user-attachments/assets/454c9100-95f9-412e-9382-0c24bfacfee2" /># COURSE PROJECT
+# COURSE PROJECT
 
 ---
 
