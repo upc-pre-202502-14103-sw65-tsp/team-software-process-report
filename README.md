@@ -857,7 +857,7 @@ Sebastian vive en Ate y estudia en la UPC Monterrico le toma 1hora 30min para ll
 - **Lugar de residencia:** San Juan Lurigancho, Lima
 
 **Evidencia de la entrevista:**  
-<img src="assets/images/interviews/ZarateEvidencia.png]">
+<img src="assets/images/interviews/ZarateEvidencia.png">
 
 **Enlace de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202115590_upc_edu_pe/EX3HYcv8l09EmHBq5wEKB8IBuyRvbgm4H99tEktUwkfYmg?e=cYNkaJ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
