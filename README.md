@@ -954,6 +954,8 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 
 
 ## 3.2. User Stories
+
+### Épicas del Proyecto
 <table>
 <colgroup>
 <col style="width: 11%" />
@@ -969,6 +971,14 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td>Descripción</td>
 <td>Criterios de Aceptación</td>
 <td>Relación Epic ID</td>
+</tr>
+<tr class="odd" style="background-color:hsl(73, 75.00%, 95.30%);">
+<td colspan="5" style="padding: 15px; border: 2px solid;">
+<strong>Epic 1: Funcionalidades Básicas de Carpooling</strong><br>
+<strong>Como</strong> estudiante universitario<br>
+<strong>Quiero</strong> acceder a funcionalidades básicas de carpooling<br>
+<strong>Para</strong> compartir viajes, generar ingresos y evaluar la seguridad de los trayectos
+</td>
 </tr>
 <tr class="even">
 <td>E1-US01</td>
@@ -1033,6 +1043,14 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td>1</td>
 </tr>
 
+<tr class="even" style="background-color:hsl(73, 75.00%, 95.30%);">
+<td colspan="5" style="padding: 15px; border: 2px solid;">
+<strong>Epic 2: Seguridad y Notificaciones</strong><br>
+<strong>Como</strong> usuario de la plataforma<br>
+<strong>Quiero</strong> contar con sistemas de seguridad y notificaciones<br>
+<strong>Para</strong> tener viajes seguros con notificaciones en tiempo real y pagos protegidos
+</td>
+</tr>
 <tr class="odd">
 <td>E2-US01</td>
 <td>Recibir notificaciones en tiempo real</td>
@@ -1096,6 +1114,14 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td>2</td>
 </tr>
 
+<tr class="odd" style="background-color:hsl(73, 75.00%, 95.30%);">
+<td colspan="5" style="padding: 15px; border: 2px solid;">
+<strong>Epic 3: Gestión de Usuarios y Viajes</strong><br>
+<strong>Como</strong> usuario<br>
+<strong>Quiero</strong> gestionar mi cuenta y mis viajes<br>
+<strong>Para</strong> registrarme, buscar viajes, hacer reservas y comunicarme con otros usuarios
+</td>
+</tr>
  <tr class="even">
         <td>E3-US01</td>
         <td>Registro de usuario</td>
@@ -1231,6 +1257,15 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
         </td>
         <td>3</td>
     </tr>
+
+<tr class="odd" style="background-color:hsl(73, 75.00%, 95.30%);">
+<td colspan="5" style="padding: 15px; border: 2px solid ;">
+<strong>Epic 4: Planes de Servicio y Suscripciones</strong><br>
+<strong>Como</strong> usuario de la plataforma<br>
+<strong>Quiero</strong> acceder a diferentes planes de servicio<br>
+<strong>Para</strong> elegir la suscripción que mejor se adapte a mis necesidades y presupuesto
+</td>
+</tr>
 <tr class="even">
         <td>E4-US01</td>
         <td>Visualizar planes de servicio</td>
@@ -1328,6 +1363,15 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
         </td>
         <td>3</td>
     </tr>
+
+<tr class="odd" style="background-color:hsl(73, 75.00%, 95.30%);">
+<td colspan="5" style="padding: 15px; border: 2px solid ;">
+<strong>Epic 5: Landing Page</strong><br>
+<strong>Como</strong> cliente<br>
+<strong>Quiero</strong> visualizar una página informativa<br>
+<strong>Para</strong> conocer más acerca de la aplicación web y poder ingresar a ella
+</td>
+</tr>
 <tr class="even">
 <td>E5-US01</td>
 <td>Barra de navegación en la landing page</td>
