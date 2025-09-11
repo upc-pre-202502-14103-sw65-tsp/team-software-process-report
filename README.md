@@ -28,166 +28,77 @@
 </div>
 
 <p align="center">
-    <strong>Octube 2025</strong>
+    <strong>Septiembre 2025</strong>
 </p>
 
 ---
 
 # Registro de Versiones del Informe
 
-### _TB1_
+ __TB1__
 
 Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la siguiente forma:
 
 | **Versión**  | **Fecha**  | **Autor**                         | **Descripción**                                                                                                   |
 |--------------|------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| **#01 - TB1**| 09/09/25   | Anampa Lavado, Luis Angel         | Competidores, Análisis competitivo, Estrategias frente a competidores, Product backlog, Style guidelines, Web style guidelines, Information architecture, Landing page UI design, Landing page mockup, Web applications mockup, Database diagram, Software deployment configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review |
-|              | 09/09/25   | Ayquipa Ubaldo, Abraham        | Startup Profile, Descripción de la startup, Antecedentes y problemática, Lean UX Problem Statements, Lean UX Assumptions, Segmentos objetivo, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page Wireframe, Web Applications Wireframes, Class Diagrams, Class Dictionary |
-|              | 10/09/25   | xxxxxxxx, xxxxxxxxx     | Registro de entrevistas, Software deployment configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review |
-|              | 08/09/25   | xxxxxxxx, xxxxxxx     | Lean UX Hypothesis Statements, Lean UX Canvas, Diseño de entrevistas, User Personas, Empathy Mapping, Impact Mapping, Domain-Driven Software Architecture, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions |
-|              | 10/09/25   | xxxxxxx,xxxxxxxxx   | User Task Matrix, Journey Map, As-Is Scenario Map, To-Be Scenario Map, Parte de user stories, Parte de diseño de entrevistas, Software Architecture Context Diagram, Software Architecture Container Diagrams, Software Architecture Components Diagrams |
+|**#01 - TB1**| 09/09/25   | Anampa Lavado, Luis Angel         | Competidores, Análisis competitivo, Estrategias frente a competidores, Product backlog, Style guidelines, Web style guidelines, Information architecture, Landing page UI design, Landing page mockup, Web applications mockup, Database diagram, Software deployment configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review |
+|**#01 - TB1**| 09/09/25   | Ayquipa Ubaldo, Abraham        | Startup Profile, Descripción de la startup, Antecedentes y problemática, Lean UX Problem Statements, Lean UX Assumptions, Segmentos objetivo, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page Wireframe, Web Applications Wireframes, Class Diagrams, Class Dictionary |
+|**#01 - TB1**| 10/09/25   | xxxxxxxx, xxxxxxxxx     | Registro de entrevistas, Software deployment configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review |
+|**#01 - TB1**| 08/09/25   | xxxxxxxx, xxxxxxx     | Lean UX Hypothesis Statements, Lean UX Canvas, Diseño de entrevistas, User Personas, Empathy Mapping, Impact Mapping, Domain-Driven Software Architecture, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions |
+|**#01 - TB1**| 10/09/25   | xxxxxxx,xxxxxxxxx   | User Task Matrix, Journey Map, As-Is Scenario Map, To-Be Scenario Map, Parte de user stories, Parte de diseño de entrevistas, Software Architecture Context Diagram, Software Architecture Container Diagrams, Software Architecture Components Diagrams |
 
 # Contenido
 
 ## Tabla de contenidos
-
-- [COURSE PROJECT](#course-project)
-    - [Team Members:](#team-members)
-- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-    - [_TB1_](#tb1)
-- [Contenido](#contenido)
-  - [Tabla de contenidos](#tabla-de-contenidos)
-- [Studen Outcome](#studen-outcome)
 - [**Capítulo I: Introducción.**](#capítulo-i-introducción)
   - [**1.1 Startup Profile.**](#11-startup-profile)
     - [**1.1.1 Descripción del startup.**](#111-descripción-del-startup)
-    - [Misión:](#misión)
-    - [Visión:](#visión)
     - [**1.1.2 Perfiles de los integrantes del equipo.**](#112-perfiles-de-los-integrantes-del-equipo)
   - [**1.2. Solution Profile.**](#12-solution-profile)
     - [**1.2.1. Antecedentes y Problemática.**](#121-antecedentes-y-problemática)
-    - [Antecedentes:](#antecedentes)
-    - [Problemática (5Ws y 2Hs)](#problemática-5ws-y-2hs)
-        - [What (Qué)](#what-qué)
-          - [¿Cuál es el problema?](#cuál-es-el-problema)
-        - [When (Cuando)](#when-cuando)
-          - [¿Cuándo sucede el problema?](#cuándo-sucede-el-problema)
-        - [Where (Donde)](#where-donde)
-          - [¿A dónde se dirige?](#a-dónde-se-dirige)
-          - [¿Dónde surge el problema?](#dónde-surge-el-problema)
-        - [Who (Quién)](#who-quién)
-          - [¿Quiénes están involucrados? ¿Quién lo utilizará?](#quiénes-están-involucrados-quién-lo-utilizará)
-        - [Why (Por qué)](#why-por-qué)
-          - [¿Cuál es la causa del problema?](#cuál-es-la-causa-del-problema)
-    - [¿Cuáles son las 2H?](#cuáles-son-las-2h)
-        - [How (Cómo)](#how-cómo)
-          - [¿Cómo se utilizará el producto?](#cómo-se-utilizará-el-producto)
-          - [¿Cómo lograremos desarrollar la correcta gestión del proceso de carpooling entre estudiantes?](#cómo-lograremos-desarrollar-la-correcta-gestión-del-proceso-de-carpooling-entre-estudiantes)
-        - [How much (Cuánto)](#how-much-cuánto)
-          - [¿Cuál es la magnitud del problema?](#cuál-es-la-magnitud-del-problema)
-          - [Quienes seran los beneficiados por el servicio?](#quienes-seran-los-beneficiados-por-el-servicio)
     - [**1.2.2. Lean UX Process.**](#122-lean-ux-process)
       - [**1.2.2.1. Lean UX Problem Statements.**](#1221-lean-ux-problem-statements)
-    - [Aspectos](#aspectos)
-      - [Domain:](#domain)
-      - [Customer Segments:](#customer-segments)
-      - [Pain Points:](#pain-points)
-          - [Estrés y Fatiga:](#estrés-y-fatiga)
-          - [Inseguridad:](#inseguridad)
-          - [Costo Elevado:](#costo-elevado)
-          - [Oportunidades de Rellenar Asientos:](#oportunidades-de-rellenar-asientos)
-      - [Gap:](#gap)
-      - [Vision/Strategy:](#visionstrategy)
       - [**1.2.2.2. Lean UX Assumptions.**](#1222-lean-ux-assumptions)
-      - [User Assumptions](#user-assumptions)
-      - [Business Assumptions](#business-assumptions)
       - [**1.2.2.3. Lean UX Hypothesis Statements.**](#1223-lean-ux-hypothesis-statements)
       - [**1.2.2.4. Lean UX Canvas.**](#1224-lean-ux-canvas)
   - [**1.3. Segmentos objetivo.**](#13-segmentos-objetivo)
-    - [**Segmento objetivo #1: Estudiantes Universitarios que necesiten movilizarse.**](#segmento-objetivo-1-estudiantes-universitarios-que-necesiten-movilizarse)
-    - [**Segmento objetivo #2: Estudiantes Universitarios propietarios de un vehículo privado.**](#segmento-objetivo-2-estudiantes-universitarios-propietarios-de-un-vehículo-privado)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
-    - [BlaBlaCar](#blablacar)
-    - [Urbvan](#urbvan)
-    - [Yango](#yango)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-      - [**Preguntas Generales**](#preguntas-generales)
-      - [**Preguntas Segmento 1: Estudiantes universitarios**](#preguntas-segmento-1-estudiantes-universitarios)
-      - [**Preguntas Segmento 2: Estudiantes universitarios propietarios de vehículos privados**](#preguntas-segmento-2-estudiantes-universitarios-propietarios-de-vehículos-privados)
     - [2.2.2 Registro de entrevistas](#222-registro-de-entrevistas)
-      - [**Segmento 1: Estudiantes Universitarios**](#segmento-1-estudiantes-universitarios)
-      - [**Segmento 2: Estudiantes universitarios propietarios de vehículos privados**](#segmento-2-estudiantes-universitarios-propietarios-de-vehículos-privados)
     - [2.2.3 Análisis de entrevistas.](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
-      - [*Estudiantes universitarios:*](#estudiantes-universitarios)
-      - [*Estudiantes Universitarios propietarios de vehículos privados:*](#estudiantes-universitarios-propietarios-de-vehículos-privados)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
-      - [*Segmento Objetivo: Estudiantes Universitarios*](#segmento-objetivo-estudiantes-universitarios)
-      - [*Segmento Objetivo: Estudiantes universitarios propietarios de vehículos privados*](#segmento-objetivo-estudiantes-universitarios-propietarios-de-vehículos-privados)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-      - [*Estudiantes Universitarios*](#estudiantes-universitarios-1)
-      - [*Estudiantes universitarios propietarios de vehículos privados*](#estudiantes-universitarios-propietarios-de-vehículos-privados-1)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-      - [*Estudiantes Universitarios*](#estudiantes-universitarios-2)
-      - [*Estudiantes universitarios propietarios de vehículos privados*](#estudiantes-universitarios-propietarios-de-vehículos-privados-2)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-      - [*Estudiantes Universitarios*](#estudiantes-universitarios-3)
-      - [*Estudiantes universitarios propietarios de vehículos privados*](#estudiantes-universitarios-propietarios-de-vehículos-privados-3)
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-    - [*Segmento: Estudiantes Universitarios que necesiten movilizarse*](#segmento-estudiantes-universitarios-que-necesiten-movilizarse)
-    - [*Segmento: Estudiantes Universitarios propietarios de vehículo privado*](#segmento-estudiantes-universitarios-propietarios-de-vehículo-privado)
   - [3.2. User Stories](#32-user-stories)
   - [3.3. Impact Mapping.](#33-impact-mapping)
   - [3.4. Product Backlog.](#34-product-backlog)
 - [**Capítulo IV: Product Design.**](#capítulo-iv-product-design)
   - [**4.1. Style Guidelines.**](#41-style-guidelines)
     - [**4.1.1. General Style Guidelines.**](#411-general-style-guidelines)
-      - [Historia de la marca](#historia-de-la-marca)
-      - [Misión](#misión-1)
-      - [Visión](#visión-1)
-      - [Brand Name](#brand-name)
-      - [Colores](#colores)
-      - [Tipografía](#tipografía)
-      - [Espaciado](#espaciado)
     - [**4.1.2. Web Style Guidelines.**](#412-web-style-guidelines)
   - [**4.2. Information Architecture.**](#42-information-architecture)
     - [**4.2.1. Organization Systems.**](#421-organization-systems)
     - [**4.2.2. Labeling Systems.**](#422-labeling-systems)
-    - [Etiquetas:](#etiquetas)
     - [**4.2.3. SEO Tags and Meta Tags.**](#423-seo-tags-and-meta-tags)
-    - [Para la Landing Page:](#para-la-landing-page)
-    - [Para la Aplicación Web:](#para-la-aplicación-web)
     - [**4.2.4. Searching Systems.**](#424-searching-systems)
     - [**4.2.5. Navigation Systems.**](#425-navigation-systems)
   - [**4.3. Landing Page UI Design**](#43-landing-page-ui-design)
     - [**4.3.1. Landing Page Wireframe.**](#431-landing-page-wireframe)
-      - [Wireframe de la Landing Page en Figma:](#wireframe-de-la-landing-page-en-figma)
-      - [Versión Desktop:](#versión-desktop)
-        - [Wireframe de la página principal:](#wireframe-de-la-página-principal)
-        - [Wireframe de la sección Sobre Nosotros:](#wireframe-de-la-sección-sobre-nosotros)
-        - [Versión Mobile:](#versión-mobile)
-        - [Wireframe de la página principal:](#wireframe-de-la-página-principal-1)
-        - [Wireframe de la sección Sobre Nosotros:](#wireframe-de-la-sección-sobre-nosotros-1)
     - [**4.3.2. Landing Page Mock-up.**](#432-landing-page-mock-up)
-      - [Mockups de la Landing Page en Figma:](#mockups-de-la-landing-page-en-figma)
-        - [Versión Desktop:](#versión-desktop-1)
-      - [Mockups de la página principal](#mockups-de-la-página-principal)
-      - [Mockups de la sesion Sobre Nosotros:](#mockups-de-la-sesion-sobre-nosotros)
-        - [Versión Mobile:](#versión-mobile-1)
-      - [Mockups de la página principal](#mockups-de-la-página-principal-1)
-        - [Mockups de la sesion Sobre Nosotros:](#mockups-de-la-sesion-sobre-nosotros-1)
+
   - [**4.4. Web Applications UX/UI Design.**](#44-web-applications-uxui-design)
     - [**4.4.1. Web Applications Wireframes.**](#441-web-applications-wireframes)
-      - [Wireframes de las Aplicaciones Web en Figma:](#wireframes-de-las-aplicaciones-web-en-figma)
     - [**4.4.2. Web Applications Wireflow Diagrams.**](#442-web-applications-wireflow-diagrams)
-      - [Wireflow Diagrams de las Aplicaciones Web en LucidChart Iniciar Sesion:](#wireflow-diagrams-de-las-aplicaciones-web-en-lucidchart-iniciar-sesion)
     - [**4.4.3. Web Applications Mock-ups.**](#443-web-applications-mock-ups)
     - [**4.4.4. Web Applications User Flow Diagrams.**](#444-web-applications-user-flow-diagrams)
   - [**4.5. Web Applications Prototyping.**](#45-web-applications-prototyping)
@@ -198,42 +109,14 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
   - [**4.7. Software Object-Oriented Design.**](#47-software-object-oriented-design)
     - [**4.7.1. Class Diagrams.**](#471-class-diagrams)
     - [**4.7.2. Class Dictionary.**](#472-class-dictionary)
-    - [**Usuario**](#usuario)
-      - [**Atributos:**](#atributos)
-      - [**Métodos:**](#métodos)
-    - [**Evaluación**](#evaluación)
-      - [**Atributos:**](#atributos-1)
-      - [**Métodos:**](#métodos-1)
-    - [**Pasajero**](#pasajero)
-      - [**Métodos:**](#métodos-2)
-    - [**Vehículo**](#vehículo)
-      - [**Atributos:**](#atributos-2)
-      - [**Métodos:**](#métodos-3)
-    - [**Viaje**](#viaje)
-      - [**Atributos:**](#atributos-3)
-      - [**Métodos:**](#métodos-4)
-    - [**Reserva**](#reserva)
-      - [**Atributos:**](#atributos-4)
-      - [**Métodos:**](#métodos-5)
-    - [**Pago**](#pago)
-      - [**Atributos:**](#atributos-5)
-      - [**Métodos:**](#métodos-6)
-    - [**Notificación**](#notificación)
-      - [**Atributos:**](#atributos-6)
-      - [**Métodos:**](#métodos-7)
   - [**4.8. Database Design.**](#48-database-design)
     - [**4.8.1. Database Diagram.**](#481-database-diagram)
 - [**Capítulo V: Product Implementation, Validation \& Deployment.**](#capítulo-v-product-implementation-validation--deployment)
   - [**5.1. Software Configuration Management.**](#51-software-configuration-management)
     - [**5.1.1. Software Development Environment Configuration.**](#511-software-development-environment-configuration)
     - [**5.1.2. Source Code Management.**](#512-source-code-management)
-      - [**Ramas principales:**](#ramas-principales)
-      - [**Ramas auxiliares:**](#ramas-auxiliares)
     - [**5.1.3. Source Code Style Guide \& Conventions.**](#513-source-code-style-guide--conventions)
-      - [**Convenciones de Commits**](#convenciones-de-commits)
-      - [**Convenciones de Versionado de Lanzamientos**](#convenciones-de-versionado-de-lanzamientos)
     - [**5.1.4. Software Deployment Configuration.**](#514-software-deployment-configuration)
-      - [**Enlace de la Landing Page:**](#enlace-de-la-landing-page)
   - [**5.2. Landing Page, Services \& Applications Implementation.**](#52-landing-page-services--applications-implementation)
     - [**5.2.1. Sprint 1.**](#521-sprint-1)
       - [**5.2.1.1. Sprint Planning 1.**](#5211-sprint-planning-1)
@@ -244,14 +127,8 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
       - [**5.2.1.6. Services Documentation Evidence for Sprint Review.**](#5216-services-documentation-evidence-for-sprint-review)
       - [**5.2.1.7. Software Deployment Evidence for Sprint Review.**](#5217-software-deployment-evidence-for-sprint-review)
       - [**5.2.1.8. Team Collaboration Insights during Sprint.**](#5218-team-collaboration-insights-during-sprint)
-  - [**5.2.1.8 Team Collaboration Insights during Sprint.**](#5218-team-collaboration-insights-during-sprint-1)
+      - [**5.2.1.9. Actas de reunión**](#5218-team-collaboration-insights-during-sprint)
 - [**Conclusiones.**](#conclusiones)
-  - [**Conclusiones y Recomendaciones.**](#conclusiones-y-recomendaciones)
-      - [1. GoUni responde a las necesidades de movilidad estudiantil](#1-gouni-responde-a-las-necesidades-de-movilidad-estudiantil)
-      - [2. Contribución a la sostenibilidad](#2-contribución-a-la-sostenibilidad)
-      - [3. Enfoque colaborativo y seguro](#3-enfoque-colaborativo-y-seguro)
-      - [4. Impacto social y económico](#4-impacto-social-y-económico)
-      - [5. Innovación y tecnología como pilares](#5-innovación-y-tecnología-como-pilares)
 - [**Bibliografia.**](#bibliografia)
 - [**Anexos**](#anexos)
 
@@ -261,7 +138,7 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 
 | Criterio Específico                                                        | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Conclusiones |
 |----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
-| **C omunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.**   | **Anampa Lavado Luis Angel**, <br><br>**TB1**: Como integrante del equipo, he promovido un ambiente colaborativo en este proyecto, asegurando que mis aportes sean comunicados de manera efectiva. Durante nuestras reuniones, hemos interactuado de manera activa para evaluar el progreso y resolver dudas o consultas que puedan surgir, fomentando así un espíritu de cooperación y aprendizaje mutuo.<br><br> **Ayquipa Ubaldo, Abraham Israel** <br><br> **TB1**: Comunicó ideas y resultados de manera objetiva a audiencias variadas, compartiendo el progreso y los desafíos del proyecto.<br><br> **XXXXXXXXXX, XXXXXXXXXXXXXX** <br><br> **TB1**: Entrevistó usuarios y realizó sprints backlog, contribuyendo al desarrollo de la landing page. <br><br> **XXXXXXXXXX, XXXXXXXXXXXXXX** <br><br> **TB1**: Informó sobre el progreso y los obstáculos del proyecto a públicos especializados.<br><br> **XXXXXXXXXX, XXXXXXXXXXXXXX** <br><br> **TB1**: Compartió ideas de solución de manera objetiva durante el desarrollo del proyecto. <br><br>  **General**: La comunicación clara y precisa fue crucial para el éxito del proyecto, facilitando la cooperación y comprensión entre los equipos. La capacidad de comunicar de manera objetiva y profesional coordinó esfuerzos y mejoró la ejecución del proyecto. |
+| **Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.**   | **Anampa Lavado Luis Angel**, <br><br>**TB1**: Como integrante del equipo, he promovido un ambiente colaborativo en este proyecto, asegurando que mis aportes sean comunicados de manera efectiva. Durante nuestras reuniones, hemos interactuado de manera activa para evaluar el progreso y resolver dudas o consultas que puedan surgir, fomentando así un espíritu de cooperación y aprendizaje mutuo.<br><br> **Ayquipa Ubaldo, Abraham Israel** <br><br> **TB1**: Comunicó ideas y resultados de manera objetiva a audiencias variadas, compartiendo el progreso y los desafíos del proyecto.<br><br> **XXXXXXXXXX, XXXXXXXXXXXXXX** <br><br> **TB1**: Entrevistó usuarios y realizó sprints backlog, contribuyendo al desarrollo de la landing page. <br><br> **XXXXXXXXXX, XXXXXXXXXXXXXX** <br><br> **TB1**: Informó sobre el progreso y los obstáculos del proyecto a públicos especializados.<br><br> **XXXXXXXXXX, XXXXXXXXXXXXXX** <br><br> **TB1**: Compartió ideas de solución de manera objetiva durante el desarrollo del proyecto. <br><br> | **General**: La comunicación clara y precisa fue crucial para el éxito del proyecto, facilitando la cooperación y comprensión entre los equipos. La capacidad de comunicar de manera objetiva y profesional coordinó esfuerzos y mejoró la ejecución del proyecto. |
 | **Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.** | **Anampa Lavado Luis Angel**, <br><br>**TB1**: Como miembro del equipo, cumplí con mis responsabilidades de manera oportuna, asumiendo la tarea de realizar entrevistas, redactar la introducción y el planteamiento del problema, así como contribuir en la elaboración de la landing page en conjunto con mis compañeros. Esta experiencia ha fortalecido nuestras dinámicas de trabajo y ha permitido un desarrollo cohesivo del proyecto.<br><br> **Ayquipa Ubaldo, Abraham Israel** <br><br> **TB1**: Usó el Lean UX Canvas e intervino en el diseño de la Information Architecture y la estructura de la base de datos.<br><br> **XXXXXXXXX, XXXXXXXXX** <br><br> **TB1**: Entrevistó usuarios y participó en el desarrollo de la landing page. <br><br>  **xxxxxxx,xxxxxxxxx** <br><br> **TB1**: Contribuyó en diversas etapas del desarrollo, creando user personas y empathy maps. <br><br> **XXXXXXXXXX,XXXXXXXX** <br><br> **TB1**: Ayudó en la documentación y diseño de journey mappings y diagram flows para el proyecto. <br><br>  | **General**: La documentación clara y detallada fue fundamental para el desarrollo del proyecto, asegurando que toda la información fuera comprensible para los diversos públicos. La escritura objetiva y profesional facilitó la colaboración y el éxito en cada fase del desarrollo. |
 
 ---
@@ -3060,9 +2937,9 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|-----|-----|-----|-----|-----|
 | **User Story**  | **Work-item / Task**                                                                                                                                                                                                         |     |     |     |     |     |     |
 | **ID**         | **Title**                        | **Id** | **Title**                        | **Description**                                                                       | **Estimation (hours)** | **Assigned To**    | **Status (To-do / In-Process / To-Review / Done)** |
-| **E5-US01**     | Barra de navegación en la landing page | **T1** | Navbar section                  | Implementar navbar con botón (redirige a la aplicación) y responsive design           | 1h                    | Joan Talizo        | Done                                              |
-| **E5-US02**     | Dirigirse a la aplicación mediante el landing page | **T2** | Button Call to Action         | Implementar el button Call to Action del navbar                                       | 0.1h                  | Joan Talizo        | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T3** | Navbar section responsive       | Aplicar diseño responsive a las opciones del navbar                                   | 1h                    | Joan Talizo        | Done                                              |
+| **E5-US01**     | Barra de navegación en la landing page | **T1** | Navbar section                  | Implementar navbar con botón (redirige a la aplicación) y responsive design           | 1h                    |       | Done                                              |
+| **E5-US02**     | Dirigirse a la aplicación mediante el landing page | **T2** | Button Call to Action         | Implementar el button Call to Action del navbar                                       | 0.1h                  |       | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T3** | Navbar section responsive       | Aplicar diseño responsive a las opciones del navbar                                   | 1h                    |       | Done                                              |
 | **E5-US03**     | Sección hero del landing page   | **T4** | Hero section                    | Implementar un hero section                                                          | 1h                    | Angel Anampa       | Done                                              |
 | **E5-US03**     | Sección hero del landing page   | **T5** | Responsive design hero section  | Aplicar design responsive al hero section                                             | 1h                    | Angel Anampa       | Done                                              |
 | **E5-US03**     | Sección hero del landing page   | **T6** | Product section and items       | Implementar Product section y los ítems característicos en orden grid                | 1h                    |    | Done                                              |
@@ -3185,38 +3062,6 @@ Durante este sprint, para proteger la rama "main", creamos una rama "develop". C
 ![deploy.jpeg](assets/images/sprint4/deploy/deploy.jpeg)
 
 
-![postman.jpeg](assets/images/sprint4/postman/postman.jpeg)
-
-![postman2.jpeg](assets/images/sprint4/postman/postman2.jpeg)
-
-![AppWeb.jpeg](assets/images/sprint4/AppWeb.jpeg)
-
-![AppWeb_register.jpeg](assets/images/sprint4/AppWeb_register.jpeg)
-
-![AppWeb_Home.jpeg](assets/images/sprint4/AppWeb_Home.jpeg)
-
-![AppWeb_service.jpeg](assets/images/sprint4/AppWeb_service.jpeg)
-
-![AppWeb_plans.jpeg](assets/images/sprint4/AppWeb_plans.jpeg)
-
-![AppWeb_map.jpeg](assets/images/sprint4/AppWeb_map.jpeg)
-
-![AppWeb_Maps.jpeg](assets/images/sprint4/AppWeb_Maps.jpeg)
-
-![AppWeb_ZoomMaps.jpeg](assets/images/sprint4/AppWeb_ZoomMaps.jpeg)
-
-![AppWeb_Markers.jpeg](assets/images/sprint4/AppWeb_Markers.jpeg)
-
-![AppWeb_Universities.jpeg](assets/images/sprint4/AppWeb_Universities.jpeg)
-
-![AppWeb_Reservas.jpeg](assets/images/sprint4/AppWeb_Reservas.jpeg)
-
-![AppWeb_AplicarDescuento.jpeg](assets/images/sprint4/AppWeb_AplicarDescuento.jpeg)
-
-![AppWeb_ConfirmarReserva.jpeg](assets/images/sprint4/AppWeb_ConfirmarReserva.jpeg)
-
-
-
 ## [**5.2.1.8 Team Collaboration Insights during Sprint.**](#5248-team-collaboration-insights-during-sprint)
 
 **Distribución de aportes en el informe:**
@@ -3229,11 +3074,11 @@ Para el desarrollo del informe en este sprint se distribuyó los capítulos de e
 
 | Integrante | Aporte en el informe |
 |------------|-----------------------|
-| **Angel**  | Sprint 4, Development Evidence for Sprint Review, Team Collaboration Insights during Sprint |
-| **Samuel** | Sprint planning 4, Deployment Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint |
-| **Franky** | Sprint 4, Development Evidence for Sprint Review, Validation Interviews, Mejora continua en Domain Driven Design Architecture |
-| **Alessandro** | Sprint 4, Development Evidence for Sprint Review, Mejora continua en Domain Driven Design Architecture, Team Collaboration Insights during Sprint |
-| **Joan**   | Sprint 4, Testing Suite Evidence for Sprint Review, Mejora continua en Domain Driven Design Architecture, Team Collaboration Insights during Sprint |
+| **Angel**  | |
+| **xxxx** |  |
+| **xxxx** |  |
+| **xxxxx** |  |
+| **xxxxx**   |  |
 
 **Evidencia del commit:**
 
@@ -3262,9 +3107,6 @@ GoUni no solo mejora la movilidad diaria de los estudiantes, sino que también p
 #### 5. Innovación y tecnología como pilares
 La plataforma utiliza tecnología móvil avanzada y un enfoque innovador para crear una experiencia de movilidad eficiente y socialmente responsable, adaptada a las necesidades de los estudiantes en un contexto de creciente demanda por soluciones digitales.
 
-- **URL Microsoft Stream:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218664_upc_edu_pe/EU1OnTLoQn1GnRN9LSbVPCUBjx9jcCV71N2m_xFK5prmdQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=xwBpHX](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218664_upc_edu_pe/EU1OnTLoQn1GnRN9LSbVPCUBjx9jcCV71N2m_xFK5prmdQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=xwBpHX)
-- **URL Youtube:** [https://youtu.be/r0zoHufifZU](https://youtu.be/r0zoHufifZU)
-- **Duración del video:** 4:14 min
 
 ---
 
