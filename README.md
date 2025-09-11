@@ -24,9 +24,6 @@
 |-------------------------------------|-------------|
 | Anampa Lavado, Luis Angel           | u202218664  |
 | Ayquipa Ubaldo, Abraham Israel      | u202218475  |
-|                                     |             |
-|                                     |             |
-|                                     |             |
 
 </div>
 
@@ -44,11 +41,11 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 
 | **Versión**  | **Fecha**  | **Autor**                         | **Descripción**                                                                                                   |
 |--------------|------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| **#01 - TB1**| 09/10/25   | Anampa Lavado, Luis Angel         | Competidores, Análisis competitivo, Estrategias frente a competidores, Product backlog, Style guidelines, Web style guidelines, Information architecture, Landing page UI design, Landing page mockup, Software deployment configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Software Deployment Evidence for Sprint Review |
-|              | 09/10/25   | Ayquipa Ubaldo, Abraham        | Startup Profile, Descripción de la startup, Antecedentes y problemática, Lean UX Problem Statements, Lean UX Assumptions, Segmentos objetivo, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page Wireframe, Web Applications Wireframes, Class Diagrams, Class Dictionary |
-|              | 10/10/25   | [Espacio para nuevo integrante]     | Registro de entrevistas, Software deployment configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review |
-|              | 08/10/25   | [Espacio para nuevo integrante]     | Lean UX Hypothesis Statements, Lean UX Canvas, Diseño de entrevistas, User Personas, Empathy Mapping, Impact Mapping, Domain-Driven Software Architecture, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions |
-|              | 10/10/25   | [Espacio para nuevo integrante]   | User Task Matrix, Journey Map, As-Is Scenario Map, To-Be Scenario Map, Parte de user stories, Parte de diseño de entrevistas, Software Architecture Context Diagram, Software Architecture Container Diagrams, Software Architecture Components Diagrams |
+| **#01 - TB1**| 09/09/25   | Anampa Lavado, Luis Angel         | Competidores, Análisis competitivo, Estrategias frente a competidores, Product backlog, Style guidelines, Web style guidelines, Information architecture, Landing page UI design, Landing page mockup, Web applications mockup, Database diagram, Software deployment configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review |
+|              | 09/09/25   | Ayquipa Ubaldo, Abraham        | Startup Profile, Descripción de la startup, Antecedentes y problemática, Lean UX Problem Statements, Lean UX Assumptions, Segmentos objetivo, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page Wireframe, Web Applications Wireframes, Class Diagrams, Class Dictionary |
+|              | 10/09/25   | xxxxxxxx, xxxxxxxxx     | Registro de entrevistas, Software deployment configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review |
+|              | 08/09/25   | xxxxxxxx, xxxxxxx     | Lean UX Hypothesis Statements, Lean UX Canvas, Diseño de entrevistas, User Personas, Empathy Mapping, Impact Mapping, Domain-Driven Software Architecture, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions |
+|              | 10/09/25   | xxxxxxx,xxxxxxxxx   | User Task Matrix, Journey Map, As-Is Scenario Map, To-Be Scenario Map, Parte de user stories, Parte de diseño de entrevistas, Software Architecture Context Diagram, Software Architecture Container Diagrams, Software Architecture Components Diagrams |
 
 # Contenido
 
@@ -264,8 +261,8 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 
 | Criterio Específico                                                        | Acciones realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Conclusiones |
 |----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
-| **Comunica oralmente con efectividad a diferentes rangos de audiencia.**   | **Anampa Lavado Luis Angel**, <br><br>**TB1**: Como integrante del equipo, he promovido un ambiente colaborativo en este proyecto, asegurando que mis aportes sean comunicados de manera efectiva. Durante nuestras reuniones, hemos interactuado de manera activa para evaluar el progreso y resolver dudas o consultas que puedan surgir, fomentando así un espíritu de cooperación y aprendizaje mutuo.<br><br> **Ayquipa Ubaldo, Abraham Israel** <br><br> **TB1**: Comunicó ideas y resultados de manera objetiva a audiencias variadas, compartiendo el progreso y los desafíos del proyecto.<br><br> **[Espacio para nuevo integrante]** <br><br> **TB1**: [Espacio para contribución] <br><br> **[Espacio para nuevo integrante]** <br><br> **TB1**: [Espacio para contribución] <br><br> **[Espacio para nuevo integrante]** <br><br> **TB1**: [Espacio para contribución] <br><br>  **General**: La comunicación clara y precisa fue crucial para el éxito del proyecto, facilitando la cooperación y comprensión entre los equipos. La capacidad de comunicar de manera objetiva y profesional coordinó esfuerzos y mejoró la ejecución del proyecto. |
-| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** | **Anampa Lavado Luis Angel**, <br><br>**TB1**: Como miembro del equipo, cumplí con mis responsabilidades de manera oportuna, asumiendo la tarea de realizar entrevistas, redactar la introducción y el planteamiento del problema, así como contribuir en la elaboración de la landing page en conjunto con mis compañeros. Esta experiencia ha fortalecido nuestras dinámicas de trabajo y ha permitido un desarrollo cohesivo del proyecto.<br><br> **Ayquipa Ubaldo, Abraham Israel** <br><br> **TB1**: Usó el Lean UX Canvas e intervino en el diseño de la Information Architecture y la estructura de la base de datos.<br><br> **[Espacio para nuevo integrante]** <br><br> **TB1**: [Espacio para contribución] <br><br>  **[Espacio para nuevo integrante]** <br><br> **TB1**: [Espacio para contribución] <br><br> **[Espacio para nuevo integrante]** <br><br> **TB1**: [Espacio para contribución] <br><br>  | **General**: La documentación clara y detallada fue fundamental para el desarrollo del proyecto, asegurando que toda la información fuera comprensible para los diversos públicos. La escritura objetiva y profesional facilitó la colaboración y el éxito en cada fase del desarrollo. |
+| **C omunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.**   | **Anampa Lavado Luis Angel**, <br><br>**TB1**: Como integrante del equipo, he promovido un ambiente colaborativo en este proyecto, asegurando que mis aportes sean comunicados de manera efectiva. Durante nuestras reuniones, hemos interactuado de manera activa para evaluar el progreso y resolver dudas o consultas que puedan surgir, fomentando así un espíritu de cooperación y aprendizaje mutuo.<br><br> **Ayquipa Ubaldo, Abraham Israel** <br><br> **TB1**: Comunicó ideas y resultados de manera objetiva a audiencias variadas, compartiendo el progreso y los desafíos del proyecto.<br><br> **XXXXXXXXXX, XXXXXXXXXXXXXX** <br><br> **TB1**: Entrevistó usuarios y realizó sprints backlog, contribuyendo al desarrollo de la landing page. <br><br> **XXXXXXXXXX, XXXXXXXXXXXXXX** <br><br> **TB1**: Informó sobre el progreso y los obstáculos del proyecto a públicos especializados.<br><br> **XXXXXXXXXX, XXXXXXXXXXXXXX** <br><br> **TB1**: Compartió ideas de solución de manera objetiva durante el desarrollo del proyecto. <br><br>  **General**: La comunicación clara y precisa fue crucial para el éxito del proyecto, facilitando la cooperación y comprensión entre los equipos. La capacidad de comunicar de manera objetiva y profesional coordinó esfuerzos y mejoró la ejecución del proyecto. |
+| **Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería.** | **Anampa Lavado Luis Angel**, <br><br>**TB1**: Como miembro del equipo, cumplí con mis responsabilidades de manera oportuna, asumiendo la tarea de realizar entrevistas, redactar la introducción y el planteamiento del problema, así como contribuir en la elaboración de la landing page en conjunto con mis compañeros. Esta experiencia ha fortalecido nuestras dinámicas de trabajo y ha permitido un desarrollo cohesivo del proyecto.<br><br> **Ayquipa Ubaldo, Abraham Israel** <br><br> **TB1**: Usó el Lean UX Canvas e intervino en el diseño de la Information Architecture y la estructura de la base de datos.<br><br> **XXXXXXXXX, XXXXXXXXX** <br><br> **TB1**: Entrevistó usuarios y participó en el desarrollo de la landing page. <br><br>  **xxxxxxx,xxxxxxxxx** <br><br> **TB1**: Contribuyó en diversas etapas del desarrollo, creando user personas y empathy maps. <br><br> **XXXXXXXXXX,XXXXXXXX** <br><br> **TB1**: Ayudó en la documentación y diseño de journey mappings y diagram flows para el proyecto. <br><br>  | **General**: La documentación clara y detallada fue fundamental para el desarrollo del proyecto, asegurando que toda la información fuera comprensible para los diversos públicos. La escritura objetiva y profesional facilitó la colaboración y el éxito en cada fase del desarrollo. |
 
 ---
 
@@ -301,18 +298,19 @@ Aspiramos a ser líderes en movilidad estudiantil, reconocidos por nuestro compr
   </tr>
 
   <tr>
-    <td><img src="" width="100" height="100"></td>
-    <td>[Espacio para nuevo integrante]</td>
+    <td><img src="/assets/images/profiles/Valera_Samuel.png" width="100" height="100"></td>
+    <td>
+    </tr>
+
+  <tr>
+    <td><img src="./assets/images/profiles/TalizoBalbin_Joan.png" width="140" height="140"></td>
+    <td></td>
   </tr>
 
   <tr>
-    <td><img src="" width="100" height="100"></td>
-    <td>[Espacio para nuevo integrante]</td>
-  </tr>
-
-  <tr>
-    <td><img src="" width="100" height="100"></td>
-    <td>[Espacio para nuevo integrante]</td>
+    <td><img src="./assets/images/profiles/FrankyMallma.png" width="140" height="140"></td>
+    <td>
+</td>
   </tr>
 
 </table>
@@ -486,7 +484,7 @@ Assumptions play a crucial role in identifying project risks and fostering team 
 
 #### [**1.2.2.4. Lean UX Canvas.**](#1224-lean-ux-canvas)
 
-| **Lean UX Canvas**                                                                                                                                                               | **Fecha:** 20/08/2025                                                                                               | **Iteración:** 1 |
+| **Lean UX Canvas**                                                                                                                                                               | **Fecha:** 20/08/2024                                                                                               | **Iteración:** 1 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|------------------|
 | **1. Business Problem:**                                                                                                                                                         | **5. Solutions:**                                                                                                  | **2. Business Outcomes:** |
 | - La falta de un sistema eficiente y confiable que conecte a los estudiantes universitarios que necesitan compartir transporte hacia la universidad.                              | - **Plataforma de Carpooling:** Sistema que permita a los estudiantes ofrecer y encontrar viajes compartidos hacia la universidad.                        | - Aumento en el número de usuarios activos y viajes compartidos realizados. |
@@ -815,35 +813,37 @@ Melina es una estudiante universitaria que enfrenta dificultades diarias para ll
 
 **Entrevista 2:**
 
-- **Nombres:** Maria Gracia
-- **Apellidos:** Rojas Montenegro
-- **Edad:** 19
-- **Lugar de residencia:** Lima, Perú
+- **Nombres:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Lugar de residencia:**
 
 **Evidencia de la entrevista:**  
-<img src="assets/images/interviews/EvidenciaEntrevistaAlessandro.png">
+<img src="assets/images/interviews/">
 
-**Enlace de la entrevista:**https://upcedupe-my.sharepoint.com/:v:/g/personal/u202122232_upc_edu_pe/EdkBJ6BiIApNmPjECvCbqpYBZLdRyR5IUQ6hbW72k0wSNw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&e=yEaifN
+**Enlace de la entrevista:**
 
 **Resumen de la entrevista:**  
-Maria Gracia es una estudiante universitaria de la UPC que no tiene muchas dificultades al momento de transportarse desde su casa hacia la universidad. Ella comenta que le gustaría mucho una alternativa de transporte como el carpooling, ya que podría conocer nuevas personas de la misma universidad, ahorrar dinero en transporte, y utilizar un método más rápido en casos de urgencia.
+
+
 
 ---
 
 **Entrevista 3:**
 
-- **Nombres:** Luis
-- **Apellidos:** Suares Ayquipa
-- **Edad:** 18
-- **Lugar de residencia:** Lima, Perú
+- **Nombres:** 
+- **Apellidos:**
+- **Edad:** 
+- **Lugar de residencia:** 
 
 **Evidencia de la entrevista:**  
-<img src="assets/images/interviews/entrevista03_luis.png">
+<img src="assets/images/interviews/">
 
-**Enlace de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c250_upc_edu_pe/EXdQE3rWyAZNsbO1QS9oiMkB_984UXL8rCbGILEDXa90fQ?e=4Wa9C4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+**Enlace de la entrevista:** 
 
 **Resumen de la entrevista:**  
-Luis Suárez, de 18 años y residente en Santa Anita, Lima, usa el transporte público diariamente para ir a la universidad, enfrentando problemas como el tráfico, la inseguridad y la incomodidad de los buses llenos. Estaría dispuesto a compartir su trayecto con otros estudiantes por razones de seguridad y ahorro. Le gustaría que los conductores estuvieran verificados y monitoreados para mayor tranquilidad. Además, cree que un servicio de ride-sharing mejoraría su experiencia al reducir tiempos y hacer el viaje más cómodo.
+
+
 
 ---
 
@@ -851,18 +851,18 @@ Luis Suárez, de 18 años y residente en Santa Anita, Lima, usa el transporte p�
 
 **Entrevista 1:**
 
-- **Nombres:** Maykol
-- **Apellidos:** Valencia
-- **Edad:** 22
-- **Lugar de residencia:** Selva Alegre, Arequipa
+- **Nombres:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Lugar de residencia:** 
 
 **Evidencia de la entrevista:**  
-<img src="assets/images/interviews/entrevista02_UniversitarioPropietarioDeAuto.png">
+<img src="assets/images/interviews/]">
 
-**Enlace de la entrevista:** [Link de entrevista02_UniversitarioPropietarioDeAuto_MaykolValencia](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223781_upc_edu_pe/EdLl2jwqxtdDq2Nyq49ek8AB6cLqcac0HNUCa4ySmXv7LQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=rswZ2B)
+**Enlace de la entrevista:**
 
 **Resumen de la entrevista:**  
-Maykol es un estudiante universitario propietario de un vehículo privado que se desplaza diariamente desde su casa hasta la universidad. Él menciona que le gustaría compartir su vehículo con otros estudiantes para reducir los costos de transporte y hacer nuevos amigos. Sin embargo, tiene preocupaciones sobre la seguridad y la comodidad de los pasajeros, por lo que considera importante establecer reglas claras y un sistema de calificación para garantizar una experiencia positiva para todos.
+
 
 ---
 
@@ -874,12 +874,12 @@ Maykol es un estudiante universitario propietario de un vehículo privado que se
 - **Lugar de residencia:** Santiago de Surco, Lima
 
 **Evidencia de la entrevista:**  
-<img src="assets/images/interviews/interviewimage.png">
+<img src="assets/images/interviews/">
 
-**Enlace de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202111952_upc_edu_pe/EZd3GcGkxvNDl_7tiJOaSZEBrANwpg_4jDmEdm1lr_EfXA?e=IZMgVf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+**Enlace de la entrevista:** 
 
 **Resumen de la entrevista:**  
-Ariana es una estudiante universitaria de la UPC, propietaria de un vehículo privado, que se desplaza frecuentemente desde su casa hasta la universidad. Ella considera que compartir su vehículo con otros estudiantes es una buena idea para reducir los costos de transporte y hacer nuevas amistades. Sin embargo, tiene preocupaciones sobre la seguridad personal y la verificación de identidad, por lo que considera importante que una plataforma como la nuestra presente medidas de seguridad estrictas que verifiquen la identidad de cada pasajero y conductor.
+
 
 ### 2.2.3 Análisis de entrevistas.
 <TABLE BORDER>
@@ -924,7 +924,7 @@ Ariana es una estudiante universitaria de la UPC, propietaria de un vehículo pr
 </TR>
 <TR>
 <TD >Mejoraría tiempos de viaje y eficiencia</TD>
-<TD>N/A<</TD>
+<TD>N/A</TD>
 <TD>Reducir tiempos también es valorado</TD>
 </TR>
 
@@ -2862,7 +2862,8 @@ En esta parte, se mencionarán los distintos programas de software que el equipo
   Para la aplicación web frontend, se utilizó **Angular** junto con **TypeScript (TS)**, empleando **Angular Material** para la creación de componentes UI consistentes y responsivos. En algunas partes del diseño también se integraron estilos de **Bootstrap** para complementar la interfaz. La arquitectura fue diseñada para ser modular, escalable y responsiva, optimizada para su despliegue en **Vercel**.
 
 
-
+- **Backend**  
+  El backend fue desarrollado utilizando **Java** con el framework **Spring Boot**, proporcionando APIs RESTful que interactúan con una base de datos **MySQL**. Este servicio fue desplegado en **Railway**, garantizando escalabilidad y un manejo eficiente de las integraciones con el frontend y la landing page.
 
 **Software Testing**
 
@@ -2875,7 +2876,9 @@ Para las pruebas funcionales de la Landing Page y la aplicación web, se utiliza
   Además, Vercel ofreció vistas previas de las ramas para facilitar la revisión de los cambios antes de publicarlos en producción.
 
 
-
+- **Railway**: [https://railway.app/](https://railway.app/)  
+  Para el despliegue del backend, se utilizó Railway, conectando el repositorio de GitHub al servicio. Esto permitió implementar automáticamente los cambios realizados en el código.  
+  Railway proporcionó un entorno escalable y simplificado para manejar las configuraciones del servidor y las bases de datos, facilitando el proceso de desarrollo y despliegue.
 
 **Software Documentation**
 
@@ -2907,8 +2910,8 @@ La administración y estructuración de las múltiples modificaciones del proyec
   [https://github.com/Open-Source-SW53-Group-2/frontend](https://github.com/Open-Source-SW53-Group-2/frontend)
 
 
-  
-  
+- **Repositorio del Backend:**  
+  [https://github.com/Open-Source-SW53-Group-2/back-end](https://github.com/Open-Source-SW53-Group-2/back-end)
 
 Para gestionar eficientemente los cambios en el código fuente, se utilizó **Gitflow**, un modelo de ramificación que facilita el desarrollo colaborativo. Se establecieron dos ramas principales y varias ramas auxiliares para mantener un flujo de trabajo organizado.
 
@@ -3026,7 +3029,7 @@ En el **Sprint Planning 1**, se presenta evidencia de la planificación e implem
 | **Sprint #**                 | Sprint 1                                                                          |
 |------------------------------|-----------------------------------------------------------------------------------|
 | **Sprint Planning Background** |                                                                                   |
-| **Date**                     | 30 de agosto de 2025                                                              |
+| **Date**                     | 30 de agosto de 2024                                                              |
 | **Time**                     | 22:00 horas (GMT-5)                                                               |
 | **Location**                 | Modalidad remota                                                                  |
 | **Prepared By**              | StudentConnect                                                                    |
@@ -3046,7 +3049,7 @@ En el **Sprint Planning 1**, se presenta evidencia de la planificación e implem
 En esta parte mostramos las tareas que se realizaron en este sprint.
 
 **Link del Trello:**  
-<https://trello.com/b/4BqoJyJj>
+<https://trello.com/invite/b/68c267c58ad415ace7310b37/ATTI9405408d3908ba2c884aa573fe94d7897A053DEF/sprint-1-gouni>
 
 **Vista del Sprint Backlog en Trello:**  
 ![trelloSprint1.png](assets/images/sprint1/trelloSprint1.png)
@@ -3062,16 +3065,16 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 | **E5-US03**     | Sección hero del landing page   | **T3** | Navbar section responsive       | Aplicar diseño responsive a las opciones del navbar                                   | 1h                    | Joan Talizo        | Done                                              |
 | **E5-US03**     | Sección hero del landing page   | **T4** | Hero section                    | Implementar un hero section                                                          | 1h                    | Angel Anampa       | Done                                              |
 | **E5-US03**     | Sección hero del landing page   | **T5** | Responsive design hero section  | Aplicar design responsive al hero section                                             | 1h                    | Angel Anampa       | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T6** | Product section and items       | Implementar Product section y los ítems característicos en orden grid                | 1h                    | Alessandro David   | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T7** | Responsive design Product section | Implementar diseño responsive a Product section                                       | 1h                    | Alessandro David   | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T8** | Customers section and items     | Implementar Customers section y los ítems característicos en orden grid y aplicar animaciones | 1.5h                  | Joan Talizo        | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T9** | Responsive design Customers section | Implementar diseño responsive a Customers section                                     | 1h                    | Joan Talizo        | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T10** | Pricing section                | Implementar Pricing section y los ítems característicos en orden grid                | 1h                    | Samuel Valera      | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T11** | Responsive design Pricing section | Implementar diseño responsive a Pricing section                                       | 1h                    | Samuel Valera      | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T12** | Contact section                | Implementar Contact section y los ítems característicos en orden grid                | 1h                    | Samuel Valera      | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T13** | Responsive design Contact section | Implementar diseño responsive a Contact section                                       | 1h                    | Samuel Valera      | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T14** | Footer section                 | Implementar footer section                                                           | 1h                    | Alessandro David   | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T15** | Social media section            | Implementar icons para las redes sociales y también links                            | 0.5h                  | Alessandro David   | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T6** | Product section and items       | Implementar Product section y los ítems característicos en orden grid                | 1h                    |    | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T7** | Responsive design Product section | Implementar diseño responsive a Product section                                       | 1h                    |    | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T8** | Customers section and items     | Implementar Customers section y los ítems característicos en orden grid y aplicar animaciones | 1.5h                  |         | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T9** | Responsive design Customers section | Implementar diseño responsive a Customers section                                     | 1h                    |         | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T10** | Pricing section                | Implementar Pricing section y los ítems característicos en orden grid                | 1h                    |       | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T11** | Responsive design Pricing section | Implementar diseño responsive a Pricing section                                       | 1h                    |       | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T12** | Contact section                | Implementar Contact section y los ítems característicos en orden grid                | 1h                    |       | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T13** | Responsive design Contact section | Implementar diseño responsive a Contact section                                       | 1h                    |       | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T14** | Footer section                 | Implementar footer section                                                           | 1h                    |    | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T15** | Social media section            | Implementar icons para las redes sociales y también links                            | 0.5h                  |    | Done                                              |
 | **E5-US03**     | Sección hero del landing page   | **T16** | Responsive design footer section | Aplicar diseño responsive                                                            | 1h                    | Angel Anampa       | Done                                              |
 | **E5-US04**     | Versión en español de landing page | **T17** | Switch que activa I18n         | Button de tipo switch que permite cambiar de idioma a la landing                     | 0.5h                  | Angel Anampa       | Done                                              |
 
@@ -3087,14 +3090,14 @@ En esta sección, se presentan los commits realizados en el repositorio de la la
 
 | **Repository**                                                                                 | **Branch** | **Commit Id**                          | **Commit Message**                                                                                                                                                                                                                                                | **Commit Message Body** | **Committed on (Date)** |
 |-------------------------------------------------------------------------------------------------|------------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------------|
-| [Landing Page](https://github.com/Open-Source-SW53-Group-2/Landing-Page)                      | `main`     | `85a4580a83496e87b175a9156aa975766a111bc0` | [feat: add feature for contact us](https://github.com/Open-Source-SW53-Group-2/Landing-Page/commit/85a4580a83496e87b175a9156aa975766a111bc0 "feat: add feature for contact us")                                                                                     | -                       | 5 Sep, 2025            |
-|                                                                                                 |            | `7c08720d286366b3ba29a5e549cc3989e2289315` | [feat: Add section header and footer](https://github.com/Open-Source-SW53-Group-2/Landing-Page/commit/7c08720d286366b3ba29a5e549cc3989e2289315 "feat: Add section header and footer")                                                                             | -                       | 3 Sep, 2025            |
-|                                                                                                 |            | `26d2ae5b401080a35c4a334bb85e4960b8613320` | [Added Security & Plans sections](https://github.com/Open-Source-SW53-Group-2/Landing-Page/commit/26d2ae5b401080a35c4a334bb85e4960b8613320 "Added Security & Plans sections")                                                                                      | -                       | 3 Sep, 2025            |
-|                                                                                                 |            | `93c310cf2cbc618191efabb2a57ed6982673fd2b` | [feat: add feature for Sponsors](https://github.com/Open-Source-SW53-Group-2/Landing-Page/commit/93c310cf2cbc618191efabb2a57ed6982673fd2b "feat: add feature for Sponsors")                                                                                         | -                       | 5 Sep, 2025            |
-|                                                                                                 |            | `25a342d4724b23e717cc53a2da7c6d8d16634e74` | [added the GoUni benefits section from the landing page](https://github.com/Open-Source-SW53-Group-2/Landing-Page/commit/25a342d4724b23e717cc53a2da7c6d8d16634e74 "added the GoUni benefits section from the landing page")                                       | -                       | 31 Aug, 2025           |
-|                                                                                                 |            | `f5dd736d2eef4a7bc4da54b8440d5ba2424af5a1` | [feat: add feature for ourApp & Portals](https://github.com/Open-Source-SW53-Group-2/Landing-Page/commit/f5dd736d2eef4a7bc4da54b8440d5ba2424af5a1 "feat: add feature for ourApp & Portals")                                                                        | -                       | 5 Sep, 2025            |
-|                                                                                                 |            | `e1b3f6e704345ff630756a9b8d9717350d6c6f25` | [added ourTeam section](https://github.com/Open-Source-SW53-Group-2/Landing-Page/commit/e1b3f6e704345ff630756a9b8d9717350d6c6f25 "added ourTeam section")                                                                                                         | -                       | 1 Sep, 2025            |
-|                                                                                                 |            | `247984804611109729a44ce0b5a81d9020eda4e5` | [Add "Who We Are" and "Why GoUni?" sections with corresponding content and styles](https://github.com/Open-Source-SW53-Group-2/Landing-Page/commit/247984804611109729a44ce0b5a81d9020eda4e5 "Add \"Who We Are\" and \"Why GoUni?\" sections with corresponding content and styles") | -                       | 5 Sep, 2025            |
+| [Landing Page](https://github.com/Open-Source-SW53-Group-2/Landing-Page)                      | `main`     | `` |                                                                     | -                       | 5 Sep, 2024            |
+|                                                                                                 |            | `` |                                                                           | -                       | 3 Sep, 2025            |
+|                                                                                                 |            | `` |                                                                                    | -                       | 3 Sep, 2025            |
+|                                                                                                 |            | `` |                                                                                    | -                       | 5 Sep, 2025            |
+|                                                                                                 |            | `` |                           | -                       | 31 Aug, 2025           |
+|                                                                                                 |            | `` |                                                                   | -                       | 5 Sep, 2025            |
+|                                                                                                 |            | `` |                                                                 | -                       | 1 Sep, 2025            |
+|                                                                                                 |            | `` | | -                       | 5 Sep, 2025            |
 
 ---
 
@@ -3109,11 +3112,11 @@ En este sprint, se han incorporado pruebas de aceptación escritas en **Gherkin*
 
 | **Repository**                                                                                | **Branch** | **Commit Id**                          | **Commit Message**                                                                                                                                                                    | **Commit Message Body** | **Committed on (Date)** |
 |----------------------------------------------------------------------------------------------|------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------------|
-| [Student Connect Acceptance Test](https://github.com/Open-Source-SW53-Group-2/studentconnect-acceptance-test) | `main`     | `109397e2e2a2361e101ec1a4250ff2c4041f4eb5` | [feat: Add acceptance test](https://github.com/Open-Source-SW53-Group-2/studentconnect-acceptance-test/commit/109397e2e2a2361e101ec1a4250ff2c4041f4eb5 "feat: Add acceptance test")       | -                       | 05 Sep, 2025           |
-|                                                                                              |            | `b38f24bb4f70ae31ffdfc21e47149af91c033fd8` | [chore: add AT02.feature file](https://github.com/upc-pre-202401-si729-sw51-the-coders/upc-pre202401-si729-sw51-the-coders-acceptance-tests/commit/a571cd6c5c30a97bdf55086df2256f8e543ce0bd) | -                       | 05 Sep, 2025           |
-|                                                                                              |            | `2822407798d69e79059a55296cdd82b14257381e` | [chore: add AT03.feature file](https://github.com/upc-pre-202401-si729-sw51-the-coders/upc-pre202401-si729-sw51-the-coders-acceptance-tests/commit/a571cd6c5c30a97bdf55086df2256f8e543ce0bd) | -                       | 05 Sep, 2025           |
-|                                                                                              |            | `e62e30e01e229f7dfda1939f96278bf7d1a6ec16` | [chore: add AT04.feature file](https://github.com/upc-pre-202401-si729-sw51-the-coders/upc-pre202401-si729-sw51-the-coders-acceptance-tests/commit/a571cd6c5c30a97bdf55086df2256f8e543ce0bd) | -                       | 05 Sep, 2025           |
-|                                                                                              |            | `26897e7664a9f74ac2109178c74c8835f4081031` | [chore: add AT5.feature file](https://github.com/upc-pre-202401-si729-sw51-the-coders/upc-pre202401-si729-sw51-the-coders-acceptance-tests/commit/a571cd6c5c30a97bdf55086df2256f8e543ce0bd) | -                       | 05 Sep, 2025           |
+| [Student Connect Acceptance Test](https://github.com/Open-Source-SW53-Group-2/studentconnect-acceptance-test) | `main`     | `109397e2e2a2361e101ec1a4250ff2c4041f4eb5` | [feat: Add acceptance test](https://github.com/Open-Source-SW53-Group-2/studentconnect-acceptance-test/commit/109397e2e2a2361e101ec1a4250ff2c4041f4eb5 "feat: Add acceptance test")       | -                       | 05 Sep, 2024           |
+|                                                                                              |            | `b38f24bb4f70ae31ffdfc21e47149af91c033fd8` | [chore: add AT02.feature file](https://github.com/upc-pre-202401-si729-sw51-the-coders/upc-pre202401-si729-sw51-the-coders-acceptance-tests/commit/a571cd6c5c30a97bdf55086df2256f8e543ce0bd) | -                       | 05 Sep, 2024           |
+|                                                                                              |            | `2822407798d69e79059a55296cdd82b14257381e` | [chore: add AT03.feature file](https://github.com/upc-pre-202401-si729-sw51-the-coders/upc-pre202401-si729-sw51-the-coders-acceptance-tests/commit/a571cd6c5c30a97bdf55086df2256f8e543ce0bd) | -                       | 05 Sep, 2024           |
+|                                                                                              |            | `e62e30e01e229f7dfda1939f96278bf7d1a6ec16` | [chore: add AT04.feature file](https://github.com/upc-pre-202401-si729-sw51-the-coders/upc-pre202401-si729-sw51-the-coders-acceptance-tests/commit/a571cd6c5c30a97bdf55086df2256f8e543ce0bd) | -                       | 05 Sep, 2024           |
+|                                                                                              |            | `26897e7664a9f74ac2109178c74c8835f4081031` | [chore: add AT5.feature file](https://github.com/upc-pre-202401-si729-sw51-the-coders/upc-pre202401-si729-sw51-the-coders-acceptance-tests/commit/a571cd6c5c30a97bdf55086df2256f8e543ce0bd) | -                       | 05 Sep, 2024           |
 
 ---
 
@@ -3158,11 +3161,11 @@ El desarrollo del informe se organizó dividiendo el repositorio por capítulos.
 
 | **Integrante** | **Aporte en el informe** |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **[Espacio para nuevo integrante]**       | [Espacio para contribuciones] |
-| **[Espacio para nuevo integrante]**     | [Espacio para contribuciones] |
-| **[Espacio para nuevo integrante]**      | [Espacio para contribuciones] |
-| **[Espacio para nuevo integrante]**     | [Espacio para contribuciones] |
-| **[Espacio para nuevo integrante]** | [Espacio para contribuciones] |
+| **Joan**       | Startup Profile, Descripción de la Startup, Solution Profile, Antecedentes y problemática, Lean UX Process, Lean UX Problem Statements, Lean UX Assumptions, Segmentos objetivo, User Stories, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page Wireframe, Web Applications Wireframes, Software Architecture Context Diagram, Software Architecture Container Diagrams, Software Architecture Components Diagrams, Class Diagrams, Class Dictionary, Database Diagram, Development Evidence for Sprint Review. ![chapter1.png](assets/images/sprint1/chapter1.png) |
+| **Franky**     | Competidores, Análisis competitivo, Estrategias frente a competidores, Product backlog, Style guidelines, Web style guidelines, Information architecture, Landing page UI design, Landing page mockup, Web applications mockup, Software deployment configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review. ![chapter2.png](assets/images/sprint1/chapter2.png) |
+| **Angel**      | User task matrix, User journey mapping, As-is scenario mapping, To-be scenario mapping, Wireflow diagrams, Diseño de entrevistas, Análisis de entrevistas, DDD architecture. ![userTaskMatrix.png](assets/images/sprint1/userTaskMatrix.png) |
+| **Samuel**     | Registro de entrevistas, Análisis de entrevistas, Software deployment configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review. ![ubiquitusLanguage.png](assets/images/sprint1/ubiquitusLanguage.png) |
+| **Alessandro** | Lean UX Hypothesis Statements, Lean UX Canvas, Diseño de entrevistas, User Personas, Empathy Mapping, Impact Mapping, Domain-Driven Software Architecture, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions. ![hypothesisStatements.png](assets/images/sprint1/hypothesisStatements.png) |
 
 **Evidencia de los commits:**
 
@@ -3177,7 +3180,7 @@ Durante este sprint, para proteger la rama "main", creamos una rama "develop". C
 ---
 
 **Link del despliegue:**  
-
+[https://gouniprojectdeploy-production.up.railway.app/swagger-ui/index.html#/](https://gouniprojectdeploy-production.up.railway.app/swagger-ui/index.html#/)
 
 ![deploy.jpeg](assets/images/sprint4/deploy/deploy.jpeg)
 
@@ -3226,15 +3229,15 @@ Para el desarrollo del informe en este sprint se distribuyó los capítulos de e
 
 | Integrante | Aporte en el informe |
 |------------|-----------------------|
-| **[Espacio para nuevo integrante]**  | [Espacio para contribuciones] |
-| **[Espacio para nuevo integrante]** | [Espacio para contribuciones] |
-| **[Espacio para nuevo integrante]** | [Espacio para contribuciones] |
-| **[Espacio para nuevo integrante]** | [Espacio para contribuciones] |
-| **[Espacio para nuevo integrante]**   | [Espacio para contribuciones] |
+| **Angel**  | Sprint 4, Development Evidence for Sprint Review, Team Collaboration Insights during Sprint |
+| **Samuel** | Sprint planning 4, Deployment Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, Team Collaboration Insights during Sprint |
+| **Franky** | Sprint 4, Development Evidence for Sprint Review, Validation Interviews, Mejora continua en Domain Driven Design Architecture |
+| **Alessandro** | Sprint 4, Development Evidence for Sprint Review, Mejora continua en Domain Driven Design Architecture, Team Collaboration Insights during Sprint |
+| **Joan**   | Sprint 4, Testing Suite Evidence for Sprint Review, Mejora continua en Domain Driven Design Architecture, Team Collaboration Insights during Sprint |
 
 **Evidencia del commit:**
 
-
+![EvidenceBackEndGitHub.png](assets/images/sprint4/Evidence/EvidenceBackEndGitHub.png)
 
 En este sprint, al igual que en los otros, creamos una rama "development". Cada miembro del equipo generó su propia sub-rama "feature" desde "development" para subir su respectivo capítulo del reporte, siguiendo las convenciones establecidas de *conventional commits* y *git flow*.
 
@@ -3300,7 +3303,7 @@ La plataforma utiliza tecnología móvil avanzada y un enfoque innovador para cr
 | Repositorio Reporte                   | [https://github.com/Open-Source-SW53-Group-2/Report](https://github.com/Open-Source-SW53-Group-2/Report)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Repositorio Landingpage               | [https://github.com/Open-Source-SW53-Group-2/Landing-Page-With-Angular](https://github.com/Open-Source-SW53-Group-2/Landing-Page-With-Angular)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Repositorio FrontEnd                  | [https://github.com/Open-Source-SW53-Group-2/frontend.git](https://github.com/Open-Source-SW53-Group-2/frontend.git)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-
+| Repositorio Backend                   | [https://github.com/Open-Source-SW53-Group-2/back-end.git](https://github.com/Open-Source-SW53-Group-2/back-end.git)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | About the product                     | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223781_upc_edu_pe/EYcFIwVbbjRLrYlWfZIdI2cBKfQWYlA9Pjiq1tzoSDzD0w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vpux8Q](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202223781_upc_edu_pe/EYcFIwVbbjRLrYlWfZIdI2cBKfQWYlA9Pjiq1tzoSDzD0w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vpux8Q) |
 | About the team                        | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218664_upc_edu_pe/EU1OnTLoQn1GnRN9LSbVPCUBjx9jcCV71N2m_xFK5prmdQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=xwBpHX](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218664_upc_edu_pe/EU1OnTLoQn1GnRN9LSbVPCUBjx9jcCV71N2m_xFK5prmdQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=xwBpHX) |
 | Exposición TB1                        | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c250_upc_edu_pe/EWYOUjf_ox9Or5EfrLQCcyAB6flXr1z6TocIu4NZOeEdNw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qYotQB](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c250_upc_edu_pe/EWYOUjf_ox9Or5EfrLQCcyAB6flXr1z6TocIu4NZOeEdNw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qYotQB) |
@@ -3309,7 +3312,7 @@ La plataforma utiliza tecnología móvil avanzada y un enfoque innovador para cr
 | Exposición TF1                        | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218664_upc_edu_pe/EZYmvOfMOMROnaGtfKHhlYgB_4q8otQAkgdOsWH3adEAOQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=N5q9Po](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218664_upc_edu_pe/EZYmvOfMOMROnaGtfKHhlYgB_4q8otQAkgdOsWH3adEAOQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=N5q9Po) |
 | Link landing page                     | [https://landing-page-with-angular-sigma.vercel.app/home](https://landing-page-with-angular-sigma.vercel.app/home)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | Link Web Application                  | [https://frontend-five-wheat-92.vercel.app/login](https://frontend-five-wheat-92.vercel.app/login)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-
+| Link de backend                       | [https://gouniprojectdeploy-production.up.railway.app/swagger-ui/index.html#/](https://gouniprojectdeploy-production.up.railway.app/swagger-ui/index.html#/)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | Link de Video About-the-Product       | [https://youtu.be/hLx0xBflWzw](https://youtu.be/hLx0xBflWzw)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | Link de Video About-the-Team          | [https://youtu.be/r0zoHufifZU](https://youtu.be/r0zoHufifZU)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | Link de Entrevisas                    | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218664_upc_edu_pe/EaA1ySLWCUJNk9eKMXToLdIBWsxJZ5OeGrLLJU6PTNtzAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=s4OD5H](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218664_upc_edu_pe/EaA1ySLWCUJNk9eKMXToLdIBWsxJZ5OeGrLLJU6PTNtzAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=s4OD5H) |
