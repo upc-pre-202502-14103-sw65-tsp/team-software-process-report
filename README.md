@@ -24,6 +24,7 @@
 |-------------------------------------|-------------|
 | Anampa Lavado, Luis Angel           | u202218664  |
 | Ayquipa Ubaldo, Abraham Israel      | u202218475  |
+| Onofre Ruiz, Carlos Jesus      	  | u202115590  |
 
 </div>
 
@@ -43,7 +44,7 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 |--------------|------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | **#01 - TB1**| 09/09/25   | Anampa Lavado, Luis Angel         | Competidores, Análisis competitivo, Estrategias frente a competidores, Product backlog, Style guidelines, Web style guidelines, Information architecture, Landing page UI design, Landing page mockup, Web applications mockup, Database diagram, Software deployment configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review |
 |              | 09/09/25   | Ayquipa Ubaldo, Abraham        | Startup Profile, Descripción de la startup, Antecedentes y problemática, Lean UX Problem Statements, Lean UX Assumptions, Segmentos objetivo, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page Wireframe, Web Applications Wireframes, Class Diagrams, Class Dictionary |
-|              | 10/09/25   | xxxxxxxx, xxxxxxxxx     | Registro de entrevistas, Software deployment configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review |
+|              | 10/09/25   | Onofre Ruiz, Carlos Jesus     | Registro de entrevistas, Software deployment configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review |
 |              | 08/09/25   | xxxxxxxx, xxxxxxx     | Lean UX Hypothesis Statements, Lean UX Canvas, Diseño de entrevistas, User Personas, Empathy Mapping, Impact Mapping, Domain-Driven Software Architecture, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions |
 |              | 10/09/25   | xxxxxxx,xxxxxxxxx   | User Task Matrix, Journey Map, As-Is Scenario Map, To-Be Scenario Map, Parte de user stories, Parte de diseño de entrevistas, Software Architecture Context Diagram, Software Architecture Container Diagrams, Software Architecture Components Diagrams |
 
@@ -298,8 +299,8 @@ Aspiramos a ser líderes en movilidad estudiantil, reconocidos por nuestro compr
   </tr>
 
   <tr>
-    <td><img src="/assets/images/profiles/Valera_Samuel.png" width="100" height="100"></td>
-    <td>
+    <td><img src="/assets/images/profiles/Onofre_Carlos.jpeg" width="100" height="100"></td>
+    <td>Estudiante de ingeniería de software, tengo varios interes como backend developer, aun asi desempeño roles como desarrollo frontend y diseño UX/UI. Participo activamente en ramas estudiantiles y a la par apoyando a la facultad de Ingenieria. Me encuentro realizando m tesis basado en machine learning siendo un reto para mi que superaré.</td>
     </tr>
 
   <tr>
