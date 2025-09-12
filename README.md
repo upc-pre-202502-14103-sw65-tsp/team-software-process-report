@@ -52,55 +52,143 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 # Contenido
 
 ## Tabla de contenidos
+- [COURSE PROJECT](#course-project)
+    - [Team Members:](#team-members)
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+- [Contenido](#contenido)
+  - [Tabla de contenidos](#tabla-de-contenidos)
+- [Studen Outcome](#studen-outcome)
 - [**Capítulo I: Introducción.**](#capítulo-i-introducción)
   - [**1.1 Startup Profile.**](#11-startup-profile)
     - [**1.1.1 Descripción del startup.**](#111-descripción-del-startup)
+    - [Misión:](#misión)
+    - [Visión:](#visión)
     - [**1.1.2 Perfiles de los integrantes del equipo.**](#112-perfiles-de-los-integrantes-del-equipo)
   - [**1.2. Solution Profile.**](#12-solution-profile)
     - [**1.2.1. Antecedentes y Problemática.**](#121-antecedentes-y-problemática)
+    - [Antecedentes:](#antecedentes)
+    - [Problemática (5Ws y 2Hs)](#problemática-5ws-y-2hs)
+        - [What (Qué)](#what-qué)
+          - [¿Cuál es el problema?](#cuál-es-el-problema)
+        - [When (Cuando)](#when-cuando)
+          - [¿Cuándo sucede el problema?](#cuándo-sucede-el-problema)
+        - [Where (Donde)](#where-donde)
+          - [¿A dónde se dirige?](#a-dónde-se-dirige)
+          - [¿Dónde surge el problema?](#dónde-surge-el-problema)
+        - [Who (Quién)](#who-quién)
+          - [¿Quiénes están involucrados? ¿Quién lo utilizará?](#quiénes-están-involucrados-quién-lo-utilizará)
+        - [Why (Por qué)](#why-por-qué)
+          - [¿Cuál es la causa del problema?](#cuál-es-la-causa-del-problema)
+    - [¿Cuáles son las 2H?](#cuáles-son-las-2h)
+        - [How (Cómo)](#how-cómo)
+          - [¿Cómo se utilizará el producto?](#cómo-se-utilizará-el-producto)
+          - [¿Cómo lograremos desarrollar la correcta gestión del proceso de carpooling entre estudiantes?](#cómo-lograremos-desarrollar-la-correcta-gestión-del-proceso-de-carpooling-entre-estudiantes)
+        - [How much (Cuánto)](#how-much-cuánto)
+          - [¿Cuál es la magnitud del problema?](#cuál-es-la-magnitud-del-problema)
+          - [Quienes seran los beneficiados por el servicio?](#quienes-seran-los-beneficiados-por-el-servicio)
     - [**1.2.2. Lean UX Process.**](#122-lean-ux-process)
       - [**1.2.2.1. Lean UX Problem Statements.**](#1221-lean-ux-problem-statements)
+    - [Aspectos](#aspectos)
+      - [Domain:](#domain)
+      - [Customer Segments:](#customer-segments)
+      - [Pain Points:](#pain-points)
+          - [Estrés y Fatiga:](#estrés-y-fatiga)
+          - [Inseguridad:](#inseguridad)
+          - [Costo Elevado:](#costo-elevado)
+          - [Oportunidades de Rellenar Asientos:](#oportunidades-de-rellenar-asientos)
+      - [Gap:](#gap)
+      - [Vision/Strategy:](#visionstrategy)
       - [**1.2.2.2. Lean UX Assumptions.**](#1222-lean-ux-assumptions)
+      - [User Assumptions](#user-assumptions)
+      - [Business Assumptions](#business-assumptions)
       - [**1.2.2.3. Lean UX Hypothesis Statements.**](#1223-lean-ux-hypothesis-statements)
       - [**1.2.2.4. Lean UX Canvas.**](#1224-lean-ux-canvas)
   - [**1.3. Segmentos objetivo.**](#13-segmentos-objetivo)
+    - [**Segmento objetivo #1: Estudiantes Universitarios que necesiten movilizarse.**](#segmento-objetivo-1-estudiantes-universitarios-que-necesiten-movilizarse)
+    - [**Segmento objetivo #2: Estudiantes Universitarios propietarios de un vehículo privado.**](#segmento-objetivo-2-estudiantes-universitarios-propietarios-de-un-vehículo-privado)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
+    - [BlaBlaCar](#blablacar)
+    - [Urbvan](#urbvan)
+    - [Yango](#yango)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
   - [2.2. Entrevistas](#22-entrevistas)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [**Preguntas Generales**](#preguntas-generales)
+      - [**Preguntas Segmento 1: Estudiantes universitarios**](#preguntas-segmento-1-estudiantes-universitarios)
+      - [**Preguntas Segmento 2: Estudiantes universitarios propietarios de vehículos privados**](#preguntas-segmento-2-estudiantes-universitarios-propietarios-de-vehículos-privados)
     - [2.2.2 Registro de entrevistas](#222-registro-de-entrevistas)
+      - [**Segmento 1: Estudiantes Universitarios**](#segmento-1-estudiantes-universitarios)
+      - [**Segmento 2: Estudiantes universitarios propietarios de vehículos privados**](#segmento-2-estudiantes-universitarios-propietarios-de-vehículos-privados)
     - [2.2.3 Análisis de entrevistas.](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
+      - [*Estudiantes universitarios:*](#estudiantes-universitarios)
+      - [*Estudiantes Universitarios propietarios de vehículos privados:*](#estudiantes-universitarios-propietarios-de-vehículos-privados)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
+      - [*Segmento Objetivo: Estudiantes Universitarios*](#segmento-objetivo-estudiantes-universitarios)
+      - [*Segmento Objetivo: Estudiantes universitarios propietarios de vehículos privados*](#segmento-objetivo-estudiantes-universitarios-propietarios-de-vehículos-privados)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [*Estudiantes Universitarios*](#estudiantes-universitarios-1)
+      - [*Estudiantes universitarios propietarios de vehículos privados*](#estudiantes-universitarios-propietarios-de-vehículos-privados-1)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+      - [*Estudiantes Universitarios*](#estudiantes-universitarios-2)
+      - [*Estudiantes universitarios propietarios de vehículos privados*](#estudiantes-universitarios-propietarios-de-vehículos-privados-2)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+      - [*Estudiantes Universitarios*](#estudiantes-universitarios-3)
+      - [*Estudiantes universitarios propietarios de vehículos privados*](#estudiantes-universitarios-propietarios-de-vehículos-privados-3)
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+    - [*Segmento: Estudiantes Universitarios que necesiten movilizarse*](#segmento-estudiantes-universitarios-que-necesiten-movilizarse)
+    - [*Segmento: Estudiantes Universitarios propietarios de vehículo privado*](#segmento-estudiantes-universitarios-propietarios-de-vehículo-privado)
   - [3.2. User Stories](#32-user-stories)
+    - [Épicas del Proyecto](#épicas-del-proyecto)
   - [3.3. Impact Mapping.](#33-impact-mapping)
   - [3.4. Product Backlog.](#34-product-backlog)
 - [**Capítulo IV: Product Design.**](#capítulo-iv-product-design)
   - [**4.1. Style Guidelines.**](#41-style-guidelines)
     - [**4.1.1. General Style Guidelines.**](#411-general-style-guidelines)
+      - [Historia de la marca](#historia-de-la-marca)
+      - [Misión](#misión-1)
+      - [Visión](#visión-1)
+      - [Brand Name](#brand-name)
+      - [Colores](#colores)
+      - [Tipografía](#tipografía)
+      - [Espaciado](#espaciado)
     - [**4.1.2. Web Style Guidelines.**](#412-web-style-guidelines)
   - [**4.2. Information Architecture.**](#42-information-architecture)
     - [**4.2.1. Organization Systems.**](#421-organization-systems)
     - [**4.2.2. Labeling Systems.**](#422-labeling-systems)
+    - [Etiquetas:](#etiquetas)
     - [**4.2.3. SEO Tags and Meta Tags.**](#423-seo-tags-and-meta-tags)
+    - [Para la Landing Page:](#para-la-landing-page)
+    - [Para la Aplicación Web:](#para-la-aplicación-web)
     - [**4.2.4. Searching Systems.**](#424-searching-systems)
     - [**4.2.5. Navigation Systems.**](#425-navigation-systems)
   - [**4.3. Landing Page UI Design**](#43-landing-page-ui-design)
     - [**4.3.1. Landing Page Wireframe.**](#431-landing-page-wireframe)
+      - [Wireframe de la Landing Page en Figma:](#wireframe-de-la-landing-page-en-figma)
+      - [Versión Desktop:](#versión-desktop)
+        - [Wireframe de la página principal:](#wireframe-de-la-página-principal)
+        - [Wireframe de la sección Sobre Nosotros:](#wireframe-de-la-sección-sobre-nosotros)
+        - [Versión Mobile:](#versión-mobile)
+        - [Wireframe de la página principal:](#wireframe-de-la-página-principal-1)
+        - [Wireframe de la sección Sobre Nosotros:](#wireframe-de-la-sección-sobre-nosotros-1)
     - [**4.3.2. Landing Page Mock-up.**](#432-landing-page-mock-up)
-
+      - [Mockups de la Landing Page en Figma:](#mockups-de-la-landing-page-en-figma)
+        - [Versión Desktop:](#versión-desktop-1)
+      - [Mockups de la página principal](#mockups-de-la-página-principal)
+      - [Mockups de la sesion Sobre Nosotros:](#mockups-de-la-sesion-sobre-nosotros)
+        - [Versión Mobile:](#versión-mobile-1)
+      - [Mockups de la página principal](#mockups-de-la-página-principal-1)
+        - [Mockups de la sesion Sobre Nosotros:](#mockups-de-la-sesion-sobre-nosotros-1)
   - [**4.4. Web Applications UX/UI Design.**](#44-web-applications-uxui-design)
     - [**4.4.1. Web Applications Wireframes.**](#441-web-applications-wireframes)
+      - [Wireframes de las Aplicaciones Web en Figma:](#wireframes-de-las-aplicaciones-web-en-figma)
     - [**4.4.2. Web Applications Wireflow Diagrams.**](#442-web-applications-wireflow-diagrams)
+      - [Wireflow Diagrams de las Aplicaciones Web en LucidChart Iniciar Sesion:](#wireflow-diagrams-de-las-aplicaciones-web-en-lucidchart-iniciar-sesion)
     - [**4.4.3. Web Applications Mock-ups.**](#443-web-applications-mock-ups)
     - [**4.4.4. Web Applications User Flow Diagrams.**](#444-web-applications-user-flow-diagrams)
   - [**4.5. Web Applications Prototyping.**](#45-web-applications-prototyping)
@@ -111,14 +199,42 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
   - [**4.7. Software Object-Oriented Design.**](#47-software-object-oriented-design)
     - [**4.7.1. Class Diagrams.**](#471-class-diagrams)
     - [**4.7.2. Class Dictionary.**](#472-class-dictionary)
+    - [**Usuario**](#usuario)
+      - [**Atributos:**](#atributos)
+      - [**Métodos:**](#métodos)
+    - [**Evaluación**](#evaluación)
+      - [**Atributos:**](#atributos-1)
+      - [**Métodos:**](#métodos-1)
+    - [**Pasajero**](#pasajero)
+      - [**Métodos:**](#métodos-2)
+    - [**Vehículo**](#vehículo)
+      - [**Atributos:**](#atributos-2)
+      - [**Métodos:**](#métodos-3)
+    - [**Viaje**](#viaje)
+      - [**Atributos:**](#atributos-3)
+      - [**Métodos:**](#métodos-4)
+    - [**Reserva**](#reserva)
+      - [**Atributos:**](#atributos-4)
+      - [**Métodos:**](#métodos-5)
+    - [**Pago**](#pago)
+      - [**Atributos:**](#atributos-5)
+      - [**Métodos:**](#métodos-6)
+    - [**Notificación**](#notificación)
+      - [**Atributos:**](#atributos-6)
+      - [**Métodos:**](#métodos-7)
   - [**4.8. Database Design.**](#48-database-design)
     - [**4.8.1. Database Diagram.**](#481-database-diagram)
 - [**Capítulo V: Product Implementation, Validation \& Deployment.**](#capítulo-v-product-implementation-validation--deployment)
   - [**5.1. Software Configuration Management.**](#51-software-configuration-management)
     - [**5.1.1. Software Development Environment Configuration.**](#511-software-development-environment-configuration)
     - [**5.1.2. Source Code Management.**](#512-source-code-management)
+      - [**Ramas principales:**](#ramas-principales)
+      - [**Ramas auxiliares:**](#ramas-auxiliares)
     - [**5.1.3. Source Code Style Guide \& Conventions.**](#513-source-code-style-guide--conventions)
+      - [**Convenciones de Commits**](#convenciones-de-commits)
+      - [**Convenciones de Versionado de Lanzamientos**](#convenciones-de-versionado-de-lanzamientos)
     - [**5.1.4. Software Deployment Configuration.**](#514-software-deployment-configuration)
+      - [**Enlace de la Landing Page:**](#enlace-de-la-landing-page)
   - [**5.2. Landing Page, Services \& Applications Implementation.**](#52-landing-page-services--applications-implementation)
     - [**5.2.1. Sprint 1.**](#521-sprint-1)
       - [**5.2.1.1. Sprint Planning 1.**](#5211-sprint-planning-1)
@@ -129,8 +245,14 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
       - [**5.2.1.6. Services Documentation Evidence for Sprint Review.**](#5216-services-documentation-evidence-for-sprint-review)
       - [**5.2.1.7. Software Deployment Evidence for Sprint Review.**](#5217-software-deployment-evidence-for-sprint-review)
       - [**5.2.1.8. Team Collaboration Insights during Sprint.**](#5218-team-collaboration-insights-during-sprint)
-      - [**5.2.1.9. Actas de reunión**](#5218-actas-de-reuniones)
+  - [**5.2.1.8 Team Collaboration Insights during Sprint.**](#5218-team-collaboration-insights-during-sprint-1)
 - [**Conclusiones.**](#conclusiones)
+  - [**Conclusiones y Recomendaciones.**](#conclusiones-y-recomendaciones)
+      - [1. GoUni responde a las necesidades de movilidad estudiantil](#1-gouni-responde-a-las-necesidades-de-movilidad-estudiantil)
+      - [2. Contribución a la sostenibilidad](#2-contribución-a-la-sostenibilidad)
+      - [3. Enfoque colaborativo y seguro](#3-enfoque-colaborativo-y-seguro)
+      - [4. Impacto social y económico](#4-impacto-social-y-económico)
+      - [5. Innovación y tecnología como pilares](#5-innovación-y-tecnología-como-pilares)
 - [**Bibliografia.**](#bibliografia)
 - [**Anexos**](#anexos)
 
@@ -704,18 +826,18 @@ Sebastian vive en Ate y estudia en la UPC Monterrico le toma 1hora 30min para ll
 
 **Entrevista 3:**
 
-- **Nombres:** 
-- **Apellidos:**
-- **Edad:** 
-- **Lugar de residencia:** 
+- **Nombres:** Aaron Alejandro
+- **Apellidos:** Cruz Ticona
+- **Edad:** 21
+- **Lugar de residencia:** Santiago de Surco, Lima
 
 **Evidencia de la entrevista:**  
-<img src="assets/images/interviews/">
+<img src="assets/images/interviews/entrevista02.png">
 
-**Enlace de la entrevista:** 
+**Enlace de la entrevista:** https://upcedupe-my.sharepoint.com/personal/u202218475_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202218475_upc_edu_pe%2FDocuments%2FTEAM%20SOFTWARE%20PROCESS%2FENTREVISTAS%2FABRAHAM%20AYQUIPA%20-%201ER%20SEGMENTO%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E11770188-ced7-423a-a07b-8c3a4a95c2a1
 
 **Resumen de la entrevista:**  
-
+Aaron nos indicó que tiene 21 años, vive actualmente en Surco. Estudia en la UPC sede monterrico pero una vez por la semana tiene que movilizarse a un diferente campus lo que le genera molestia pues el trayecto es demasiado largo e indica que una propuesta de solucón a su problema como la nuestra le vendría bastante bien.
 
 
 ---
@@ -741,6 +863,23 @@ Jose es un estudiante que es propietario de un vehiculo, nos comenta que le pare
 
 **Entrevista 2:**
 
+- **Nombres:** Natanael David
+- **Apellidos:** Soto salis
+- **Edad:** 24
+- **Lugar de residencia:** Santiago de Surco, Lima
+
+**Evidencia de la entrevista:**  
+<img src="assets/images/interviews/entrevista01.png">
+
+**Enlace de la entrevista:** https://upcedupe-my.sharepoint.com/personal/u202218475_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202218475_upc_edu_pe%2FDocuments%2FTEAM%20SOFTWARE%20PROCESS%2FENTREVISTAS%2FABRAHAM%20AYQUIPA%20-%202DO%20SEGMENTO%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E9336584c-0401-42f5-9db3-d3d03ee17a42
+
+**Resumen de la entrevista:**  
+Natanael nos indicó que vive en santiago de surco y tiene 24 años, cuenta con un vehiculo con el que está dispuesto a usarlo para llevar a su universidad(UPC) a otros estudiantes con el fin de contar con un ingreso extra pero bajo la condición de que la aplicación analice los perfiles de los estudiantes que requieren el servicio por seguridad.
+
+---
+
+**Entrevista 3:**
+
 - **Nombres:** Ariana
 - **Apellidos:** Martinez
 - **Edad:** 24
@@ -752,7 +891,6 @@ Jose es un estudiante que es propietario de un vehiculo, nos comenta que le pare
 **Enlace de la entrevista:** 
 
 **Resumen de la entrevista:**  
-
 
 ### 2.2.3 Análisis de entrevistas.
 <TABLE BORDER>
@@ -2962,21 +3100,21 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|-----|-----|-----|-----|-----|
 | **User Story**  | **Work-item / Task**                                                                                                                                                                                                         |     |     |     |     |     |     |
 | **ID**         | **Title**                        | **Id** | **Title**                        | **Description**                                                                       | **Estimation (hours)** | **Assigned To**    | **Status (To-do / In-Process / To-Review / Done)** |
-| **E5-US01**     | Barra de navegación en la landing page | **T1** | Navbar section                  | Implementar navbar con botón (redirige a la aplicación) y responsive design           | 1h                    |       | Done                                              |
-| **E5-US02**     | Dirigirse a la aplicación mediante el landing page | **T2** | Button Call to Action         | Implementar el button Call to Action del navbar                                       | 0.1h                  |       | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T3** | Navbar section responsive       | Aplicar diseño responsive a las opciones del navbar                                   | 1h                    |       | Done                                              |
+| **E5-US01**     | Barra de navegación en la landing page | **T1** | Navbar section                  | Implementar navbar con botón (redirige a la aplicación) y responsive design           | 1h                    |   Carlos Onofre    | Done                                              |
+| **E5-US02**     | Dirigirse a la aplicación mediante el landing page | **T2** | Button Call to Action         | Implementar el button Call to Action del navbar                                       | 0.1h                  |   Carlos Onofre    | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T3** | Navbar section responsive       | Aplicar diseño responsive a las opciones del navbar                                   | 1h                    |    Carlos Onofre   | Done                                              |
 | **E5-US03**     | Sección hero del landing page   | **T4** | Hero section                    | Implementar un hero section                                                          | 1h                    | Angel Anampa       | Done                                              |
 | **E5-US03**     | Sección hero del landing page   | **T5** | Responsive design hero section  | Aplicar design responsive al hero section                                             | 1h                    | Angel Anampa       | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T6** | Product section and items       | Implementar Product section y los ítems característicos en orden grid                | 1h                    |    | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T7** | Responsive design Product section | Implementar diseño responsive a Product section                                       | 1h                    |    | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T8** | Customers section and items     | Implementar Customers section y los ítems característicos en orden grid y aplicar animaciones | 1.5h                  |         | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T9** | Responsive design Customers section | Implementar diseño responsive a Customers section                                     | 1h                    |         | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T10** | Pricing section                | Implementar Pricing section y los ítems característicos en orden grid                | 1h                    |       | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T11** | Responsive design Pricing section | Implementar diseño responsive a Pricing section                                       | 1h                    |       | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T12** | Contact section                | Implementar Contact section y los ítems característicos en orden grid                | 1h                    |       | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T13** | Responsive design Contact section | Implementar diseño responsive a Contact section                                       | 1h                    |       | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T14** | Footer section                 | Implementar footer section                                                           | 1h                    |    | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T15** | Social media section            | Implementar icons para las redes sociales y también links                            | 0.5h                  |    | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T6** | Product section and items       | Implementar Product section y los ítems característicos en orden grid                | 1h                    |  Abraham Ayquipa  | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T7** | Responsive design Product section | Implementar diseño responsive a Product section                                       | 1h                    | Abraham Ayquipa   | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T8** | Customers section and items     | Implementar Customers section y los ítems característicos en orden grid y aplicar animaciones | 1.5h                  |     Abraham Ayquipa    | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T9** | Responsive design Customers section | Implementar diseño responsive a Customers section                                     | 1h                    |  Favio Landeo       | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T10** | Pricing section                | Implementar Pricing section y los ítems característicos en orden grid                | 1h                    |   Favio Landeo     | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T11** | Responsive design Pricing section | Implementar diseño responsive a Pricing section                                       | 1h                    |  Favio Landeo      | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T12** | Contact section                | Implementar Contact section y los ítems característicos en orden grid                | 1h                    |   Abraham Ayquipa    | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T13** | Responsive design Contact section | Implementar diseño responsive a Contact section                                       | 1h                    |   Carlos Onofre    | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T14** | Footer section                 | Implementar footer section                                                           | 1h                    |  Abraham Ayquipa  | Done                                              |
+| **E5-US03**     | Sección hero del landing page   | **T15** | Social media section            | Implementar icons para las redes sociales y también links                            | 0.5h                  |  Favio Landeo  | Done                                              |
 | **E5-US03**     | Sección hero del landing page   | **T16** | Responsive design footer section | Aplicar diseño responsive                                                            | 1h                    | Angel Anampa       | Done                                              |
 | **E5-US04**     | Versión en español de landing page | **T17** | Switch que activa I18n         | Button de tipo switch que permite cambiar de idioma a la landing                     | 0.5h                  | Angel Anampa       | Done                                              |
 
