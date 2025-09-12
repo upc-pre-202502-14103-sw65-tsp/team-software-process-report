@@ -480,7 +480,7 @@ Assumptions play a crucial role in identifying project risks and fostering team 
 
 #### [**1.2.2.4. Lean UX Canvas.**](#1224-lean-ux-canvas)
 
-| **Lean UX Canvas**                                                                                                                                                               | **Fecha:** 20/08/2024                                                                                               | **Iteración:** 1 |
+| **Lean UX Canvas**                                                                                                                                                               | **Fecha:** 20/08/2025                                                                                               | **Iteración:** 1 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|------------------|
 | **1. Business Problem:**                                                                                                                                                         | **5. Solutions:**                                                                                                  | **2. Business Outcomes:** |
 | - La falta de un sistema eficiente y confiable que conecte a los estudiantes universitarios que necesitan compartir transporte hacia la universidad.                              | - **Plataforma de Carpooling:** Sistema que permita a los estudiantes ofrecer y encontrar viajes compartidos hacia la universidad.                        | - Aumento en el número de usuarios activos y viajes compartidos realizados. |
@@ -3069,7 +3069,7 @@ En el **Sprint Planning 1**, se presenta evidencia de la planificación e implem
 | **Sprint #**                 | Sprint 1                                                                          |
 |------------------------------|-----------------------------------------------------------------------------------|
 | **Sprint Planning Background** |                                                                                   |
-| **Date**                     | 30 de agosto de 2024                                                              |
+| **Date**                     | 30 de agosto de 2025                                                              |
 | **Time**                     | 22:00 horas (GMT-5)                                                               |
 | **Location**                 | Modalidad remota                                                                  |
 | **Prepared By**              | StudentConnect                                                                    |
@@ -3150,8 +3150,8 @@ En este sprint, se han incorporado pruebas de aceptación escritas en **Gherkin*
 
 | **Repository**                                                                                | **Branch** | **Commit Id**                          | **Commit Message**                                                                                                                                                                    | **Commit Message Body** | **Committed on (Date)** |
 |----------------------------------------------------------------------------------------------|------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------------|
-| [GoUni Acceptance Test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test) |`main`| `34498da946da28f87595d38f7f0bddc016253f38` | [feat: add acceptance-test]( https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test/commit/34498da946da28f87595d38f7f0bddc016253f38)       | -                     | 05 Sep, 2024           |
-|[GoUni Acceptance Test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test)|`main`| `5ce86ab558308ded509d97d3354a7c19acd552d9` | [feat: add acceptance-test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test/commit/5ce86ab558308ded509d97d3354a7c19acd552d9) |          -              | 05 Sep, 2024           |
+| [GoUni Acceptance Test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test) |`main`| `34498da946da28f87595d38f7f0bddc016253f38` | [feat: add acceptance-test]( https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test/commit/34498da946da28f87595d38f7f0bddc016253f38)       | -                     | 05 Sep, 2025           |
+|[GoUni Acceptance Test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test)|`main`| `5ce86ab558308ded509d97d3354a7c19acd552d9` | [feat: add acceptance-test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test/commit/5ce86ab558308ded509d97d3354a7c19acd552d9) |          -              | 05 Sep, 2025           |
 
 ---
 
