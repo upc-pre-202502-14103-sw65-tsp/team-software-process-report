@@ -2810,18 +2810,10 @@ Para las pruebas funcionales de la Landing Page y la aplicación web, se utiliza
 La administración y estructuración de las múltiples modificaciones del proyecto se realizó mediante la creación de varios repositorios en GitHub. Nuestra organización se estructuró de la siguiente manera:
 
 **Organización:**  
-[https://github.com/Open-Source-SW53-Group-2](https://github.com/Open-Source-SW53-Group-2)
+[https://github.com/upc-pre-202502-14103-sw65-tsp](https://github.com/upc-pre-202502-14103-sw65-tsp)
 
 - **Repositorio de la Landing Page:**  
-  [https://github.com/Open-Source-SW53-Group-2/Landing-Page-With-Angular](https://github.com/Open-Source-SW53-Group-2/Landing-Page-With-Angular)
-
-
-- **Repositorio de la Web Application:**  
-  [https://github.com/Open-Source-SW53-Group-2/frontend](https://github.com/Open-Source-SW53-Group-2/frontend)
-
-
-- **Repositorio del Backend:**  
-  [https://github.com/Open-Source-SW53-Group-2/back-end](https://github.com/Open-Source-SW53-Group-2/back-end)
+  [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage)
 
 Para gestionar eficientemente los cambios en el código fuente, se utilizó **Gitflow**, un modelo de ramificación que facilita el desarrollo colaborativo. Se establecieron dos ramas principales y varias ramas auxiliares para mantener un flujo de trabajo organizado.
 
@@ -2945,7 +2937,7 @@ En el **Sprint Planning 1**, se presenta evidencia de la planificación e implem
 | **Prepared By**              | StudentConnect                                                                    |
 | **Attendees (to planning meeting)** | Todos los miembros de StudentConnect                                            |
 | **Sprint 0 Review Summary**  | Debido a que es el primer sprint, no hay review summary de un sprint anterior.    |
-| **Sprint 1 Retrospective Summary** | En este Sprint se planea desarrollar el landing page con HTML y CSS3. Previamente, el landing page se diseñó en Figma. El grupo discutió cómo diseñar el landing, implementar imágenes y todo lo referente a la interfaz. Al finalizar este sprint, el landing page estará desplegado en Netlify, permitiendo el acceso público al proyecto. |
+| **Sprint 1 Retrospective Summary** | En este Sprint se planea desarrollar el landing page con HTML y CSS3. Previamente, el landing page se diseñó en Figma. El grupo discutió cómo diseñar el landing, implementar imágenes y todo lo referente a la interfaz. Al finalizar este sprint, el landing page estará desplegado en Vercel, permitiendo el acceso público al proyecto. |
 | **Sprint Goal & User Stories** |                                                                                   |
 | **Sprint Goal 1**            | El objetivo de este sprint es el desarrollo y despliegue de la aplicación frontend.|
 | **Sprint Velocity 1**        | 8                                                                                 |
@@ -2994,20 +2986,19 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 En esta sección, se presentan los commits realizados en el repositorio de la landing page en GitHub. Estos commits reflejan el progreso y las mejoras implementadas durante el Sprint 1, proporcionando una visión detallada de las actividades de desarrollo y las contribuciones del equipo.
 
 **Repositorio de la Landing Page:**  
-[https://github.com/Open-Source-SW53-Group-2/Landing-Page](https://github.com/Open-Source-SW53-Group-2/Landing-Page)
+[https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage)
 
 ---
 
 | **Repository**                                                                                 | **Branch** | **Commit Id**                          | **Commit Message**                                                                                                                                                                                                                                                | **Commit Message Body** | **Committed on (Date)** |
 |-------------------------------------------------------------------------------------------------|------------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------------|
-| [Landing Page](https://github.com/Open-Source-SW53-Group-2/Landing-Page)                      | `main`     | `` |                                                                     | -                       | 5 Sep, 2024            |
-|                                                                                                 |            | `` |                                                                           | -                       | 3 Sep, 2025            |
-|                                                                                                 |            | `` |                                                                                    | -                       | 3 Sep, 2025            |
-|                                                                                                 |            | `` |                                                                                    | -                       | 5 Sep, 2025            |
-|                                                                                                 |            | `` |                           | -                       | 31 Aug, 2025           |
-|                                                                                                 |            | `` |                                                                   | -                       | 5 Sep, 2025            |
-|                                                                                                 |            | `` |                                                                 | -                       | 1 Sep, 2025            |
-|                                                                                                 |            | `` | | -                       | 5 Sep, 2025            |
+| [GoUni Landing Page](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage) | `main`     | `864a92c` | [feat: add sections plans team sponsor and photo](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage/commit/864a92c7b39406d6d03ecd5b368820636f54eeb9) | -                       | 11 Sep, 2025           |
+| [GoUni Landing Page](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage) | `main`     | `0dbb848` | [feat: add sections page-not-found how-it-works](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage/commit/0dbb8404d6a69019d13c56512fcda69b86175877) | -                       | 11 Sep, 2025           |
+| [GoUni Landing Page](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage) | `main`     | `0392b50` | [feat: add section home-header-contact](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage/commit/0392b5031eee7ecb779456abf1e836ff04ff0ec8) | -                       | 11 Sep, 2025           |
+| [GoUni Landing Page](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage) | `main`     | `f8afcc8` | [feat: add components footer and toolbar](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage/commit/f0adcc8633d9992166eeac08942bc4dfb50de450) | -                       | 11 Sep, 2025           |
+| [GoUni Landing Page](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage) | `main`     | `de1e2b9` | [feat: add structure project and images](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage/commit/defe2b91c5ac85c3c2464a9ac0b5b06754099f9d) | -                       | 11 Sep, 2025           |
+| [GoUni Landing Page](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage) | `main`     | `ab315da` | [feat: initial commit](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage/commit/ab315da) | -                       | 11 Sep, 2025           |
+|
 
 ---
 
@@ -3016,25 +3007,22 @@ En esta sección, se presentan los commits realizados en el repositorio de la la
 En este sprint, se han incorporado pruebas de aceptación escritas en **Gherkin**, asegurando que los requisitos del usuario se validen de manera efectiva. A continuación, se proporciona el enlace al repositorio de las pruebas de aceptación, donde se encuentra una descripción detallada de los escenarios de prueba y su implementación:
 
 **Repositorio de pruebas de aceptación:**  
-[https://github.com/Open-Source-SW53-Group-2/studentconnect-acceptance-test](https://github.com/Open-Source-SW53-Group-2/studentconnect-acceptance-test)
+[https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test)
 
 ---
 
 | **Repository**                                                                                | **Branch** | **Commit Id**                          | **Commit Message**                                                                                                                                                                    | **Commit Message Body** | **Committed on (Date)** |
 |----------------------------------------------------------------------------------------------|------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------------|
-| [Student Connect Acceptance Test](https://github.com/Open-Source-SW53-Group-2/studentconnect-acceptance-test) | `main`     | `109397e2e2a2361e101ec1a4250ff2c4041f4eb5` | [feat: Add acceptance test](https://github.com/Open-Source-SW53-Group-2/studentconnect-acceptance-test/commit/109397e2e2a2361e101ec1a4250ff2c4041f4eb5 "feat: Add acceptance test")       | -                       | 05 Sep, 2024           |
-|                                                                                              |            | `b38f24bb4f70ae31ffdfc21e47149af91c033fd8` | [chore: add AT02.feature file](https://github.com/upc-pre-202401-si729-sw51-the-coders/upc-pre202401-si729-sw51-the-coders-acceptance-tests/commit/a571cd6c5c30a97bdf55086df2256f8e543ce0bd) | -                       | 05 Sep, 2024           |
-|                                                                                              |            | `2822407798d69e79059a55296cdd82b14257381e` | [chore: add AT03.feature file](https://github.com/upc-pre-202401-si729-sw51-the-coders/upc-pre202401-si729-sw51-the-coders-acceptance-tests/commit/a571cd6c5c30a97bdf55086df2256f8e543ce0bd) | -                       | 05 Sep, 2024           |
-|                                                                                              |            | `e62e30e01e229f7dfda1939f96278bf7d1a6ec16` | [chore: add AT04.feature file](https://github.com/upc-pre-202401-si729-sw51-the-coders/upc-pre202401-si729-sw51-the-coders-acceptance-tests/commit/a571cd6c5c30a97bdf55086df2256f8e543ce0bd) | -                       | 05 Sep, 2024           |
-|                                                                                              |            | `26897e7664a9f74ac2109178c74c8835f4081031` | [chore: add AT5.feature file](https://github.com/upc-pre-202401-si729-sw51-the-coders/upc-pre202401-si729-sw51-the-coders-acceptance-tests/commit/a571cd6c5c30a97bdf55086df2256f8e543ce0bd) | -                       | 05 Sep, 2024           |
+| [GoUni Acceptance Test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test) |`main`| `34498da946da28f87595d38f7f0bddc016253f38` | [feat: add acceptance-test]( https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test/commit/34498da946da28f87595d38f7f0bddc016253f38)       | -                     | 05 Sep, 2024           |
+|[GoUni Acceptance Test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test)|`main`| `5ce86ab558308ded509d97d3354a7c19acd552d9` | [feat: add acceptance-test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test/commit/5ce86ab558308ded509d97d3354a7c19acd552d9) |          -              | 05 Sep, 2024           |
 
 ---
 
 #### [**5.2.1.5. Execution Evidence for Sprint Review.**](#execution-evidence-for-sprint-review)
 
-En este sprint logramos, como primera fase de nuestro producto final, desarrollar nuestra landing page usando HTML y CSS. También se implementó un diseño responsive para dispositivos Android e iOS, y su respectivo despliegue se realizó en **Netlify**.
+En este sprint logramos, como primera fase de nuestro producto final, desarrollar nuestra landing page usando HTML y CSS. También se implementó un diseño responsive para dispositivos Android e iOS, y su respectivo despliegue se realizó en **Vercel**.
 
-![executionEvidence.png](assets/images/sprint1/executionEvidence.png)
+![executionEvidence.png](assets/images/sprint1/DeployLandingPage.jpeg)
 
 ---
 
@@ -3051,13 +3039,20 @@ Durante el primer sprint, desarrollamos y desplegamos la landing page del proyec
 **Pasos para el despliegue:**
 
 1. Creación de cuenta en **Vercel**.
-2. Selección de la opción "Add new website" para elegir el proyecto a desplegar.
+2. Selección de la opción **"Add new website"** para elegir el proyecto a desplegar.
 
    ![addNewWebsite.jpeg](assets/images/sprint1/addNewWebsite.jpeg)
 
-3. Selección de la rama "main" y clic en el botón "Deploy".
+3. Selección de la rama **"main"** y clic en el botón **"Deploy"**.
 
    ![deploy.jpeg](assets/images/sprint1/deploy.jpeg)
+   
+4. Ultima pestaña con la **landing page** desplegada.
+
+   ![deploy.jpeg](assets/images/sprint1/deploy-final.jpeg)
+
+5. **Abrir el link del despliegue:**  
+[https://carpool-smoky.vercel.app/home](https://carpool-smoky.vercel.app/home) ![deploy.jpeg](assets/images/sprint1/DeployLandingPage.jpeg)
 
 ---
 
@@ -3071,35 +3066,31 @@ El desarrollo del informe se organizó dividiendo el repositorio por capítulos.
 
 | **Integrante** | **Aporte en el informe** |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Angel**       | Startup Profile, Descripción de la Startup, Solution Profile, Antecedentes y problemática, Lean UX Process, Lean UX Problem Statements, Lean UX Assumptions, Segmentos objetivo, User Stories, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page Wireframe, Web Applications Wireframes, Software Architecture Context Diagram, Software Architecture Container Diagrams, Software Architecture Components Diagrams, Class Diagrams, Class Dictionary, Database Diagram, Development Evidence for Sprint Review. ![chapter1.png](assets/images/sprint1/chapter1.png) |
-| **Favio**     | Competidores, Análisis competitivo, Estrategias frente a competidores, Product backlog, Style guidelines, Web style guidelines, Information architecture, Landing page UI design, Landing page mockup, Web applications mockup, Software deployment configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review. ![chapter2.png](assets/images/sprint1/chapter2.png) |
-| **Abraham**      | User task matrix, User journey mapping, As-is scenario mapping, To-be scenario mapping, Wireflow diagrams, Diseño de entrevistas, Análisis de entrevistas, DDD architecture. ![userTaskMatrix.png](assets/images/sprint1/userTaskMatrix.png) |
-| **Carlos**     | Registro de entrevistas, Análisis de entrevistas, Software deployment configuration,Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review. ![ubiquitusLanguage.png](assets/images/sprint1/ubiquitusLanguage.png) |
-| **Alessandro** | Lean UX Hypothesis Statements, Lean UX Canvas, Diseño de entrevistas, User Personas, Empathy Mapping, Impact Mapping, Domain-Driven Software Architecture, Software Development Environment Configuration, Source Code Management, Source Code.   ![hypothesisStatements.png](assets/images/sprint1/hypothesisStatements.png) |
+| **Anampa Lavado, Luis Angel**       | Startup Profile, Descripción de la Startup, Solution Profile, Antecedentes y problemática, Lean UX Process, Lean UX Problem Statements, Lean UX Assumptions, Segmentos objetivo, User Stories, Organization Systems, Labeling Systems, SEO Tags and Meta Tags, Searching Systems, Navigation Systems, Landing Page Wireframe, Web Applications Wireframes, Software Architecture Context Diagram, Software Architecture Container Diagrams, Software Architecture Components Diagrams, Class Diagrams, Class Dictionary, Database Diagram, Development Evidence for Sprint Review. ![chapter1.png](assets/images/sprint1/chapter1.png) |
+| **Landeo Simeón, Favio Sebastián**     | Competidores, Análisis competitivo, Estrategias frente a competidores, Product backlog, Style guidelines, Web style guidelines, Information architecture, Landing page UI design, Landing page mockup, Web applications mockup, Software deployment configuration, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review. ![chapter2.png](assets/images/sprint1/chapter2.png) |
+| **Ayquipa Ubaldo, Abraham Israel**      | User task matrix, User journey mapping, As-is scenario mapping, To-be scenario mapping, Wireflow diagrams, Diseño de entrevistas, Análisis de entrevistas, DDD architecture. ![userTaskMatrix.png](assets/images/sprint1/userTaskMatrix.png) |
+| **Onofre Ruiz, Carlos Jesus**     | Registro de entrevistas, Análisis de entrevistas, Software deployment configuration,Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review. ![ubiquitusLanguage.png](assets/images/sprint1/ubiquitusLanguage.png) |
+| **Anampa Lavado, Luis Angel** | Lean UX Hypothesis Statements, Lean UX Canvas, Diseño de entrevistas, User Personas, Empathy Mapping, Impact Mapping, Domain-Driven Software Architecture, Software Development Environment Configuration, Source Code Management, Source Code.   ![hypothesisStatements.png](assets/images/sprint1/hypothesisStatements.png) |
 
 **Evidencia de los commits:**
 
-![commitEvidence.png](assets/images/sprint1/commitEvidence.png)
+![commitEvidence.jpeg](assets/images/sprint1/commitEvidence.jpeg)
 
 Durante este sprint, para proteger la rama "main", creamos una rama "develop". Cada integrante creó una sub-rama "feature" para subir un capítulo del informe siguiendo las convenciones establecidas (**Conventional Commits** y **GitFlow**).
 
 **GitHub Analytics del Sprint 1:**
 
-![githubAnalyticsSprint.png](assets/images/sprint1/githubAnalyticsSprint.png)
+![githubAnalyticsSprint.png](assets/images/sprint1/githubAnalyticsSprint.jpeg)
 
 ---
 
-**Link del despliegue:**  
-[https://gouniprojectdeploy-production.up.railway.app/swagger-ui/index.html#/](https://gouniprojectdeploy-production.up.railway.app/swagger-ui/index.html#/)
-
-![deploy.jpeg](assets/images/sprint4/deploy/deploy.jpeg)
 
 
 ## [**5.2.1.8 Team Collaboration Insights during Sprint.**](#5248-team-collaboration-insights-during-sprint)
 
 **Distribución de aportes en el informe:**
 
-URL del repositorio para el Project Report en la organización de GitHub del equipo: [https://github.com/Open-Source-SW53-Group-2/Report](https://github.com/Open-Source-SW53-Group-2/Report)
+URL del repositorio para el Project Report en la organización de GitHub del equipo: [https://github.com/upc-pre-202502-14103-sw65-tsp/Report](https://github.com/upc-pre-202502-14103-sw65-tsp/Report)
 
 **¿Cómo se han desarrollado las actividades de elaboración del informe?**
 
@@ -3107,15 +3098,14 @@ Para el desarrollo del informe en este sprint se distribuyó los capítulos de e
 
 | Integrante | Aporte en el informe |
 |------------|-----------------------|
-| **Angel**  | |
-| **xxxx** |  |
-| **xxxx** |  |
-| **xxxxx** |  |
-| **xxxxx**   |  |
+| **Anampa Lavado, Luis Angel**  | |
+| **Ayquipa Ubaldo, Abraham Israel** |  |
+| **Onofre Ruiz, Carlos Jesus** |  |
+| **Landeo Simeón, Favio Sebastián** |  |
 
 **Evidencia del commit:**
 
-![EvidenceBackEndGitHub.png](assets/images/sprint4/Evidence/EvidenceBackEndGitHub.png)
+![EvidenceLandingPageGitHub.png](assets/images/sprint1/EvidenceLandingPageGitHub.jpeg)
 
 En este sprint, al igual que en los otros, creamos una rama "development". Cada miembro del equipo generó su propia sub-rama "feature" desde "development" para subir su respectivo capítulo del reporte, siguiendo las convenciones establecidas de *conventional commits* y *git flow*.
 
@@ -3175,8 +3165,8 @@ La plataforma utiliza tecnología móvil avanzada y un enfoque innovador para cr
 | Descripción                           | Link                                                                                                                                                                                                                                                                     |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Repositorio General de StudentConnect | [https://github.com/upc-pre-202502-14103-sw65-tsp](https://github.com/upc-pre-202502-14103-sw65-tsp)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Repositorio Reporte                   | [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_MediScanAI_documentation_report](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_MediScanAI_documentation_report)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Repositorio Reporte                   | [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_documentation_report](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_documentation_report)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Repositorio Landingpage               | [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Exposición TB1                        | []() 
-| Link landing page                     | []()                                                                                                                                                                                                                                                                                           
-| Link de Entrevisas                    | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218664_upc_edu_pe/EaA1ySLWCUJNk9eKMXToLdIBWsxJZ5OeGrLLJU6PTNtzAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=s4OD5H](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218664_upc_edu_pe/EaA1ySLWCUJNk9eKMXToLdIBWsxJZ5OeGrLLJU6PTNtzAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=s4OD5H) |
+| Link landing page                     | [https://carpool-smoky.vercel.app/home](https://carpool-smoky.vercel.app/home)                                                                                                                                                                                                                                                                                       
+| Link de Entrevisas                    | []() |
