@@ -183,14 +183,8 @@ Aspiramos a ser líderes en movilidad estudiantil, reconocidos por nuestro compr
     </tr>
 
   <tr>
-    <td><img src="./assets/images/profiles/TalizoBalbin_Joan.png" width="140" height="140"></td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td><img src="./assets/images/profiles/FrankyMallma.png" width="140" height="140"></td>
-    <td>
-</td>
+    <td><img src="./assets/images/profiles/Landeo_Favio.png" width="140" height="100"></td>
+    <td>Tengo 22 años y actualmente estoy cursando el noveno ciclo de la carrera de Ingeniería de Software. Estoy disponible para ayudar siempre a mis compañeros y además tiendo a generar buenas relaciones sociales con diferentes tipos de personas gracias a mi tolerancia y capacidad de trabajo en equipo. En mis tiempos libres me gusta escuchar música, jugar videojuegos y editar videos.</td>
   </tr>
 
 </table>
