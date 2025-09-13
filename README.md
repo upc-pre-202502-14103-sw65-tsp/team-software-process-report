@@ -842,6 +842,24 @@ Aaron nos indicó que tiene 21 años, vive actualmente en Surco. Estudia en la U
 
 ---
 
+**Entrevista 4:**
+
+- **Nombres:** Milagros
+- **Apellidos:** Tongo Alejandro
+- **Edad:** 21
+- **Lugar de residencia:** Santa Anita, Lima
+
+**Evidencia de la entrevista:**  
+<img src="assets/images/interviews/1entrevista4.png">
+
+**Enlace de la entrevista:** https://upcedupe-my.sharepoint.com/personal/u202218475_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202218475%5Fupc%5Fedu%5Fpe%2FDocuments%2FTEAM%20SOFTWARE%20PROCESS%2FENTREVISTAS%2FFavio%20Landeo%201er%20segmento%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E3c8ed694%2De927%2D48c7%2D8870%2D64d549537ade
+
+**Resumen de la entrevista:**  
+Milagros tiene 21 años, vive actualmente en el distrito de Santa Anita, estudia en la UPC sede Monterrico y se moviliza seguido porque tiene cursos casi todos los días de la semana. Indica que está a favor del ride-sharing para su seguridad y comodidad.
+
+
+---
+
 #### **Segmento 2: Estudiantes universitarios propietarios de vehículos privados**
 
 **Entrevista 1:**
@@ -884,6 +902,25 @@ Natanael nos indicó que vive en santiago de surco y tiene 24 años, cuenta con 
 - **Apellidos:** Martinez
 - **Edad:** 24
 - **Lugar de residencia:** Santiago de Surco, Lima
+
+---
+
+**Entrevista 4:**
+
+- **Nombres:** Paul
+- **Apellidos:** Vega Sayritupac
+- **Edad:** 23
+- **Lugar de residencia:** San Juan de Lurigancho, Lima
+
+**Evidencia de la entrevista:**  
+<img src="assets/images/interviews/2entrevista4.png">
+
+**Enlace de la entrevista:** https://upcedupe-my.sharepoint.com/personal/u202218475_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202218475%5Fupc%5Fedu%5Fpe%2FDocuments%2FTEAM%20SOFTWARE%20PROCESS%2FENTREVISTAS%2FFavio%20Landeo%202do%20segmento%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ecd8872a6%2D2846%2D4f13%2Db413%2D88d52afa5d48
+
+**Resumen de la entrevista:**  
+Paul nos comenta que él estudia y trabaja por lo que se moviliza toda su semana laboral con su vehículo particular, utiliza GNV y estaría dispuesto a obtener un ingreso extra haciendo ride-sharing con otros estudiantes que viven entre su ruta desde su casa hasta la universidad.
+
+---
 
 **Evidencia de la entrevista:**  
 <img src="assets/images/interviews/">
