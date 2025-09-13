@@ -903,6 +903,13 @@ Natanael nos indicó que vive en santiago de surco y tiene 24 años, cuenta con 
 - **Edad:** 24
 - **Lugar de residencia:** Santiago de Surco, Lima
 
+**Evidencia de la entrevista:**  
+<img src="assets/images/interviews/">
+
+**Enlace de la entrevista:** 
+
+**Resumen de la entrevista:**  
+
 ---
 
 **Entrevista 4:**
@@ -921,13 +928,6 @@ Natanael nos indicó que vive en santiago de surco y tiene 24 años, cuenta con 
 Paul nos comenta que él estudia y trabaja por lo que se moviliza toda su semana laboral con su vehículo particular, utiliza GNV y estaría dispuesto a obtener un ingreso extra haciendo ride-sharing con otros estudiantes que viven entre su ruta desde su casa hasta la universidad.
 
 ---
-
-**Evidencia de la entrevista:**  
-<img src="assets/images/interviews/">
-
-**Enlace de la entrevista:** 
-
-**Resumen de la entrevista:**  
 
 ### 2.2.3 Análisis de entrevistas.
 <TABLE BORDER>
