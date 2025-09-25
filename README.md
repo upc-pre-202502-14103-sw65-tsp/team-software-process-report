@@ -3285,6 +3285,186 @@ En este sprint, al igual que en los otros, creamos una rama "development". Cada 
 
 ---
 
+### [**5.2.2. Sprint 2.**](#sprint-1)
+
+
+---
+
+#### [**5.2.2.1. Sprint Planning 1.**](#sprint-planning-1)
+
+En el **Sprint Planning 1**, se presenta evidencia de la planificación e implementación de la landing page, incluyendo avances del proyecto y aprendizajes de colaboración en equipo registrados en **GitHub**.
+
+| **Sprint #**                 | Sprint 1                                                                          |
+|------------------------------|-----------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                   |
+| **Date**                     |                                                             |
+| **Time**                     |                                                               |
+| **Location**                 |                                                              |
+| **Prepared By**              |                                                               |
+| **Attendees (to planning meeting)** |                                       |
+| **Sprint 0 Review Summary**  |    |
+| **Sprint 1 Retrospective Summary** | |
+| **Sprint Goal & User Stories** |                                                                                   |
+| **Sprint Goal 1**            | |
+| **Sprint Velocity 1**        |                                                                              |
+| **Sum of Story Points**      |                                                                                |
+
+---
+
+
+#### [**5.2.2.2. Sprint Backlog 1.**](#sprint-backlog-1)
+
+En esta parte mostramos las tareas que se realizaron en este sprint.
+
+**Link del Trello:**  
+
+
+**Vista del Sprint Backlog en Trello:**  
+
+
+---
+
+| **Sprint #**   | **Sprint 1**                                                                                                                                                                                                                  |     |     |     |     |     |     |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|-----|-----|-----|-----|-----|
+| **User Story**  | **Work-item / Task**                                                                                                                                                                                                         |     |     |     |     |     |     |
+| **ID**         | **Title**                        | **Id** | **Title**                        | **Description**                                                                       | **Estimation (hours)** | **Assigned To**    | **Status (To-do / In-Process / To-Review / Done)** |
+|                 |                                  |       |                                   |                                                                                        |                        |                    |                                                   |
+|                 |                                  |       |                                   |                                                                                        |                        |                    |                                                   |
+|                 |                                  |       |                                   |                                                                                        |                        |                    |                                                   |
+|                 |                                  |       |                                   |                                                                                        |                        |                    |                                                   |
+|                 |                                  |       |                                   |                                                                                        |                        |                    |                                                   |
+|                 |                                  |       |                                   |                                                                                        |                        |                    |                                                   |
+|                 |                                  |       |                                   |                                                                                        |                        |                    |                                                   |
+|                 |                                  |       |                                   |                                                                                        |                        |                    |                                                   |
+
+
+
+
+#### [**5.2.2.3. Development Evidence for Sprint Review.**](#development-evidence-for-sprint-review)
+
+
+
+---
+
+| **Repository**                                                                                 | **Branch** | **Commit Id**                          | **Commit Message**                                                                                                                                                                                                                                                | **Commit Message Body** | **Committed on (Date)** |
+|-------------------------------------------------------------------------------------------------|------------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------------|
+| |   ||  | -                       | 11 Sep, 2025           |
+| |     |  |  | -                       | 11 Sep, 2025           |
+|  |      |  |  | -                       | 11 Sep, 2025           |
+|  |     | |  | -                       | 11 Sep, 2025           |
+| |    |  |  | -                       | 11 Sep, 2025           |
+|
+
+---
+
+#### [**5.2.2.4. Testing Suite Evidence for Sprint Review.**](#testing-suite-evidence-for-sprint-review)
+
+En este sprint, se han incorporado pruebas de aceptación escritas en **Gherkin**, asegurando que los requisitos del usuario se validen de manera efectiva. A continuación, se proporciona el enlace al repositorio de las pruebas de aceptación, donde se encuentra una descripción detallada de los escenarios de prueba y su implementación:
+
+**Repositorio de pruebas de aceptación:**  
+[https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test)
+
+---
+
+| **Repository**                                                                                | **Branch** | **Commit Id**                          | **Commit Message**                                                                                                                                                                    | **Commit Message Body** | **Committed on (Date)** |
+|----------------------------------------------------------------------------------------------|------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------------|
+|  ||  |      | -                     | 05 Sep, 2025           |
+||| | |          -              | 05 Sep, 2025           |
+
+---
+
+#### [**5.2.2.5. Execution Evidence for Sprint Review.**](#execution-evidence-for-sprint-review)
+
+En este sprint logramos, como primera fase de nuestro producto final, desarrollar nuestra landing page usando HTML y CSS. También se implementó un diseño responsive para dispositivos Android e iOS, y su respectivo despliegue se realizó en **Vercel**.
+
+![executionEvidence.png](assets/images/sprint1/DeployLandingPage.jpeg)
+
+---
+
+#### [**5.2.2.6. Services Documentation Evidence for Sprint Review.**](#services-documentation-evidence-for-sprint-review)
+
+En el alcance del Sprint 1 se logró desarrollar la landing page, por lo que no se evidencia el empleo de web services.
+
+---
+
+#### [**5.2.2.7. Software Deployment Evidence for Sprint Review.**](#software-deployment-evidence-for-sprint-review)
+
+Durante el primer sprint, desarrollamos y desplegamos la landing page del proyecto. El despliegue lo llevó a cabo uno de nuestros integrantes (Abraham), ya que el proceso no tomaba más de cinco minutos. Utilizamos **Vercel** como plataforma de despliegue, realizando varias pruebas en la rama "develop" antes de proceder con la rama "main".
+
+**Pasos para el despliegue:**
+
+1. Creación de cuenta en **Vercel**.
+2. Selección de la opción **"Add new website"** para elegir el proyecto a desplegar.
+
+   ![addNewWebsite.jpeg](assets/images/sprint1/addNewWebsite.jpeg)
+
+3. Selección de la rama **"main"** y clic en el botón **"Deploy"**.
+
+   ![deploy.jpeg](assets/images/sprint1/deploy.jpeg)
+   
+4. Ultima pestaña con la **landing page** desplegada.
+
+   ![deploy.jpeg](assets/images/sprint1/deploy-final.jpeg)
+
+5. **Abrir el link del despliegue:**  
+
+
+---
+
+#### [**5.2.2.8. Team Collaboration Insights during Sprint.**](#team-collaboration-insights-during-sprint)
+
+**Distribución de aportes en el informe:**  
+El desarrollo del informe se organizó dividiendo el repositorio por capítulos. Cada integrante realizó aportes específicos, distribuidos como se muestra en la siguiente tabla y las capturas incluidas.
+
+**URL del repositorio para el Project Report:**  
+<https://github.com/upc-pre-202502-14103-sw65-tsp>
+
+| **Integrante** | **Aporte en el informe** |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Anampa Lavado, Luis Angel**       ||
+| **Landeo Simeón, Favio Sebastián**     | |
+| **Ayquipa Ubaldo, Abraham Israel**      |  |
+| **Onofre Ruiz, Carlos Jesus**     | |
+| **Anampa Lavado, Luis Angel** | |
+
+**Evidencia de los commits:**
+
+![commitEvidence.jpeg](assets/images/sprint1/commitEvidence.jpeg)
+
+Durante este sprint, para proteger la rama "main", creamos una rama "develop". Cada integrante creó una sub-rama "feature" para subir un capítulo del informe siguiendo las convenciones establecidas (**Conventional Commits** y **GitFlow**).
+
+**GitHub Analytics del Sprint 1:**
+
+![githubAnalyticsSprint.png](assets/images/sprint1/githubAnalyticsSprint.jpeg)
+
+---
+
+
+
+## [**5.2.2.8 Team Collaboration Insights during Sprint.**](#5248-team-collaboration-insights-during-sprint)
+
+**Distribución de aportes en el informe:**
+
+URL del repositorio para el Project Report en la organización de GitHub del equipo: [https://github.com/upc-pre-202502-14103-sw65-tsp/Report](https://github.com/upc-pre-202502-14103-sw65-tsp/Report)
+
+**¿Cómo se han desarrollado las actividades de elaboración del informe?**
+
+Para el desarrollo del informe en este sprint se distribuyó los capítulos de esta manera:
+
+| Integrante | Aporte en el informe |
+|------------|-----------------------|
+| **Anampa Lavado, Luis Angel**  | |
+| **Ayquipa Ubaldo, Abraham Israel** |  |
+| **Onofre Ruiz, Carlos Jesus** |  |
+| **Landeo Simeón, Favio Sebastián** |  |
+
+**Evidencia del commit:**
+
+
+
+
+---
+
 # [**Conclusiones.**](#conclusiones)
 
 ## [**Conclusiones y Recomendaciones.**](#conclusiones-y-recomendaciones)
@@ -3340,7 +3520,12 @@ La plataforma utiliza tecnología móvil avanzada y un enfoque innovador para cr
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Repositorio General de StudentConnect | [https://github.com/upc-pre-202502-14103-sw65-tsp](https://github.com/upc-pre-202502-14103-sw65-tsp)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Repositorio Reporte                   | [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_documentation_report](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_documentation_report)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Repositorio Landingpage               | [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Repositorio Landingpage               | [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage)                                                                                                                                                           |
+| Repositorio App Web | |
+| Repositorio Backend | |
 | Exposición TB1                        | []() 
-| Link landing page                     | [https://carpool-smoky.vercel.app/home](https://carpool-smoky.vercel.app/home)                                                                                                                                                                                                                                                                                       
+| Exposición TB2 | |
+| Link landing page                     | [https://carpool-smoky.vercel.app/home](https://carpool-smoky.vercel.app/home)                                                                                                                                                                                                                
+| Link App Web | |
+| Link Backend | |
 | Link de Entrevisas                    | []() |
