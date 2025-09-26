@@ -49,6 +49,17 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 |**#01 - TB1**| 08/09/25   | Landeo Simeón, Favio Sebastián	      | Lean UX Hypothesis Statements, Lean UX Canvas, Diseño de entrevistas, User Personas, Empathy Mapping, Impact Mapping, Domain-Driven Software Architecture, Software Development Environment Configuration, Source Code Management, Source Code Style Guide & Conventions |
 |**#01 - TB1**| 10/09/25   | Todos   | User Task Matrix, Journey Map, As-Is Scenario Map, To-Be Scenario Map, Parte de user stories, Parte de diseño de entrevistas, Software Architecture Context Diagram, Software Architecture Container Diagrams, Software Architecture Components Diagrams |
 
+ __TB2__
+
+Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la siguiente forma:
+
+| **Versión**  | **Fecha**  | **Autor**                         | **Descripción**                                                                                                   |
+|--------------|------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| **#02 - TB2**| 26/09/25   | Anampa Lavado, Luis Angel         | Sprint 2, Test unitarios, Despliegue. |
+|**#02 - TB2**| 26/09/25   | Ayquipa Ubaldo, Abraham        | Landing Page, Frontend |
+|**#02 - TB2**| 26/09/25   | Onofre Ruiz, Carlos Jesus     | Sprint 2 |
+|**#02- TB2**| 26/09/25   | Landeo Simeón, Favio Sebastián	      | Backend |
+
 # Contenido
 
 ## Tabla de contenidos
@@ -245,7 +256,21 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
       - [**5.2.1.6. Services Documentation Evidence for Sprint Review.**](#5216-services-documentation-evidence-for-sprint-review)
       - [**5.2.1.7. Software Deployment Evidence for Sprint Review.**](#5217-software-deployment-evidence-for-sprint-review)
       - [**5.2.1.8. Team Collaboration Insights during Sprint.**](#5218-team-collaboration-insights-during-sprint)
-  - [**5.2.1.8 Team Collaboration Insights during Sprint.**](#5218-team-collaboration-insights-during-sprint-1)
+  - [**5.2.1.9 Actas de Reunión.**](#5219-actas-de-reunión)
+      - [Daily Scrum:](#daily-scrum)
+      - [Sprint Planning:](#sprint-planning)
+      - [Sprint Review:](#sprint-review)
+      - [Sprint Retrospective:](#sprint-retrospective)
+    - [**5.2.2. Sprint 2.**](#522-sprint-2)
+      - [**5.2.2.1. Sprint Planning 2.**](#5221-sprint-planning-2)
+      - [**5.2.2.2. Sprint Backlog 1.**](#5222-sprint-backlog-1)
+      - [**5.2.2.3. Development Evidence for Sprint Review.**](#5223-development-evidence-for-sprint-review)
+      - [**5.2.2.4. Testing Suite Evidence for Sprint Review.**](#5224-testing-suite-evidence-for-sprint-review)
+      - [**5.2.2.5. Execution Evidence for Sprint Review.**](#5225-execution-evidence-for-sprint-review)
+      - [**5.2.2.6. Services Documentation Evidence for Sprint Review.**](#5226-services-documentation-evidence-for-sprint-review)
+      - [**5.2.2.7. Software Deployment Evidence for Sprint Review.**](#5227-software-deployment-evidence-for-sprint-review)
+      - [**5.2.2.8. Team Collaboration Insights during Sprint.**](#5228-team-collaboration-insights-during-sprint)
+  - [**5.2.2.8 Team Collaboration Insights during Sprint.**](#5228-team-collaboration-insights-during-sprint-1)
 - [**Conclusiones.**](#conclusiones)
   - [**Conclusiones y Recomendaciones.**](#conclusiones-y-recomendaciones)
       - [1. GoUni responde a las necesidades de movilidad estudiantil](#1-gouni-responde-a-las-necesidades-de-movilidad-estudiantil)
