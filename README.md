@@ -1226,7 +1226,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td>Recibir notificaciones en tiempo real</td>
 <td>
 <p><strong>Como</strong> estudiante pasajero,</p>
-<p><strong>Quiero</strong> recibir notificaciones en tiempo real sobre mi viaje </p>
+<p><strong>Quiero</strong> recibir notificaciones de la app </p>
 <p><strong>Para</strong> estar al tanto de cualquier cambio en la ruta o el horario</p>
 </td>
 <td>
@@ -3017,6 +3017,8 @@ Para gestionar eficientemente los cambios en el código fuente, se utilizó **Gi
 
 Este modelo de ramificación permitió mantener un control riguroso sobre las versiones del código y facilitar el trabajo colaborativo entre los miembros del equipo.
 
+<img src="assets/images/GitFlow.jpeg">
+
 
 ### [**5.1.3. Source Code Style Guide & Conventions.**](#source-code-style-guide--conventions)
 
@@ -3087,7 +3089,7 @@ Para configurar el despliegue del proyecto, seguimos los pasos detallados a cont
 
 Este enlace redirige a la landing page desarrollada con **Angular** y desplegada en **Vercel**. La página ofrece una introducción al proyecto, destacando sus características principales y facilitando el acceso a la aplicación web. Está diseñada para ser completamente responsiva y optimizada para dispositivos móviles, tabletas y computadoras de escritorio.
 
-[**https://landing-page-with-angular-sigma.vercel.app/home**](https://landing-page-with-angular-sigma.vercel.app/home)
+[**https://carpool-smoky.vercel.app/home**](https://carpool-smoky.vercel.app/home)
 
 ---
 
@@ -3108,13 +3110,13 @@ En el **Sprint Planning 1**, se presenta evidencia de la planificación e implem
 | **Sprint Planning Background** |                                                                                   |
 | **Date**                     | 30 de agosto de 2025                                                              |
 | **Time**                     | 22:00 horas (GMT-5)                                                               |
-| **Location**                 | Modalidad remota                                                                  |
+| **Location**                 | Modalidad remota por Google Meet                                                                  |
 | **Prepared By**              | StudentConnect                                                                    |
 | **Attendees (to planning meeting)** | Todos los miembros de StudentConnect                                            |
-| **Sprint 0 Review Summary**  | Debido a que es el primer sprint, no hay review summary de un sprint anterior.    |
-| **Sprint 1 Retrospective Summary** | En este Sprint se planea desarrollar el landing page con HTML y CSS3. Previamente, el landing page se diseñó en Figma. El grupo discutió cómo diseñar el landing, implementar imágenes y todo lo referente a la interfaz. Al finalizar este sprint, el landing page estará desplegado en Vercel, permitiendo el acceso público al proyecto. |
-| **Sprint Goal & User Stories** |                                                                                   |
-| **Sprint Goal 1**            | El objetivo de este sprint es el desarrollo y despliegue de la aplicación frontend.|
+| **Sprint 1 Review Summary**  | Debido a que es el primer sprint, no hay review summary de un sprint anterior.    |
+| **Sprint 1 Retrospective Summary** | Se evaluaron los entregables de lo desarrollado, probando las funcionalidades implementadas, mejorando la integración del backend y el frontend, y ajustando los endpoints para un funcionamiento más eficiente de la aplicación. |                                    |
+| **Sprint Goal & User Stories**            |Sprint Goal: Implementar las nuevas funcionalidades clave, como la recuperación de contraseña, la barra de navegación y las notificaciones, asegurando que todas estén completamente integradas en la aplicación web y funcionando correctamente. Además, desplegar la landing page y establecer una base sólida para el frontend y backend.
+ |
 | **Sprint Velocity 1**        | 8                                                                                 |
 | **Sum of Story Points**      | 36                                                                                |
 
@@ -3129,31 +3131,82 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 <https://trello.com/invite/b/68c267c58ad415ace7310b37/ATTI9405408d3908ba2c884aa573fe94d7897A053DEF/sprint-1-gouni>
 
 **Vista del Sprint Backlog en Trello:**  
-![trelloSprint1.png](assets/images/sprint1/trelloSprint1.png)
+![trelloSprint1.png](assets/images/ProductBacklogSprint1.jpeg)
 
 ---
 
-| **Sprint #**   | **Sprint 1**                                                                                                                                                                                                                  |     |     |     |     |     |     |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|-----|-----|-----|-----|-----|
-| **User Story**  | **Work-item / Task**                                                                                                                                                                                                         |     |     |     |     |     |     |
-| **ID**         | **Title**                        | **Id** | **Title**                        | **Description**                                                                       | **Estimation (hours)** | **Assigned To**    | **Status (To-do / In-Process / To-Review / Done)** |
-| **E5-US01**     | Barra de navegación en la landing page | **T1** | Navbar section                  | Implementar navbar con botón (redirige a la aplicación) y responsive design           | 1h                    |   Carlos Onofre    | Done                                              |
-| **E5-US02**     | Dirigirse a la aplicación mediante el landing page | **T2** | Button Call to Action         | Implementar el button Call to Action del navbar                                       | 0.1h                  |   Carlos Onofre    | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T3** | Navbar section responsive       | Aplicar diseño responsive a las opciones del navbar                                   | 1h                    |    Carlos Onofre   | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T4** | Hero section                    | Implementar un hero section                                                          | 1h                    | Angel Anampa       | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T5** | Responsive design hero section  | Aplicar design responsive al hero section                                             | 1h                    | Angel Anampa       | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T6** | Product section and items       | Implementar Product section y los ítems característicos en orden grid                | 1h                    |  Abraham Ayquipa  | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T7** | Responsive design Product section | Implementar diseño responsive a Product section                                       | 1h                    | Abraham Ayquipa   | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T8** | Customers section and items     | Implementar Customers section y los ítems característicos en orden grid y aplicar animaciones | 1.5h                  |     Abraham Ayquipa    | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T9** | Responsive design Customers section | Implementar diseño responsive a Customers section                                     | 1h                    |  Favio Landeo       | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T10** | Pricing section                | Implementar Pricing section y los ítems característicos en orden grid                | 1h                    |   Favio Landeo     | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T11** | Responsive design Pricing section | Implementar diseño responsive a Pricing section                                       | 1h                    |  Favio Landeo      | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T12** | Contact section                | Implementar Contact section y los ítems característicos en orden grid                | 1h                    |   Abraham Ayquipa    | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T13** | Responsive design Contact section | Implementar diseño responsive a Contact section                                       | 1h                    |   Carlos Onofre    | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T14** | Footer section                 | Implementar footer section                                                           | 1h                    |  Abraham Ayquipa  | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T15** | Social media section            | Implementar icons para las redes sociales y también links                            | 0.5h                  |  Favio Landeo  | Done                                              |
-| **E5-US03**     | Sección hero del landing page   | **T16** | Responsive design footer section | Aplicar diseño responsive                                                            | 1h                    | Angel Anampa       | Done                                              |
-| **E5-US04**     | Versión en español de landing page | **T17** | Switch que activa I18n         | Button de tipo switch que permite cambiar de idioma a la landing                     | 0.5h                  | Angel Anampa       | Done                                              |
+<table>
+  <tr>
+    <th>Sprint #</th>
+    <th colspan="7">Sprint 1</th>
+  </tr>
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="2">Work-Item / Task</th>
+    <th rowspan="2">Description</th>
+    <th rowspan="2">Estimation (Hours)</th>
+    <th rowspan="2">Assigned To</th>
+    <th rowspan="2">Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+  </tr>
+  <tr>
+    <td><b>E5-US02</b></td>
+    <td>Dirigirse a la aplicación mediante el landing page</td>
+    <td>T1</td>
+    <td>Button Call to Action</td>
+    <td>Implementar el Button Call to Action del navbar</td>
+    <td>0.1h</td>
+    <td>Carlos Onofre</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td><b>E5-US04</b></td>
+    <td>Versión en español de landing page</td>
+    <td>T2</td>
+    <td>Switch I18n</td>
+    <td>Switch que activa I18n: cambiar idioma en la landing</td>
+    <td>1h</td>
+    <td>Angel Anampa</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td><b>E2-US01</b></td>
+    <td>Recibir notificaciones</td>
+    <td>T3</td>
+    <td>Notificaciones</td>
+    <td>Como estudiante pasajero, quiero recibir notificaciones de la app</td>
+    <td>2h</td>
+    <td>Favio Landeo</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td><b>E3-US01</b></td>
+    <td>Poder Registrarse</td>
+    <td>T4</td>
+    <td>Registro</td>
+    <td>Como Usuario, Quiero poder crear mi usuario Para acceder al servicio de carpooling.</td>
+    <td>3h</td>
+    <td>Favio Landeo-Abraham Ayquipa</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td><b>E3-US02/b></td>
+    <td>Iniciar Sesión</td>
+    <td>T5</td>
+    <td>Loguearme</td>
+    <td>Como Usuario, Quiero poder ingresar con mi correo y contraseña. Para acceder al servicio de carpooling.</td>
+    <td>3h</td>
+    <td>Favio Landeo-Abraham Ayquipa</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+
 
 
 #### [**5.2.1.3. Development Evidence for Sprint Review.**](#development-evidence-for-sprint-review)
@@ -3183,6 +3236,12 @@ En este sprint, se han incorporado pruebas de aceptación escritas en **Gherkin*
 **Repositorio de pruebas de aceptación:**  
 [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test)
 
+<img src="assets/images/T1">
+<img src="assets/images/">
+<img src="assets/images/">
+<img src="assets/images/">
+<img src="assets/images/">
+
 ---
 
 | **Repository**                                                                                | **Branch** | **Commit Id**                          | **Commit Message**                                                                                                                                                                    | **Commit Message Body** | **Committed on (Date)** |
@@ -3202,7 +3261,11 @@ En este sprint logramos, como primera fase de nuestro producto final, desarrolla
 
 #### [**5.2.1.6. Services Documentation Evidence for Sprint Review.**](#services-documentation-evidence-for-sprint-review)
 
-En el alcance del Sprint 1 se logró desarrollar la landing page, por lo que no se evidencia el empleo de web services.
+En el Sprint Review, se presentará evidencia de pruebas realizadas mediante una Testing Suite. Los archivos, feature en Gherkin juegan un papel clave dentro de las metodologías ágiles, especialmente en el Desarrollo Guiado por Comportamiento (BDD). Estos archivos describen de manera clara y legible el comportamiento esperado de la aplicación, definiendo escenarios, pasos de prueba y criterios de aceptación específicos.
+La adopción de BDD mejora significativamente la comunicación dentro del equipo de desarrollo y con los stakeholders, al proporcionar una especificación dinámica de los requisitos del software. Así, se asegura que todos los involucrados comprendan de forma clara los objetivos del desarrollo y el funcionamiento esperado de la aplicación.
+En este primer sprint, se ha desarrollado el backend de la aplicación web. Como parte del alcance, se han realizado pruebas de aceptación alineadas con los requisitos establecidos. Para más detalles y acceso a las pruebas de aceptación, puedes consultar el siguiente repositorio: [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test)
+
+<img src ="assets/image/Acceptance-Test-Sprint1">
 
 ---
 
