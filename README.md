@@ -1142,8 +1142,8 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td>Criterios de Aceptación</td>
 <td>Relación Epic ID</td>
 </tr>
-<tr class="odd" style="background-color:hsl(73, 75.00%, 95.30%);">
-<td colspan="5" style="padding: 15px; border: 2px solid;">
+<tr class="odd" style="">
+<td colspan="5" style="padding: 15px; solid;">
 <strong>Epic 1: Funcionalidades Básicas de Carpooling</strong><br>
 <strong>Como</strong> estudiante universitario<br>
 <strong>Quiero</strong> acceder a funcionalidades básicas de carpooling<br>
@@ -1234,8 +1234,8 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td>1</td>
 </tr>
 
-<tr class="even" style="background-color:hsl(73, 75.00%, 95.30%);">
-<td colspan="5" style="padding: 15px; border: 2px solid;">
+<tr class="even">
+<td colspan="5" style="padding: 15px;  solid;">
 <strong>Epic 2: Seguridad y Notificaciones</strong><br>
 <strong>Como</strong> usuario de la plataforma<br>
 <strong>Quiero</strong> contar con sistemas de seguridad y notificaciones<br>
@@ -1305,7 +1305,7 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td>2</td>
 </tr>
 
-<tr class="odd" style="background-color:hsl(73, 75.00%, 95.30%);">
+<tr class="odd">
 <td colspan="5" style="padding: 15px; border: 2px solid;">
 <strong>Epic 3: Gestión de Usuarios y Viajes</strong><br>
 <strong>Como</strong> usuario<br>
@@ -1449,8 +1449,8 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
         <td>3</td>
     </tr>
 
-<tr class="odd" style="background-color:hsl(73, 75.00%, 95.30%);">
-<td colspan="5" style="padding: 15px; border: 2px solid ;">
+<tr class="odd">
+<td colspan="5" style="padding: 15px; solid ;">
 <strong>Epic 4: Planes de Servicio y Suscripciones</strong><br>
 <strong>Como</strong> usuario de la plataforma<br>
 <strong>Quiero</strong> acceder a diferentes planes de servicio<br>
@@ -1555,8 +1555,8 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
         <td>3</td>
     </tr>
 
-<tr class="odd" style="background-color:hsl(73, 75.00%, 95.30%);">
-<td colspan="5" style="padding: 15px; border: 2px solid ;">
+<tr class="odd">
+<td colspan="5" style="padding: 15px; solid ;">
 <strong>Epic 5: Landing Page</strong><br>
 <strong>Como</strong> cliente<br>
 <strong>Quiero</strong> visualizar una página informativa<br>
@@ -3413,7 +3413,7 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|-----|-----|-----|-----|-----|
 | **User Story**  | **Work-item / Task**                                                                                                                                                                                                         |     |     |     |     |     |     |
 | **ID**         | **Title**| **Id** | **Title**| **Description**| **Estimation (hours)** | **Assigned To**    | **Status (To-do / In-Process / To-Review / Done)** |
-|                 |                                  |       |                                   |Como usuario, quisiera ver un mapa para tener una vision mas amplia de las ubicaciones en tiempo real|4h|Abraham Ayquipa|Done|
+|E1-US04|Visualizar Mapa|T1|Ver Mapa|Como usuario, quisiera ver un mapa para tener una vision mas amplia de las ubicaciones en tiempo real|4h|Abraham Ayquipa|Done|
 E4-US03|Pasarela de Pago|T2|API de Stripe|Como usuario que ha seleccionado un plan, Quiero realizar el pago del plan seleccionado. Para activar los beneficios del plan y comenzar a utilizarlos|4h|Favio Landeo-Abraham Ayquipa|In-Process|
 
 
