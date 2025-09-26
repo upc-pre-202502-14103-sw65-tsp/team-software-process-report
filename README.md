@@ -3236,11 +3236,13 @@ En este sprint, se han incorporado pruebas de aceptación escritas en **Gherkin*
 **Repositorio de pruebas de aceptación:**  
 [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test)
 
-<img src="assets/images/T1">
-<img src="assets/images/">
-<img src="assets/images/">
-<img src="assets/images/">
-<img src="assets/images/">
+| **ID** | **Evidencia** |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **T1**       |<img src="assets/images/T1.jpeg">|
+| **T2**      |<img src="assets/images/T2.jpeg"> |
+| **T3**      |<img src="assets/images/T3.jpeg"> |
+| **T4** | <img src="assets/images/T4.jpeg">|
+| **T5** | <img src="assets/images/T5.jpeg">|
 
 ---
 
@@ -3261,11 +3263,14 @@ En este sprint logramos, como primera fase de nuestro producto final, desarrolla
 
 #### [**5.2.1.6. Services Documentation Evidence for Sprint Review.**](#services-documentation-evidence-for-sprint-review)
 
-En el Sprint Review, se presentará evidencia de pruebas realizadas mediante una Testing Suite. Los archivos, feature en Gherkin juegan un papel clave dentro de las metodologías ágiles, especialmente en el Desarrollo Guiado por Comportamiento (BDD). Estos archivos describen de manera clara y legible el comportamiento esperado de la aplicación, definiendo escenarios, pasos de prueba y criterios de aceptación específicos.
-La adopción de BDD mejora significativamente la comunicación dentro del equipo de desarrollo y con los stakeholders, al proporcionar una especificación dinámica de los requisitos del software. Así, se asegura que todos los involucrados comprendan de forma clara los objetivos del desarrollo y el funcionamiento esperado de la aplicación.
-En este primer sprint, se ha desarrollado el backend de la aplicación web. Como parte del alcance, se han realizado pruebas de aceptación alineadas con los requisitos establecidos. Para más detalles y acceso a las pruebas de aceptación, puedes consultar el siguiente repositorio: [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test)
+A continuación, se detallará los endpoints que se han desarrollado en el API Restful. De esta manera, podemos realizar las operaciones CRUD necesarias para esta primera versión, logrando una aplicación web dinámica.
 
-<img src ="assets/image/Acceptance-Test-Sprint1">
+| **Services** | **Evidencia** |**Descripción** |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-|
+| **Url Base**       |<img src="assets/images/URL.jpeg">| Este es el Swagger de nuestra API, que documenta y gestiona todos los controladores de la aplicación, facilitando la interacción y pruebas del backend.|
+| **Autentication**      |<img src="assets/images/Autentication.jpeg"> |Endpoint Autentication|
+| **users**     | <img src="assets/images/users.jpeg">|Endpoint Users|
+| **Notifications** | <img src="assets/images/notification.jpeg">|Endpoint Notifications|
 
 ---
 
@@ -3323,28 +3328,24 @@ Durante este sprint, para proteger la rama "main", creamos una rama "develop". C
 
 
 
-## [**5.2.1.8 Team Collaboration Insights during Sprint.**](#5248-team-collaboration-insights-during-sprint)
+## [**5.2.1.9 Actas de Reunión.**](#5248-actas-de-la-reunion)
 
-**Distribución de aportes en el informe:**
 
-URL del repositorio para el Project Report en la organización de GitHub del equipo: [https://github.com/upc-pre-202502-14103-sw65-tsp/Report](https://github.com/upc-pre-202502-14103-sw65-tsp/Report)
+En esta sección se mostrarán las evidencias de las actas de reuniones llevadas a cabo durante el proyecto.
 
-**¿Cómo se han desarrollado las actividades de elaboración del informe?**
+#### Daily Scrum:
 
-Para el desarrollo del informe en este sprint se distribuyó los capítulos de esta manera:
+**Primer Daily Scrum del Sprint:**
 
-| Integrante | Aporte en el informe |
-|------------|-----------------------|
-| **Anampa Lavado, Luis Angel**  | |
-| **Ayquipa Ubaldo, Abraham Israel** |  |
-| **Onofre Ruiz, Carlos Jesus** |  |
-| **Landeo Simeón, Favio Sebastián** |  |
+**Daily Scrum en mitad del Sprint:**
 
-**Evidencia del commit:**
+**Ultimo daily del Sprint.**
 
-![EvidenceLandingPageGitHub.png](assets/images/sprint1/EvidenceLandingPageGitHub.jpeg)
+#### Sprint Planning:
 
-En este sprint, al igual que en los otros, creamos una rama "development". Cada miembro del equipo generó su propia sub-rama "feature" desde "development" para subir su respectivo capítulo del reporte, siguiendo las convenciones establecidas de *conventional commits* y *git flow*.
+#### Sprint Review:
+
+#### Sprint Retrospective:
 
 ---
 
