@@ -1213,6 +1213,27 @@ En esta sección se resume la información recopilada. Se presentan dos tablas q
 <td>1</td>
 </tr>
 
+<tr class="odd">
+<td>E1-US04</td>
+<td>Ver Mapa</td>
+<td>
+<p><strong>Como</strong> estudiante,</p>
+<p><strong>Quiero</strong> ver los destinos y ubicaciones en un mapa.</p>
+<p><strong>Para</strong> evitar dar malas ubicaciones.</p>
+</td>
+<td>
+<p>Escenario 1: Visualizacion del Mapa</p>
+<p><strong>Dado</strong> que el usuario tiene que ver la ubicacion donde tiene que ir,</p>
+<p><strong>Cuando</strong> se carga la pantalla "Mapa"</p>
+<p><strong>Entonces</strong> veo un mapa centrado en mi ubicación actual o en la ciudad por defecto "Lima"</p>
+<p>Escenario 2: Manejo de permisos de geolocalización</p>
+<p><strong>Dado</strong> que el sistema solicita permiso de ubicación,</p>
+<p><strong>Cuando</strong> acepto compartir mi ubicación,</p>
+<p><strong>Entonces</strong> el mapa se centra en mis coordenadas con un marcador "Mi ubicación"</p>
+</td>
+<td>1</td>
+</tr>
+
 <tr class="even" style="background-color:hsl(73, 75.00%, 95.30%);">
 <td colspan="5" style="padding: 15px; border: 2px solid;">
 <strong>Epic 2: Seguridad y Notificaciones</strong><br>
@@ -3115,10 +3136,10 @@ En el **Sprint Planning 1**, se presenta evidencia de la planificación e implem
 | **Attendees (to planning meeting)** | Todos los miembros de StudentConnect                                            |
 | **Sprint 1 Review Summary**  | Debido a que es el primer sprint, no hay review summary de un sprint anterior.    |
 | **Sprint 1 Retrospective Summary** | Se evaluaron los entregables de lo desarrollado, probando las funcionalidades implementadas, mejorando la integración del backend y el frontend, y ajustando los endpoints para un funcionamiento más eficiente de la aplicación. |                                    |
-| **Sprint Goal & User Stories**            |Sprint Goal: Implementar las nuevas funcionalidades clave, como la recuperación de contraseña, la barra de navegación y las notificaciones, asegurando que todas estén completamente integradas en la aplicación web y funcionando correctamente. Además, desplegar la landing page y establecer una base sólida para el frontend y backend.
- |
-| **Sprint Velocity 1**        | 8                                                                                 |
-| **Sum of Story Points**      | 36                                                                                |
+| **Sprint Goal & User Stories**            ||
+|Sprint 1 Goal|Implementar las nuevas funcionalidades clave, como la recuperación de contraseña, la barra de navegación y las notificaciones, asegurando que todas estén completamente integradas en la aplicación web y funcionando correctamente. Además, desplegar la landing page y establecer una base sólida para el frontend y backend|
+| **Sprint Velocity 1**        | 12|
+| **Sum of Story Points**      | 12|
 
 ---
 
@@ -3195,7 +3216,7 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
     <td>Done</td>
   </tr>
   <tr>
-    <td><b>E3-US02/b></td>
+    <td><b>E3-US02</td>
     <td>Iniciar Sesión</td>
     <td>T5</td>
     <td>Loguearme</td>
@@ -3269,8 +3290,8 @@ A continuación, se detallará los endpoints que se han desarrollado en el API R
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-|
 | **Url Base**       |<img src="assets/images/URL.jpeg">| Este es el Swagger de nuestra API, que documenta y gestiona todos los controladores de la aplicación, facilitando la interacción y pruebas del backend.|
 | **Autentication**      |<img src="assets/images/Autentication.jpeg"> |Endpoint Autentication|
-| **users**     | <img src="assets/images/users.jpeg">|Endpoint Users|
-| **Notifications** | <img src="assets/images/notification.jpeg">|Endpoint Notifications|
+| **users**     | <img src="assets/images/Users.jpeg">|Endpoint Users|
+| **Notifications** | <img src="assets/images/Notification.jpeg">|Endpoint Notifications|
 
 ---
 
@@ -3354,24 +3375,24 @@ En esta sección se mostrarán las evidencias de las actas de reuniones llevadas
 
 ---
 
-#### [**5.2.2.1. Sprint Planning 1.**](#sprint-planning-1)
+#### [**5.2.2.1. Sprint Planning 2.**](#sprint-planning-1)
 
-En el **Sprint Planning 1**, se presenta evidencia de la planificación e implementación de la landing page, incluyendo avances del proyecto y aprendizajes de colaboración en equipo registrados en **GitHub**.
+En el **Sprint Planning 2**, se presenta evidencia de la planificación e implementación de la landing page, incluyendo avances del proyecto y aprendizajes de colaboración en equipo registrados en **GitHub**.
 
-| **Sprint #**                 | Sprint 1                                                                          |
+| **Sprint #**| Sprint 2|
 |------------------------------|-----------------------------------------------------------------------------------|
 | **Sprint Planning Background** |                                                                                   |
-| **Date**                     |                                                             |
-| **Time**                     |                                                               |
-| **Location**                 |                                                              |
-| **Prepared By**              |                                                               |
-| **Attendees (to planning meeting)** |                                       |
-| **Sprint 0 Review Summary**  |    |
-| **Sprint 1 Retrospective Summary** | |
-| **Sprint Goal & User Stories** |                                                                                   |
-| **Sprint Goal 1**            | |
-| **Sprint Velocity 1**        |                                                                              |
-| **Sum of Story Points**      |                                                                                |
+| **Date**|18/09/2025|
+| **Time**|12:00 am|
+| **Location**|Modalidad remota por Google Meet|
+| **Prepared By**|Jesus Onofre|
+| **Attendees (to planning meeting)** |Todos los miembros del grupo StudentConnect|
+| **Sprint 2 Review Summary**  |Durante este sprint, se logró el despliegue completo del backend y la base de datos, asegurando que toda la funcionalidad estuviera operativa. Además, se implementaron nuevas funcionalidades clave que mejoran la experiencia del usuario.|
+| **Sprint 2 Retrospective Summary** |En este sprint, nos enfocamos en mejorar la integración del backend con la base de datos, lo que resultó en un producto más funcional y estable. Sin embargo, detectamos que el trabajo en las nuevas funcionalidades podría haberse distribuido mejor para evitar sobrecargar ciertas áreas del equipo. Para los próximos sprints, nos comprometimos a refinar nuestra planificación de tareas y priorización de historias de usuario, asegurando que el equipo mantenga un flujo constante y equilibrado.|
+| **Sprint Goal & User Stories** ||
+| **Sprint 2 Goal**            |Desplegar el backend y la base de datos para asegurar el funcionamiento completo de la aplicación. Además, implementar nuevas funcionalidades como la visualización de detalles de productos, el cierre de sesión y la gestión de productos favoritos. |
+| **Sprint Velocity 1**        |10|
+| **Sum of Story Points**      |10|
 
 ---
 
@@ -3391,15 +3412,9 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 | **Sprint #**   | **Sprint 1**                                                                                                                                                                                                                  |     |     |     |     |     |     |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|-----|-----|-----|-----|-----|
 | **User Story**  | **Work-item / Task**                                                                                                                                                                                                         |     |     |     |     |     |     |
-| **ID**         | **Title**                        | **Id** | **Title**                        | **Description**                                                                       | **Estimation (hours)** | **Assigned To**    | **Status (To-do / In-Process / To-Review / Done)** |
-|                 |                                  |       |                                   |                                                                                        |                        |                    |                                                   |
-|                 |                                  |       |                                   |                                                                                        |                        |                    |                                                   |
-|                 |                                  |       |                                   |                                                                                        |                        |                    |                                                   |
-|                 |                                  |       |                                   |                                                                                        |                        |                    |                                                   |
-|                 |                                  |       |                                   |                                                                                        |                        |                    |                                                   |
-|                 |                                  |       |                                   |                                                                                        |                        |                    |                                                   |
-|                 |                                  |       |                                   |                                                                                        |                        |                    |                                                   |
-|                 |                                  |       |                                   |                                                                                        |                        |                    |                                                   |
+| **ID**         | **Title**| **Id** | **Title**| **Description**| **Estimation (hours)** | **Assigned To**    | **Status (To-do / In-Process / To-Review / Done)** |
+|                 |                                  |       |                                   |Como usuario, quisiera ver un mapa para tener una vision mas amplia de las ubicaciones en tiempo real|4h|Abraham Ayquipa|Done|
+E4-US03|Pasarela de Pago|T2|API de Stripe|Como usuario que ha seleccionado un plan, Quiero realizar el pago del plan seleccionado. Para activar los beneficios del plan y comenzar a utilizarlos|4h|Favio Landeo-Abraham Ayquipa|In-Process|
 
 
 
