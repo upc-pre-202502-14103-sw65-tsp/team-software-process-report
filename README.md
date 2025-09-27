@@ -3608,11 +3608,11 @@ La plataforma utiliza tecnología móvil avanzada y un enfoque innovador para cr
 | Repositorio General de StudentConnect | [https://github.com/upc-pre-202502-14103-sw65-tsp](https://github.com/upc-pre-202502-14103-sw65-tsp)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | Repositorio Reporte                   | [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_documentation_report](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_documentation_report)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Repositorio Landingpage               | [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage)                                                                                                                                                           |
-| Repositorio App Web | |
-| Repositorio Backend | |
+| Repositorio App Web                   | [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_FrontEnd](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_FrontEnd) |
+| Repositorio Backend                   | [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_BackEnd](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_BackEnd) |
 | Exposición TB1                        | []() 
-| Exposición TB2 | |
+| Exposición TB2                        | |
 | Link landing page                     | [https://carpool-smoky.vercel.app/home](https://carpool-smoky.vercel.app/home)                                                                                                                                                                                                                
-| Link App Web | |
-| Link Backend | |
+| Link App Web                          | [https://go-uni-front-end.vercel.app/](https://go-uni-front-end.vercel.app/) |
+| Link Backend                          | [https://gouni-cloudrun-sa-879620681296.southamerica-west1.run.app/swagger-ui/index.html#/](https://gouni-cloudrun-sa-879620681296.southamerica-west1.run.app/swagger-ui/index.html#/) |
 | Link de Entrevisas                    | []() |
