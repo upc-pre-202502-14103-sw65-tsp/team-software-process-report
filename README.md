@@ -3467,20 +3467,50 @@ En este sprint, se han incorporado pruebas de aceptación escritas en **Gherkin*
 **Repositorio de pruebas de aceptación:**  
 [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test)
 
----
+| **Services** | **Evidencia** |**Descripción** |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-|
+| **Mapa**       |<img src="assets/images/mapa.jpg">| Visualizacion del mapa|
+| **Payment**      |<img src="assets/images/payment.png"> |Endpoint Payment|
 
-| **Repository**                                                                                | **Branch** | **Commit Id**                          | **Commit Message**                                                                                                                                                                    | **Commit Message Body** | **Committed on (Date)** |
-|----------------------------------------------------------------------------------------------|------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-------------------------|
-|  ||  |      | -                     | 05 Sep, 2025           |
-||| | |          -              | 05 Sep, 2025           |
+
+
+
 
 ---
 
 #### [**5.2.2.5. Execution Evidence for Sprint Review.**](#execution-evidence-for-sprint-review)
 
-En este sprint logramos, como primera fase de nuestro producto final, desarrollar nuestra landing page usando HTML y CSS. También se implementó un diseño responsive para dispositivos Android e iOS, y su respectivo despliegue se realizó en **Vercel**.
+En este segundo Sprint, nos enfocamos en desplegar la base de datos en MySQL utilizando la nube de Google Cloud. El backend ya habia sido desarrollado en el sprint anterior, por lo que en este sprintnos dedicamos a agregar nuevas funcionalidades. Utlizamos Vercel para desplegar la aplicacion Web/backend, y realizamos pruebas exhaustivas en la rama develop antes de fusionar y desplegar.
 
-![executionEvidence.png](assets/images/sprint1/DeployLandingPage.jpeg)
+**Google Cloud**.
+
+**1. Crear una cuenta en google cloud**
+
+<img src="assets/images/paso1.jpg">
+
+**2. Crear una nueva instancia para desplegar la base de datos**
+
+<img src="assets/images/pas2.jpg">
+
+**3. Configuras la instancia**
+
+<img src="assets/images/paso3.jpg">
+
+**4. Ya podrias visualizar el despliegue**
+
+<img src="assets/images/paso4.jpg">
+
+**5. Ya podrias ingresar por MySQL**
+
+<img src="assets/images/paso5.jpg">
+
+**6. Configuras google cloud para posteriormente desplegar el backend**
+
+<img src="assets/images/paso6.jpg">
+
+**7. Despliegas por la terminal del proyecto**
+
+<img src="assets/images/paso7.jpg">
 
 ---
 
