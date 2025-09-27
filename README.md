@@ -3421,7 +3421,7 @@ En el **Sprint Planning 2**, se presenta evidencia de la planificación e implem
 ---
 
 
-#### [**5.2.2.2. Sprint Backlog 1.**](#sprint-backlog-1)
+#### [**5.2.2.2. Sprint Backlog 2.**](#sprint-backlog-1)
 
 En esta parte mostramos las tareas que se realizaron en este sprint.
 
