@@ -3610,9 +3610,9 @@ La plataforma utiliza tecnología móvil avanzada y un enfoque innovador para cr
 | Repositorio Landingpage               | [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_LandingPage)                                                                                                                                                           |
 | Repositorio App Web                   | [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_FrontEnd](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_FrontEnd) |
 | Repositorio Backend                   | [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_BackEnd](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_BackEnd) |
-| Exposición TB1                        | []() 
-| Exposición TB2                        | |
+| Exposición TB1                        | [https://www.canva.com/design/DAGP8XFLbHM/D5LZHgRaTu-HNn26vN-M9A/edit](https://www.canva.com/design/DAGP8XFLbHM/D5LZHgRaTu-HNn26vN-M9A/edit) 
+| Exposición TB2                        | [https://www.canva.com/design/DAGP8XFLbHM/D5LZHgRaTu-HNn26vN-M9A/edit](https://www.canva.com/design/DAGP8XFLbHM/D5LZHgRaTu-HNn26vN-M9A/edit) |
 | Link landing page                     | [https://carpool-smoky.vercel.app/home](https://carpool-smoky.vercel.app/home)                                                                                                                                                                                                                
 | Link App Web                          | [https://go-uni-front-end.vercel.app/](https://go-uni-front-end.vercel.app/) |
 | Link Backend                          | [https://gouni-cloudrun-sa-879620681296.southamerica-west1.run.app/swagger-ui/index.html#/](https://gouni-cloudrun-sa-879620681296.southamerica-west1.run.app/swagger-ui/index.html#/) |
-| Link de Entrevisas                    | []() |
+| Link de Entrevistas                    | [Entrevistas](https://upcedupe-my.sharepoint.com/personal/u202218475_upc_edu_pe/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fu202218475%5Fupc%5Fedu%5Fpe%2FDocuments%2FTEAM%20SOFTWARE%20PROCESS%2FENTREVISTAS&ga=1) |
