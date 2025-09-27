@@ -3535,11 +3535,10 @@ El desarrollo del informe se organizó dividiendo el repositorio por capítulos.
 
 | **Integrante** | **Aporte en el informe** |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Anampa Lavado, Luis Angel**       ||
-| **Landeo Simeón, Favio Sebastián**     | |
-| **Ayquipa Ubaldo, Abraham Israel**      |  |
-| **Onofre Ruiz, Carlos Jesus**     | |
-| **Anampa Lavado, Luis Angel** | |
+| **Anampa Lavado, Luis Angel**       |Despliegue del Project y Pruebas Unitarias <img src="assets/images/T1.jpeg">|
+| **Landeo Simeón, Favio Sebastián**     | Desarrollo Backend App <img src="assets/images/payment.png"> |
+| **Ayquipa Ubaldo, Abraham Israel**      | Desarrollo Frontend App <img src="assets/images/mapa.jpg">|
+| **Onofre Ruiz, Carlos Jesus**     | Scrum Master Sprint 2  <img src="assets/images/T2.jpeg">|
 
 **Evidencia de los commits:**
 
