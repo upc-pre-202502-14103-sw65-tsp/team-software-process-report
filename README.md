@@ -3572,32 +3572,6 @@ Durante este sprint, para proteger la rama "main", creamos una rama "develop". C
 
 ---
 
-
-
-## [**5.2.2.8 Team Collaboration Insights during Sprint.**](#5248-team-collaboration-insights-during-sprint)
-
-**Distribución de aportes en el informe:**
-
-URL del repositorio para el Project Report en la organización de GitHub del equipo: [https://github.com/upc-pre-202502-14103-sw65-tsp/Report](https://github.com/upc-pre-202502-14103-sw65-tsp/Report)
-
-**¿Cómo se han desarrollado las actividades de elaboración del informe?**
-
-Para el desarrollo del informe en este sprint se distribuyó los capítulos de esta manera:
-
-| Integrante | Aporte en el informe |
-|------------|-----------------------|
-| **Anampa Lavado, Luis Angel**  | |
-| **Ayquipa Ubaldo, Abraham Israel** |  |
-| **Onofre Ruiz, Carlos Jesus** |  |
-| **Landeo Simeón, Favio Sebastián** |  |
-
-**Evidencia del commit:**
-
-
-
-
----
-
 # [**Conclusiones.**](#conclusiones)
 
 ## [**Conclusiones y Recomendaciones.**](#conclusiones-y-recomendaciones)
