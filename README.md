@@ -3480,6 +3480,17 @@ En este sprint, se han incorporado pruebas de aceptación escritas en **Gherkin*
 
 #### [**5.2.2.5. Execution Evidence for Sprint Review.**](#execution-evidence-for-sprint-review)
 
+
+---
+
+#### [**5.2.2.6. Services Documentation Evidence for Sprint Review.**](#services-documentation-evidence-for-sprint-review)
+
+En el alcance del Sprint 1 se logró desarrollar la landing page, por lo que no se evidencia el empleo de web services.
+
+---
+
+#### [**5.2.2.7. Software Deployment Evidence for Sprint Review.**](#software-deployment-evidence-for-sprint-review)
+
 En este segundo Sprint, nos enfocamos en desplegar la base de datos en MySQL utilizando la nube de Google Cloud. El backend ya habia sido desarrollado en el sprint anterior, por lo que en este sprintnos dedicamos a agregar nuevas funcionalidades. Utlizamos Vercel para desplegar la aplicacion Web/backend, y realizamos pruebas exhaustivas en la rama develop antes de fusionar y desplegar.
 
 **Google Cloud**.
@@ -3511,36 +3522,6 @@ En este segundo Sprint, nos enfocamos en desplegar la base de datos en MySQL uti
 **7. Despliegas por la terminal del proyecto**
 
 <img src="assets/images/paso7.jpg">
-
----
-
-#### [**5.2.2.6. Services Documentation Evidence for Sprint Review.**](#services-documentation-evidence-for-sprint-review)
-
-En el alcance del Sprint 1 se logró desarrollar la landing page, por lo que no se evidencia el empleo de web services.
-
----
-
-#### [**5.2.2.7. Software Deployment Evidence for Sprint Review.**](#software-deployment-evidence-for-sprint-review)
-
-Durante el primer sprint, desarrollamos y desplegamos la landing page del proyecto. El despliegue lo llevó a cabo uno de nuestros integrantes (Abraham), ya que el proceso no tomaba más de cinco minutos. Utilizamos **Vercel** como plataforma de despliegue, realizando varias pruebas en la rama "develop" antes de proceder con la rama "main".
-
-**Pasos para el despliegue:**
-
-1. Creación de cuenta en **Vercel**.
-2. Selección de la opción **"Add new website"** para elegir el proyecto a desplegar.
-
-   ![addNewWebsite.jpeg](assets/images/sprint1/addNewWebsite.jpeg)
-
-3. Selección de la rama **"main"** y clic en el botón **"Deploy"**.
-
-   ![deploy.jpeg](assets/images/sprint1/deploy.jpeg)
-   
-4. Ultima pestaña con la **landing page** desplegada.
-
-   ![deploy.jpeg](assets/images/sprint1/deploy-final.jpeg)
-
-5. **Abrir el link del despliegue:**  
-
 
 ---
 
