@@ -3552,6 +3552,92 @@ Durante este sprint, para proteger la rama "main", creamos una rama "develop". C
 
 ---
 
+### [**5.2.3. Sprint 3.**](#sprint-3)
+
+
+---
+
+#### [**5.2.3.1. Sprint Planning 3.**](#sprint-planning-3)
+
+En el **Sprint Planning 3**, se presenta evidencia de la planificación e implementación de la landing page, incluyendo avances del proyecto y aprendizajes de colaboración en equipo registrados en **GitHub**.
+
+| **Sprint #**| Sprint 3|
+|------------------------------|-----------------------------------------------------------------------------------|
+| **Sprint Planning Background** |                                                                                   |
+| **Date**||
+| **Time**||
+| **Location**|Modalidad remota por Google Meet|
+| **Prepared By**|Jesus Onofre|
+| **Attendees (to planning meeting)** |Todos los miembros del grupo StudentConnect|
+| **Sprint 3 Review Summary**  |Durante este sprint, se logró el despliegue completo del backend y la base de datos, asegurando que toda la funcionalidad estuviera operativa. Además, se implementaron nuevas funcionalidades clave que mejoran la experiencia del usuario.|
+| **Sprint 3 Retrospective Summary** |En este sprint, nos enfocamos en mejorar la integración del backend con la base de datos, lo que resultó en un producto más funcional y estable. Sin embargo, detectamos que el trabajo en las nuevas funcionalidades podría haberse distribuido mejor para evitar sobrecargar ciertas áreas del equipo. Para los próximos sprints, nos comprometimos a refinar nuestra planificación de tareas y priorización de historias de usuario, asegurando que el equipo mantenga un flujo constante y equilibrado.|
+| **Sprint Goal & User Stories** ||
+| **Sprint 3 Goal**            |Desplegar el backend y la base de datos para asegurar el funcionamiento completo de la aplicación. Además, implementar nuevas funcionalidades como la visualización de detalles de productos, el cierre de sesión y la gestión de productos favoritos. |
+| **Sprint Velocity 1**        |10|
+| **Sum of Story Points**      |10|
+
+---
+
+
+#### [**5.2.3.2. Sprint Backlog 3.**](#sprint-backlog-3)
+
+En esta parte mostramos las tareas que se realizaron en este sprint.
+
+**Link del Trello:**  
+
+
+**Vista del Sprint Backlog en Trello:**  
+
+#### [**5.2.3.3. Development Evidence for Sprint Review.**](#development-evidence-for-sprint-review)
+
+
+
+---
+
+---
+
+#### [**5.2.3.4. Testing Suite Evidence for Sprint Review.**](#testing-suite-evidence-for-sprint-review)
+
+En este sprint, se han incorporado pruebas de aceptación escritas en **Gherkin**, asegurando que los requisitos del usuario se validen de manera efectiva. A continuación, se proporciona el enlace al repositorio de las pruebas de aceptación, donde se encuentra una descripción detallada de los escenarios de prueba y su implementación:
+
+**Repositorio de pruebas de aceptación:**  
+
+---
+
+#### [**5.2.3.5. Execution Evidence for Sprint Review.**](#execution-evidence-for-sprint-review)
+
+---
+
+#### [**5.2.3.6. Services Documentation Evidence for Sprint Review.**](#services-documentation-evidence-for-sprint-review)
+
+En el alcance del Sprint 3 se logró desarrollar la landing page, por lo que no se evidencia el empleo de web services.
+
+---
+
+#### [**5.2.3.7. Software Deployment Evidence for Sprint Review.**](#software-deployment-evidence-for-sprint-review)
+
+---
+
+#### [**5.2.3.8. Team Collaboration Insights during Sprint.**](#team-collaboration-insights-during-sprint)
+
+| **Integrante** | **Aporte en el informe** |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Anampa Lavado, Luis Angel**       |Despliegue del Project y Pruebas Unitarias <img src="assets/imagges/Tsdsd1.jpeg">|
+| **Landeo Simeón, Favio Sebastián**     | Desarrollo Backend App <img src="assets/images/paymeghjghjnt.png"> |
+| **Ayquipa Ubaldo, Abraham Israel**      | Desarrollo Frontend App <img src="assets/images/mghjghjghapa.jpg">|
+| **Onofre Ruiz, Carlos Jesus**     | Scrum Master Sprint 2  <img src="assets/images/Thkghjgj.jpeg">|
+
+**Evidencia de los commits:**
+
+![commitEvidence.jpeg](assets/images/sprint1/committ.jpeg)
+
+Durante este sprint, para proteger la rama "main", creamos una rama "develop". Cada integrante creó una sub-rama "feature" para subir un capítulo del informe siguiendo las convenciones establecidas (**Conventional Commits** y **GitFlow**).
+
+**GitHub Analytics del Sprint 1:**
+
+![githubAnalyticsSprint.png](assets/images/sprint1/imageen.jpeg)
+
+---
 # [**Conclusiones.**](#conclusiones)
 
 ## [**Conclusiones y Recomendaciones.**](#conclusiones-y-recomendaciones)
