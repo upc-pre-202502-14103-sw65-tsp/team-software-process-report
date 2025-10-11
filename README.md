@@ -3631,6 +3631,21 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 
 #### [**5.2.3.3. Development Evidence for Sprint Review.**](#development-evidence-for-sprint-review)
 
+Durante este sprint se completaron las tareas de desarrollo correspondientes a las historias de usuario planificadas.
+Se implementaron nuevas funcionalidades en los módulos IAM, Payment, Notifications y Email, integradas en el backend y frontend del sistema.
+A continuación, se detallan las principales evidencias técnicas del desarrollo:
+
+Repositorio del Código Fuente
+
+Backend: [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_BackEnd](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_BackEnd)
+Frontend: [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_FrontEnd](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_FrontEnd)
+
+| **Módulo / Feature**                    | **Evidencia**                                               | **Descripción del Desarrollo**                                                                                                                                                                   |
+| --------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Gestión de Roles (IAM)**              | <img src="assets/image copy 6.png" width="600">         | Creación de entidades y controladores para la **asignación de roles de usuario** (`Conductor`, `Pasajero`). Se implementaron filtros y middlewares de control de acceso basados en JWT. |
+| **Notificaciones Push & Email Service** | <img src="assets/image copy 7.png" width="600"> | Integración de **SendGrid API** para envío de correos automáticos por eventos del sistema. Se añadió compatibilidad con envío de correos con y sin adjunto.                                      |
+| **Tour Interactivo (Frontend)**         | <img src="assets/toastMessage.jpeg" width="600">          | Implementación de un **tour guiado** con librerías como `React Joyride` para resaltar componentes de la interfaz y facilitar la navegación inicial del usuario.                                  |
+
 ---
 
 #### [**5.2.3.4. Testing Suite Evidence for Sprint Review.**](#testing-suite-evidence-for-sprint-review)
@@ -3646,6 +3661,7 @@ En este sprint, se han incorporado pruebas unitarias y testings manuales con swa
 | **Payment**      |<img src="assets/images/PaymentSwagger.png">|Endpoint Payment|
 | **Notifications**      |<img src="assets/image copy 2.png"> <img src="assets/image copy 3.png">|Endpoint Notifications|
 | **Email**      |![alt text](image.png) <img src="assets/image copy 5.png">|Endpoint Email|
+| **Tour Interactivo**      |<img src="assets/toastMessage.jpeg">|View Mapa|
 
 ### Casos de Uso Probados
 
@@ -3672,6 +3688,18 @@ En este sprint, se han incorporado pruebas unitarias y testings manuales con swa
 
 #### [**5.2.3.5. Execution Evidence for Sprint Review.**](#execution-evidence-for-sprint-review)
 
+En este sprint se tienen los despliegues actualizados de los endpoints funcionando y el frontend completamente operativo:
+
+- **Frontend:** 
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+- **Backend:** 
+![alt text](<assets/Screenshot 2025-10-11 at 7.41.20 AM.png>)
+
+
+
 ---
 
 #### [**5.2.3.6. Services Documentation Evidence for Sprint Review.**](#services-documentation-evidence-for-sprint-review)
@@ -3682,26 +3710,70 @@ En el alcance del Sprint 3 se logró desarrollar la landing page, por lo que no 
 
 #### [**5.2.3.7. Software Deployment Evidence for Sprint Review.**](#software-deployment-evidence-for-sprint-review)
 
+Durante este sprint, el proceso de despliegue fue **totalmente automatizado** a través de una **integración continua (CI/CD Pipeline)** conectada al repositorio principal del proyecto.  
+Ahora, cada vez que se realiza un **merge** o **push** al branch `main`, el sistema ejecuta automáticamente las siguientes etapas:
+
+---
+
+### Flujo Automatizado de Despliegue (CI/CD)
+
+1. **Detección de cambios en GitHub (branch `main`)**
+   - El pipeline se activa mediante un **trigger** de **GitHub Actions / App Engine**.
+   - Detecta los *commits* aprobados en la rama principal.
+
+2. **Compilación y pruebas automáticas**
+   - Se ejecutan los *build jobs* y las **pruebas unitarias (JUnit + Mockito)** para garantizar la estabilidad del código.
+   - Si las pruebas fallan, el despliegue se **detiene automáticamente**.
+
+3. **Empaquetado y despliegue en entorno productivo**
+   - El **backend (Java/Spring Boot)** se empaqueta en un contenedor **Docker** y se publica automáticamente en **Google Cloud App Engine**.
+   - El **frontend (Angular)** se construye con:
+     ```bash
+     ng build --prod
+     ```
+     y se despliega en el mismo entorno.
+
+4. **Verificación post-deploy**
+   - El sistema realiza un **health check** automático sobre los endpoints principales:
+     - `/auth`, `/payment`, `/notifications`, `/email`
+   - Las **métricas de despliegue** (status, tiempo de respuesta, logs) se registran en **Cloud Monitoring / Logs Explorer**.
+
 ---
 
 #### [**5.2.3.8. Team Collaboration Insights during Sprint.**](#team-collaboration-insights-during-sprint)
 
+A continuación, se presenta una descripción detallada de cómo el equipo trabajó de manera colaborativa durante este sprint. Esta sección destaca las herramientas y métodos utilizados para fomentar una comunicación efectiva, la coordinación de tareas y la resolución de problemas, asegurando que todos los miembros del equipo estuvieran alineados y comprometidos con los objetivos del sprint.
+
+Distribución de aportes en el informe:
+
+URL del repositorio para el Project Report:
+[https://github.com/upc-pre-202502-14103-sw65-tsp/](https://github.com/upc-pre-202502-14103-sw65-tsp/)
+
+
+
 | **Integrante** | **Aporte en el informe** |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Anampa Lavado, Luis Angel**       |Despliegue del Project y Pruebas Unitarias <img src="assets/imagges/Tsdsd1.jpeg">|
-| **Landeo Simeón, Favio Sebastián**     | Desarrollo Backend App <img src="assets/images/paymeghjghjnt.png"> |
-| **Ayquipa Ubaldo, Abraham Israel**      | Desarrollo Frontend App <img src="assets/images/mghjghjghapa.jpg">|
-| **Onofre Ruiz, Carlos Jesus**     | Scrum Master Sprint 2  <img src="assets/images/Thkghjgj.jpeg">|
+| **Anampa Lavado, Luis Angel**       |Automatizacion del despliegue y realizas pruebas unitarias|
+| **Landeo Simeón, Favio Sebastián**     | Desarrollo Backend App nuevos enpoints |
+| **Ayquipa Ubaldo, Abraham Israel**      | Desarrollo Frontend App nuevas visualizaciones|
+| **Onofre Ruiz, Carlos Jesus**     | Scrum Master Sprint 3 realizacion de estructura por cada sprint|
 
 **Evidencia de los commits:**
 
-![commitEvidence.jpeg](assets/images/sprint1/committ.jpeg)
+![alt text](image-3.png)
 
 Durante este sprint, para proteger la rama "main", creamos una rama "develop". Cada integrante creó una sub-rama "feature" para subir un capítulo del informe siguiendo las convenciones establecidas (**Conventional Commits** y **GitFlow**).
 
-**GitHub Analytics del Sprint 1:**
+**GitHub Analytics del Sprint 3:**
 
-![githubAnalyticsSprint.png](assets/images/sprint1/imageen.jpeg)
+__Report__
+![alt text](image-4.png)
+
+__Frontend__
+![alt text](image-5.png)
+
+__Backend__
+![alt text](image-6.png)
 
 ---
 # [**Conclusiones.**](#conclusiones)
