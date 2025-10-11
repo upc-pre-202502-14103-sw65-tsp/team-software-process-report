@@ -3491,15 +3491,15 @@ En este sprint, hemos desplegado tenemos desplegado nuestra landing page, fronte
 
 - [**Landing Page**](https://carpool-smoky.vercel.app/home)
 
-
+![alt text](image-9.png)
 
 - **Frontend:** 
-![alt text](image-1.png)
+![alt text](image-7.png)
 
 
 - **Backend:** 
-![alt text](<assets/Screenshot 2025-10-11 at 7.41.20 AM.png>)
 
+![alt text](image-8.png)
 
 
 
@@ -3507,7 +3507,19 @@ En este sprint, hemos desplegado tenemos desplegado nuestra landing page, fronte
 
 #### [**5.2.2.6. Services Documentation Evidence for Sprint Review.**](#services-documentation-evidence-for-sprint-review)
 
-En el alcance del Sprint 1 se logró desarrollar la landing page, por lo que no se evidencia el empleo de web services.
+En el presente sprint se logro un avance del endpoint payment que será terminado en el proximo sprint.
+
+- **Payment**
+
+![alt text](assets/images/payment.png)
+
+- **Notifications**
+
+![alt text](assets/images/Notification.jpeg)
+
+- **Authentication**
+
+![alt text](assets/images/Autentication.jpeg)
 
 ---
 
