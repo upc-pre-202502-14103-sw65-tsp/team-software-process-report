@@ -3493,9 +3493,13 @@ En este sprint, hemos desplegado tenemos desplegado nuestra landing page, fronte
 
 
 
-- [**Frontend**](https://go-uni-front-end.vercel.app/)
+- **Frontend:** 
+![alt text](image-1.png)
 
-- [**Backend**]((https://gouni-cloudrun-sa-879620681296.southamerica-west1.run.app/swagger-ui/index.html#/))
+
+- **Backend:** 
+![alt text](<assets/Screenshot 2025-10-11 at 7.41.20 AM.png>)
+
 
 
 
