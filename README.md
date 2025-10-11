@@ -3605,11 +3605,7 @@ En el **Sprint Planning 3**, se presenta evidencia de la planificación e implem
 | **Attendees (to planning meeting)** |Todos los miembros del grupo StudentConnect|
 | **Sprint 3 Review Summary**  | Se completó con éxito la gestión de roles, incluyendo asignación de permisos y acceso según perfil. Las notificaciones push fueron integradas con Firebase, y los correos automáticos mediante SendGrid funcionaron correctamente en pruebas. La comunicación en tiempo real entre conductor y pasajero mejoró la interacción dentro del ecosistema de la app. |
 | **Sprint 3 Retrospective Summary** | El equipo destacó una mejora notable en la planificación del sprint y en la comunicación técnica. Se acordó seguir trabajando en la optimización del backend y mejorar el tiempo de respuesta de las notificaciones push. También se propuso incorporar métricas de rendimiento en futuros sprints.|
-| **Sprint Goal & User Stories** | Objetivo: Consolidar la comunicación y control de acceso dentro de la aplicación para fortalecer la interacción y la seguridad.
-User Stories:
-US-301 – Gestión de Roles
-US-302 – Notificaciones Push
-US-303 – Notificaciones por Email |
+| **Sprint Goal & User Stories** | Objetivo: Consolidar la comunicación y control de acceso dentro de la aplicación para fortalecer la interacción y la seguridad. User Stories: US-301 – Gestión de Roles US-302 – Notificaciones Push US-303 – Notificaciones por Email |
 | **Sprint 3 Goal**            |Fortalecer la comunicación entre usuarios y optimizar la administración interna de roles y notificaciones. |
 | **Sprint Velocity 1**        |42|
 | **Sum of Story Points**      |42|
@@ -3888,3 +3884,4 @@ A continuación, se presentan las conclusiones generales alcanzadas hasta el cie
 | Link App Web                          | [https://go-uni-front-end.vercel.app/](https://go-uni-front-end.vercel.app/) |
 | Link Backend                          | [https://gouni-cloudrun-sa-879620681296.southamerica-west1.run.app/swagger-ui/index.html#/](https://gouni-cloudrun-sa-879620681296.southamerica-west1.run.app/swagger-ui/index.html#/) |
 | Link de Entrevistas                    | [Entrevistas](https://upcedupe-my.sharepoint.com/personal/u202218475_upc_edu_pe/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fu202218475%5Fupc%5Fedu%5Fpe%2FDocuments%2FTEAM%20SOFTWARE%20PROCESS%2FENTREVISTAS&ga=1) |
+| Link de Flujo Scrum                    | https://docs.google.com/spreadsheets/d/1rYY1q3f5V_gUkOpXYSqrdXwR2kBgFN3fgckMaELLVyQ/edit?usp=sharing |
