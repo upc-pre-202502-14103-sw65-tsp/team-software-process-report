@@ -3704,7 +3704,9 @@ En este sprint se tienen los despliegues actualizados de los endpoints funcionan
 
 #### [**5.2.3.6. Services Documentation Evidence for Sprint Review.**](#services-documentation-evidence-for-sprint-review)
 
-En el alcance del Sprint 3 se logró desarrollar la landing page, por lo que no se evidencia el empleo de web services.
+En el alcance del Sprint 3 se logró desarrollar nuevos endpoints para el backend que se hara la visualizacion mediante el swagger para un testeo manual.
+
+![alt text](<assets/Screenshot 2025-10-11 at 7.41.20 AM.png>)
 
 ---
 
@@ -3797,6 +3799,36 @@ La plataforma utiliza tecnología móvil avanzada y un enfoque innovador para cr
 
 
 ---
+
+### **Conclusiones Generales del Proyecto**
+
+Hasta el presente punto de desarrollo del proyecto **GoUni**, el equipo ha logrado consolidar una base técnica sólida y una estructura de trabajo alineada con los principios ágiles de desarrollo iterativo e incremental.  
+A continuación, se presentan las conclusiones generales alcanzadas hasta el cierre del Sprint 3:
+
+1. **Avances técnicos significativos:**  
+   Se implementaron correctamente los módulos centrales del sistema: autenticación y gestión de roles (IAM), pasarela de pagos segura con **Stripe**, envío automatizado de correos mediante **SendGrid**, y notificaciones internas para mejorar la interacción entre conductor y pasajero.  
+   El sistema ya cuenta con un **flujo completo de integración backend–frontend**, soportado por pruebas unitarias y validaciones manuales en **Swagger**.
+
+2. **Evolución del proceso de despliegue:**  
+   El proyecto pasó de un despliegue manual a un **pipeline CI/CD completamente automatizado**.  
+   Actualmente, las actualizaciones se ejecutan de forma continua al realizar un *merge* a la rama `main`, garantizando consistencia, rapidez y trazabilidad del código en producción sobre **Google Cloud App Engine**.
+
+3. **Mejora en la calidad del software:**  
+   Las pruebas unitarias, funcionales y de integración aseguraron la correcta validación de requisitos funcionales y no funcionales.  
+   Esto se reflejó en una reducción de incidencias y una mayor cobertura de casos de uso, evidenciando la adopción de buenas prácticas de QA y control de calidad en el ciclo de desarrollo.
+
+4. **Madurez en la colaboración del equipo:**  
+   La comunicación y coordinación entre las áreas de backend, frontend y QA mejoró progresivamente en cada sprint.  
+   El uso de herramientas colaborativas (GitHub, Trello, Teams) permitió mantener una **planificación transparente y trazable**, fortaleciendo la gestión ágil de tareas y la eficiencia del equipo.
+
+5. **Orientación a la experiencia del usuario:**  
+   Las funcionalidades recientes —como las validaciones visuales con *toast messages* y el tour interactivo guiado— reforzaron la **usabilidad y accesibilidad** del sistema, alineándose con los objetivos de ofrecer una experiencia intuitiva y confiable para los usuarios finales.
+
+6. **Sostenibilidad y escalabilidad técnica:**  
+   Las decisiones de arquitectura (Spring Boot, Angular, Docker, Stripe, SendGrid, CI/CD con App Engine) garantizan que la aplicación sea **escalable, mantenible y fácilmente extensible** en futuras iteraciones, sentando las bases para un entorno de producción robusto.
+
+---
+
 
 # [**Bibliografia.**](#bibliografia)
 
