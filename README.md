@@ -3405,18 +3405,22 @@ En el **Sprint Planning 2**, se presenta evidencia de la planificación e implem
 
 | **Sprint #**| Sprint 2|
 |------------------------------|-----------------------------------------------------------------------------------|
-| **Sprint Planning Background** |                                                                                   |
+| **Sprint Planning Background** | En este sprint se priorizó la implementación de la experiencia de usuario y la integración del sistema de pagos mediante Stripe. El equipo buscó asegurar que las transacciones fueran seguras, confiables y visualmente consistentes con la app. Además, se agregaron validaciones visuales para mejorar la comunicación con el usuario. |
 | **Date**|18/09/2025|
 | **Time**|12:00 am|
 | **Location**|Modalidad remota por Google Meet|
-| **Prepared By**|Jesus Onofre|
-| **Attendees (to planning meeting)** |Todos los miembros del grupo StudentConnect|
+| **Prepared By**| Carlos Onofre Ruiz (Scrum Master) |
+| **Attendees (to planning meeting)** | Todos los miembros del grupo StudentConnect |
 | **Sprint 2 Review Summary**  |Durante este sprint, se logró el despliegue completo del backend y la base de datos, asegurando que toda la funcionalidad estuviera operativa. Además, se implementaron nuevas funcionalidades clave que mejoran la experiencia del usuario.|
 | **Sprint 2 Retrospective Summary** |En este sprint, nos enfocamos en mejorar la integración del backend con la base de datos, lo que resultó en un producto más funcional y estable. Sin embargo, detectamos que el trabajo en las nuevas funcionalidades podría haberse distribuido mejor para evitar sobrecargar ciertas áreas del equipo. Para los próximos sprints, nos comprometimos a refinar nuestra planificación de tareas y priorización de historias de usuario, asegurando que el equipo mantenga un flujo constante y equilibrado.|
-| **Sprint Goal & User Stories** ||
-| **Sprint 2 Goal**            |Desplegar el backend y la base de datos para asegurar el funcionamiento completo de la aplicación. Además, implementar nuevas funcionalidades como la visualización de detalles de productos, el cierre de sesión y la gestión de productos favoritos. |
-| **Sprint Velocity 1**        |10|
-| **Sum of Story Points**      |10|
+| **Sprint Goal & User Stories** | Objetivo: Implementar el sistema de validación visual y el flujo de pagos seguro mediante Stripe.
+User Stories:
+US-201 – Toast Validations
+US-202 – Stripe Payment Gateway
+US-203 – Link by Stripe |
+| **Sprint 2 Goal**            | Garantizar una experiencia de pago segura y fluida, además de una retroalimentación visual inmediata al usuario. |
+| **Sprint Velocity 1**        |36|
+| **Sum of Story Points**      |36|
 
 ---
 
@@ -3437,15 +3441,18 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|-----|-----|-----|-----|-----|
 | **User Story**  | **Work-item / Task**                                                                                                                                                                                                         |     |     |     |     |     |     |
 | **ID**         | **Title**| **Id** | **Title**| **Description**| **Estimation (hours)** | **Assigned To**    | **Status (To-do / In-Process / To-Review / Done)** |
-|E1-US04|Visualizar Mapa|T1|Ver Mapa|Como usuario, quisiera ver un mapa para tener una vision mas amplia de las ubicaciones en tiempo real|4h|Abraham Ayquipa|Done|
-E4-US03|Pasarela de Pago|T2|API de Stripe|Como usuario que ha seleccionado un plan, Quiero realizar el pago del plan seleccionado. Para activar los beneficios del plan y comenzar a utilizarlos|4h|Favio Landeo-Abraham Ayquipa|In-Process|
-
-
-
+| US-201 | Mostrar mensajes de validación en la app | T-201.1 | [FRONT] Implementar sistema de toast validations | Configurar componente de toast reutilizable (por ejemplo, con React Native Toast o Angular Material) para mostrar mensajes de validación. |4h|Abraham Ayquipa|Done|
+| US-201 | Mostrar mensajes de validación en la app | T-201.2 | [FRONT] Integrar mensajes en flujos principales | Conectar los toasts a las validaciones de login, registro, reserva y pagos. | 3h |Abraham Ayquipa|Done|
+| US-201 | Mostrar mensajes de validación en la app |T-201.3|[TEST] Pruebas de UX y validaciones visuales|Verificar que los mensajes aparezcan correctamente y desaparezcan tras el tiempo definido.|2h|Luis Anampa|Done|
+| US-202 | Integrar Stripe Payment Gateway | T-202.1 | [BACK] Configurar Stripe API y entorno seguro | Crear endpoints protegidos para pagos, usar claves privadas, manejar errores y tokens. | 8h | Favio Landeo |Done|
+| US-202 | Integrar Stripe Payment Gateway | T-202.2 | [FRONT] Integrar formulario de pago con Stripe Elements / React Native SDK | Mostrar formulario y procesar token del cliente. |6h|Abraham Ayquipa|Done|
+| US-202 | Integrar Stripe Payment Gateway | T-202.3 | [BACK] Validar transacciones y actualizar base de datos | Guardar el estado del pago, registrar ID de transacción y manejar reembolsos. | 4h | Favio Landeo |Done|
+| US-202 | Integrar Stripe Payment Gateway | T-202.4 | [TEST] Pruebas con Stripe Sandbox | Verificar pagos exitosos, fallidos y cancelados en entorno de pruebas. |4h| Luis Anampa |Done|
+| US-203 | Implementar Link by Stripe | T-203.1 | [BACK] Generar enlaces de pago dinámicos | Crear endpoints que generen Stripe Links únicos vinculados a un viaje/reserva. |6h|Favio Landeo|Done|
+| US-203 | Implementar Link by Stripe | T-203.2 | [FRONT] Mostrar y enviar link de pago | Permitir compartir el enlace desde la app (por WhatsApp, SMS, o dentro del chat de la app). |4h|Abraham Ayquipa|Done|
+| US-203 | Implementar Link by Stripe | T-203.3 | [TEST] Validación del flujo completo del link | Simular generación, envío y confirmación del pago en entorno sandbox. |3h|Luis Anampa|Done|
 
 #### [**5.2.2.3. Development Evidence for Sprint Review.**](#development-evidence-for-sprint-review)
-
-
 
 ---
 
@@ -3563,18 +3570,22 @@ En el **Sprint Planning 3**, se presenta evidencia de la planificación e implem
 
 | **Sprint #**| Sprint 3|
 |------------------------------|-----------------------------------------------------------------------------------|
-| **Sprint Planning Background** |                                                                                   |
-| **Date**||
-| **Time**||
+| **Sprint Planning Background** | Este sprint se centró en las funciones de comunicación y administración dentro de la app. Se incorporaron notificaciones push, envío de correos automáticos y gestión de roles, para fortalecer la interacción del usuario y la estructura interna del sistema. |
+| **Date**| 13/10/2025 |
+| **Time**| 15:00 p.m. |
 | **Location**|Modalidad remota por Google Meet|
-| **Prepared By**|Jesus Onofre|
+| **Prepared By**| Carlos Onofre Ruiz (Scrum Master) |
 | **Attendees (to planning meeting)** |Todos los miembros del grupo StudentConnect|
-| **Sprint 3 Review Summary**  |Durante este sprint, se logró el despliegue completo del backend y la base de datos, asegurando que toda la funcionalidad estuviera operativa. Además, se implementaron nuevas funcionalidades clave que mejoran la experiencia del usuario.|
-| **Sprint 3 Retrospective Summary** |En este sprint, nos enfocamos en mejorar la integración del backend con la base de datos, lo que resultó en un producto más funcional y estable. Sin embargo, detectamos que el trabajo en las nuevas funcionalidades podría haberse distribuido mejor para evitar sobrecargar ciertas áreas del equipo. Para los próximos sprints, nos comprometimos a refinar nuestra planificación de tareas y priorización de historias de usuario, asegurando que el equipo mantenga un flujo constante y equilibrado.|
-| **Sprint Goal & User Stories** ||
-| **Sprint 3 Goal**            |Desplegar el backend y la base de datos para asegurar el funcionamiento completo de la aplicación. Además, implementar nuevas funcionalidades como la visualización de detalles de productos, el cierre de sesión y la gestión de productos favoritos. |
-| **Sprint Velocity 1**        |10|
-| **Sum of Story Points**      |10|
+| **Sprint 3 Review Summary**  | Se completó con éxito la gestión de roles, incluyendo asignación de permisos y acceso según perfil. Las notificaciones push fueron integradas con Firebase, y los correos automáticos mediante SendGrid funcionaron correctamente en pruebas. La comunicación en tiempo real entre conductor y pasajero mejoró la interacción dentro del ecosistema de la app. |
+| **Sprint 3 Retrospective Summary** | El equipo destacó una mejora notable en la planificación del sprint y en la comunicación técnica. Se acordó seguir trabajando en la optimización del backend y mejorar el tiempo de respuesta de las notificaciones push. También se propuso incorporar métricas de rendimiento en futuros sprints.|
+| **Sprint Goal & User Stories** | Objetivo: Consolidar la comunicación y control de acceso dentro de la aplicación para fortalecer la interacción y la seguridad.
+User Stories:
+US-301 – Gestión de Roles
+US-302 – Notificaciones Push
+US-303 – Notificaciones por Email |
+| **Sprint 3 Goal**            |Fortalecer la comunicación entre usuarios y optimizar la administración interna de roles y notificaciones. |
+| **Sprint Velocity 1**        |42|
+| **Sum of Story Points**      |42|
 
 ---
 
@@ -3588,11 +3599,26 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 
 **Vista del Sprint Backlog en Trello:**  
 
-#### [**5.2.3.3. Development Evidence for Sprint Review.**](#development-evidence-for-sprint-review)
-
-
 
 ---
+
+| **Sprint #**   | **Sprint 3**                                                                                                                                                                                                                  |     |     |     |     |     |     |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|-----|-----|-----|-----|-----|
+| **User Story**  | **Work-item / Task**                                                                                                                                                                                                         |     |     |     |     |     |     |
+| **ID**         | **Title**| **Id** | **Title**| **Description**| **Estimation (hours)** | **Assigned To**    | **Status (To-do / In-Process / To-Review / Done)** |
+| US-301 | Gestión de roles de usuario (conductor / pasajero) | T-301.1 | [BACK],Implementar sistema de roles  | Diseñar entidades y lógica para roles (“Conductor”, “Pasajero”, “Admin”). | 8h | Favio Landeo | Done |
+| US-301 | Gestión de roles de usuario (conductor / pasajero) | T-301.2 | [BACK] Middleware de control de acceso | Crear middlewares o filtros para restringir acciones según rol. | 4h | Favio Landeo | Done |
+| US-301 | Gestión de roles de usuario (conductor / pasajero) | T-301.3 | [FRONT] Lógica para gestión de roles | Creación de cuenta correcta en base a roles | 5h | Abraham Ayquipa | Done |
+| US-301 | Gestión de roles de usuario (conductor / pasajero) | T-301.4 | [TEST] Pruebas de asignación y restricción de roles | Validar que las restricciones funcionen correctamente desde API y UI. | 3h | Luis Anampa | Done |
+| US-302 | Tour Interactivo de Guía para el Usuario | T-302.1 | [FRONT] Implementar librería de tour interactivo | Integrar una librería (por ejemplo, React Joyride o Intro.js) para mostrar los pasos del tour. | 2h | Abraham Ayquipa | Done |
+| US-302 | Tour Interactivo de Guía para el Usuario | T-302.2 | [FRONT] Configurar pasos del tour | Definir los elementos destacados (botones, menús, secciones) y su texto explicativo. | 2h | Abraham Ayquipa | Done |
+| US-302 | Tour Interactivo de Guía para el Usuario | T-302.3 | [FRONT] Agregar opción para repetir o saltar el tour | Implementar botón en el menú de ayuda para reiniciar el tour y opción de “Saltar”. | 1h | Abraham Ayquipa | Done |
+| US-302 | Tour Interactivo de Guía para el Usuario | T-302.4 | [TEST] Pruebas y ajustes visuales | Verificar la correcta visualización en distintas resoluciones (desktop y móvil) | 1h | Luis Anampa | Done |
+| US-303 | Notificaciones por correo electrónico | T-303.1 | [BACK] Integrar servicio de correo (SendGrid / Nodemailer) | Configurar envío de correos automáticos con plantillas HTML. | 6h | Favio Landeo | Done |
+| US-303 | Notificaciones por correo electrónico | T-303.2 | [BACK] Lógica de envío por evento | Enviar email al confirmar, cancelar o completar un viaje. | 4h | Favio Landeo | Done |
+| US-303 | Notificaciones por correo electrónico | T-303.3 | [TEST] Pruebas de envío y recepción | Verificar que los correos se envíen correctamente según eventos. | 3h | Luis Anampa | Done |
+
+#### [**5.2.3.3. Development Evidence for Sprint Review.**](#development-evidence-for-sprint-review)
 
 ---
 
