@@ -3789,6 +3789,12 @@ __Frontend__
 __Backend__
 ![alt text](image-6.png)
 
+**Evidencia de las reuniones:**
+<img src="assets/evidence-1.jpeg">
+<img src="assets/evidence-2.jpeg">
+<img src="assets/evidence-3.jpeg">
+<img src="assets/evidence-4.jpeg">
+
 ---
 # [**Conclusiones.**](#conclusiones)
 
