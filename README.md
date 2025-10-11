@@ -3469,7 +3469,7 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 
 #### [**5.2.2.4. Testing Suite Evidence for Sprint Review.**](#testing-suite-evidence-for-sprint-review)
 
-En este sprint, se han incorporado pruebas de aceptación escritas en **Gherkin**, asegurando que los requisitos del usuario se validen de manera efectiva. A continuación, se proporciona el enlace al repositorio de las pruebas de aceptación, donde se encuentra una descripción detallada de los escenarios de prueba y su implementación:
+En este sprint, se han incorporado pruebas unitarias y testings manuales con swagger, asegurando que los requisitos del usuario se validen de manera efectiva. A continuación, se proporciona el enlace al repositorio de las pruebas de aceptación, donde se encuentra una descripción detallada de los escenarios de prueba y su implementación:
 
 **Repositorio de pruebas de aceptación:**  
 [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test)
@@ -3477,7 +3477,7 @@ En este sprint, se han incorporado pruebas de aceptación escritas en **Gherkin*
 | **Services** | **Evidencia** |**Descripción** |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-|
 | **Mapa**       |<img src="assets/images/mapa.jpg">| Visualizacion del mapa|
-| **Payment**      |<img src="assets/images/payment.png"> |Endpoint Payment|
+| **Payment**      |<img src="assets/images/PaymentSwagger.png">|Endpoint Payment|
 
 
 
@@ -3486,6 +3486,17 @@ En este sprint, se han incorporado pruebas de aceptación escritas en **Gherkin*
 ---
 
 #### [**5.2.2.5. Execution Evidence for Sprint Review.**](#execution-evidence-for-sprint-review)
+
+En este sprint, hemos desplegado tenemos desplegado nuestra landing page, frontend y backend respectivamente para su correcto uso sin depender localmente.
+
+- [**Landing Page**](https://carpool-smoky.vercel.app/home)
+
+
+
+- [**Frontend**](https://go-uni-front-end.vercel.app/)
+
+- [**Backend**]((https://gouni-cloudrun-sa-879620681296.southamerica-west1.run.app/swagger-ui/index.html#/))
+
 
 
 ---
@@ -3624,9 +3635,38 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 
 #### [**5.2.3.4. Testing Suite Evidence for Sprint Review.**](#testing-suite-evidence-for-sprint-review)
 
-En este sprint, se han incorporado pruebas de aceptación escritas en **Gherkin**, asegurando que los requisitos del usuario se validen de manera efectiva. A continuación, se proporciona el enlace al repositorio de las pruebas de aceptación, donde se encuentra una descripción detallada de los escenarios de prueba y su implementación:
+En este sprint, se han incorporado pruebas unitarias y testings manuales con swagger, asegurando que los requisitos del usuario se validen de manera efectiva. A continuación, se proporciona el enlace al repositorio de las pruebas de aceptación, donde se encuentra una descripción detallada de los escenarios de prueba y su implementación:
 
 **Repositorio de pruebas de aceptación:**  
+[https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test)
+
+| **Services** | **Evidencia** |**Descripción** |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-|
+| **IAM**       |<img src="assets/images/image.png"> <img src="assets/image.png"> <img src="assets/image copy.png">| Endpoint IAM|
+| **Payment**      |<img src="assets/images/PaymentSwagger.png">|Endpoint Payment|
+| **Notifications**      |<img src="assets/image copy 2.png"> <img src="assets/image copy 3.png">|Endpoint Notifications|
+| **Email**      |![alt text](image.png) <img src="assets/image copy 5.png">|Endpoint Email|
+
+### Casos de Uso Probados
+
+| **ID** | **Caso de Uso** | **Actor** | **Precondiciones** | **Flujo Principal (resumen)** | **Resultado Esperado** |
+|-------|------------------|-----------|---------------------|-------------------------------|------------------------|
+| **UC-01** | Registrar usuario y autenticarse (**IAM**) | Usuario | Correo válido; contraseña válida | (1) Registrar usuario → (2) Iniciar sesión → (3) Obtener JWT | `201 Created` en registro; `200 OK` en login con **JWT** válido |
+| **UC-02** | Crear y confirmar pago (**Payment Intent**) | Usuario | Monto > 0; moneda soportada; método de pago disponible | (1) Crear PaymentIntent → (2) Confirmar con método de pago | `status: succeeded` en éxito; errores mapeados (p. ej., `failed`) |
+| **UC-03** | Consultar notificaciones del usuario (**Notifications**) | Usuario autenticado | Usuario existente con/ sin notificaciones | (1) Listar notificaciones por userId | `200 OK` con lista; `204 No Content` si no hay resultados |
+| **UC-04** | Enviar correo (con/ sin adjunto) (**Email**) | Sistema/Usuario | Destinatario válido; (opcional) adjunto accesible | (1) Enviar correo simple o con adjunto | `200 OK` y confirmación; manejo de error si adjunto inválido |
+
+#### Detalle
+- **UC-01 (IAM)**  
+  - *Alternos:* email inválido, credenciales incorrectas → respuesta de error; token ausente o inválido.
+- **UC-02 (Payment)**  
+  - *Alternos:* `client_secret` inválido, `payment_method` faltante, tarjeta declinada (`failed`), monto 0 → error.
+- **UC-03 (Notifications)**  
+  - *Alternos:* perfil inexistente → error; sin datos → `204 No Content`.
+- **UC-04 (Email)**  
+  - *Alternos:* destinatario `null`, adjunto no encontrado/ ruta inválida → mensaje de error.
+
+
 
 ---
 
