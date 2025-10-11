@@ -3430,10 +3430,10 @@ US-203 – Link by Stripe |
 En esta parte mostramos las tareas que se realizaron en este sprint.
 
 **Link del Trello:**  
-
+https://trello.com/invite/b/68ea62f70de64c72199102cd/ATTIdef13f038d89baafeacac44a4e0548baA45A26DE/gounisprint-2
 
 **Vista del Sprint Backlog en Trello:**  
-
+<img src="assets/Evidence-trello-2.png">
 
 ---
 
@@ -3618,10 +3618,10 @@ En el **Sprint Planning 3**, se presenta evidencia de la planificación e implem
 En esta parte mostramos las tareas que se realizaron en este sprint.
 
 **Link del Trello:**  
-
+https://trello.com/invite/b/68ea60c8c4a34597a2fca31c/ATTIe60467acabd6087e154731c45e36dc7fD4A3B836/gouni-sprint-3
 
 **Vista del Sprint Backlog en Trello:**  
-
+<img src="assets/evidence-trello-3.png">
 
 ---
 
