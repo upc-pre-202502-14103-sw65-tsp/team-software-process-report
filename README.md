@@ -3794,6 +3794,168 @@ __Backend__
 <img src="assets/evidence-2.jpeg">
 <img src="assets/evidence-3.jpeg">
 <img src="assets/evidence-4.jpeg">
+---
+### [**5.2.4. Sprint 4.**](#sprint-4) 
+---
+#### [**5.2.4.1. Sprint Planning 4.**](#sprint-planning-4)
+
+En el **Sprint Planning 4**, se presenta evidencia del desarrollo de la pagina web, incluyendo avances del proyecto y aprendizajes de colaboración en equipo registrados en **GitHub**.
+
+| **Sprint #**| Sprint 4|
+|------------------------------|-----------------------------------------------------------------------------------|
+| **Sprint Planning Background** |  |
+| **Date**|  |
+| **Time**|  |
+| **Location**|		|
+| **Prepared By**| Carlos Onofre Ruiz (Scrum Master) |
+| **Attendees (to planning meeting)** |Todos los miembros del grupo StudentConnect|
+| **Sprint 4 Review Summary**  |  |
+| **Sprint 4 Retrospective Summary** | 	|
+| **Sprint Goal & User Stories** |  |
+| **Sprint 4 Goal**            |	 |
+| **Sprint Velocity 4**        |	|
+| **Sum of Story Points**      | 	|
+
+#### [**5.2.4.2. Sprint Backlog 4.**](#sprint-backlog-4) 
+En esta parte mostramos las tareas que se realizaron en este sprint.
+
+**Link del Trello:**  
+**Enlace del Trello Sprint 4 - Pendiente**
+
+**Vista del Sprint Backlog en Trello:**  
+<img src="assets/evidence-trello-4.png">
+
+---
+
+| **Sprint #**   | **Sprint 4**                                                                                                                                                                                                                  |     |     |     |     |     |     |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|-----|-----|-----|-----|-----|
+| **User Story**  | **Work-item / Task**                                                                                                                                                                                                         |     |     |     |     |     |     |
+| **ID**         | **Title**| **Id** | **Title**| **Description**| **Estimation (hours)** | **Assigned To**    | **Status (To-do / In-Process / To-Review / Done)** |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+---
+#### [**5.2.4.3. Development Evidence for Sprint Review.**](#development-evidence-for-sprint-review) 
+
+Durante este sprint se completaron las tareas de desarrollo correspondientes a las historias de usuario planificadas.
+Se implementaron nuevas funcionalidades en el backend y frontend del sistema.
+A continuación, se detallan las principales evidencias técnicas del desarrollo:
+
+Repositorio del Código Fuente
+
+Backend: [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_BackEnd](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_BackEnd)
+Frontend: [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_FrontEnd](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_FrontEnd)
+
+| **Módulo / Feature**                    | **Evidencia**                                               | **Descripción del Desarrollo**                                                                                                                                                                   |
+| --------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|  |  | |
+|  |  | |
+|  |  | |
+
+---
+#### [**5.2.4.4. Testing Suite Evidence for Sprint Review.**](#testing-suite-evidence-for-sprint-review)
+
+En este sprint, se han incorporado pruebas unitarias y testings manuales con swagger, asegurando que los requisitos del usuario se validen de manera efectiva. A continuación, se proporciona el enlace al repositorio de las pruebas de aceptación, donde se encuentra una descripción detallada de los escenarios de prueba y su implementación:
+
+**Repositorio de pruebas de aceptación:**  
+[https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test)
+
+| **Services** | **Evidencia** |**Descripción** |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-|
+| **IAM**      |<img src="assets/prueba">|PRUEBA |
+| **IAM**      |<img src="assets/prueba">|PRUEBA |
+| **IAM**      |<img src="assets/prueba">|PRUEBA |
+| **IAM**      |<img src="assets/prueba">|PRUEBA |
+| **IAM**      |<img src="assets/prueba">|PRUEBA |
+
+### Casos de Uso Probados
+
+| **ID** | **Caso de Uso** | **Actor** | **Precondiciones** | **Flujo Principal (resumen)** | **Resultado Esperado** |
+|-------|------------------|-----------|---------------------|-------------------------------|------------------------|
+| **UC-01** | Registrar usuario y autenticarse (**IAM**) | Usuario | Correo válido; contraseña válida | (1) Registrar usuario → (2) Iniciar sesión → (3) Obtener JWT | `201 Created` en registro; `200 OK` en login con **JWT** válido |
+| **UC-02** | Crear y confirmar pago (**Payment Intent**) | Usuario | Monto > 0; moneda soportada; método de pago disponible | (1) Crear PaymentIntent → (2) Confirmar con método de pago | `status: succeeded` en éxito; errores mapeados (p. ej., `failed`) |
+| **UC-03** | Consultar notificaciones del usuario (**Notifications**) | Usuario autenticado | Usuario existente con/ sin notificaciones | (1) Listar notificaciones por userId | `200 OK` con lista; `204 No Content` si no hay resultados |
+| **UC-04** | Enviar correo (con/ sin adjunto) (**Email**) | Sistema/Usuario | Destinatario válido; (opcional) adjunto accesible | (1) Enviar correo simple o con adjunto | `200 OK` y confirmación; manejo de error si adjunto inválido |
+
+#### Detalle
+- **UC-01 (IAM)**  
+  - *Alternos:* email inválido, credenciales incorrectas → respuesta de error; token ausente o inválido.
+- **UC-02 (Payment)**  
+  - *Alternos:* `client_secret` inválido, `payment_method` faltante, tarjeta declinada (`failed`), monto 0 → error.
+- **UC-03 (Notifications)**  
+  - *Alternos:* perfil inexistente → error; sin datos → `204 No Content`.
+- **UC-04 (Email)**  
+  - *Alternos:* destinatario `null`, adjunto no encontrado/ ruta inválida → mensaje de error.
+
+#### [**5.2.4.5. Execution Evidence for Sprint Review.**](#execution-evidence-for-sprint-review)
+
+En este sprint se tienen los despliegues actualizados de los endpoints funcionando y el frontend completamente operativo:
+
+- **Frontend:** 
+![alt text](prueba.png)
+![alt text](prueba.png)
+
+- **Backend:** 
+![alt text](<assets/prueba.png>)
+
+---
+#### [**5.2.4.6. Services Documentation Evidence for Sprint Review.**](#services-documentation-evidence-for-sprint-review) 
+
+En el alcance del Sprint 3 se logró desarrollar nuevos endpoints para el backend que se hara la visualizacion mediante el swagger para un testeo manual.
+
+![alt text](<assets/prueba.png>)
+
+#### [**5.2.4.7. Software Deployment Evidence for Sprint Review.**](#software-deployment-evidence-for-sprint-review)
+
+Durante este sprint, el proceso de despliegue fue **totalmente automatizado** a través de una **integración continua (CI/CD Pipeline)** conectada al repositorio principal del proyecto.  
+Ahora, cada vez que se realiza un **merge** o **push** al branch `main`, el sistema ejecuta automáticamente las siguientes etapas:
+
+---
+#### [**5.2.4.8. Team Collaboration Insights during Sprint.**](#team-collaboration-insights-during-sprint)
+
+A continuación, se presenta una descripción detallada de cómo el equipo trabajó de manera colaborativa durante este sprint. Esta sección destaca las herramientas y métodos utilizados para fomentar una comunicación efectiva, la coordinación de tareas y la resolución de problemas, asegurando que todos los miembros del equipo estuvieran alineados y comprometidos con los objetivos del sprint.
+
+Distribución de aportes en el informe:
+
+URL del repositorio para el Project Report:
+[https://github.com/upc-pre-202502-14103-sw65-tsp/](https://github.com/upc-pre-202502-14103-sw65-tsp/)
+
+
+
+| **Integrante** | **Aporte en el informe** |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Anampa Lavado, Luis Angel**       |Automatizacion del despliegue y realizas pruebas unitarias|
+| **Landeo Simeón, Favio Sebastián**     | Desarrollo Backend App nuevos enpoints |
+| **Ayquipa Ubaldo, Abraham Israel**      | Desarrollo Frontend App nuevas visualizaciones|
+| **Onofre Ruiz, Carlos Jesus**     | Scrum Master Sprint 4 realizacion de estructura por cada sprint|
+
+**Evidencia de los commits:**
+
+![alt text](prueba.png)
+
+Durante este sprint, para proteger la rama "main", creamos una rama "develop". Cada integrante creó una sub-rama "feature" para subir un capítulo del informe siguiendo las convenciones establecidas (**Conventional Commits** y **GitFlow**).
+
+**GitHub Analytics del Sprint 4:**
+
+__Report__
+![alt text](prueba.png)
+
+__Frontend__
+![alt text](prueba.png)
+
+__Backend__
+![alt text](prueba.png)
+
+**Evidencia de las reuniones:**
+<img src="assets/prueba.jpeg">
+<img src="assets/prueba.jpeg">
+<img src="assets/prueba.jpeg">
+<img src="assets/prueba.jpeg">
 
 ---
 # [**Conclusiones.**](#conclusiones)
