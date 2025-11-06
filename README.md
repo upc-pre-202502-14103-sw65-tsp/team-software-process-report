@@ -3877,7 +3877,7 @@ En este sprint, se han incorporado pruebas unitarias y testings manuales con swa
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-|
 | **Validación de persistencia y expiración de sesiones mediante Redis.**      |<img src="assets/prueba1">|PRUEBA |
 | **Verificación de Rate Limiting ante múltiples solicitudes simultáneas.**      |<img src="assets/prueba2">|PRUEBA |
-| **Pruebas de integración de reservas con Google Calendar.**      |<img src="assets/prueba3">|PRUEBA |
+| **Pruebas de integración de reservas con Google Calendar.**      |<img src="assets/calendar2.jpeg">|PRUEBA |
 | **Exportación correcta de datos a Excel.**      |<img src="assets/prueba4">|PRUEBA |
 | **Registro y consulta del historial de rutas más consultadas.**      |<img src="assets/prueba5">|PRUEBA |
 
