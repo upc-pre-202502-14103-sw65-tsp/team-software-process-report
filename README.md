@@ -3803,18 +3803,18 @@ En el **Sprint Planning 4**, se presenta evidencia del desarrollo de la pagina w
 
 | **Sprint #**| Sprint 4|
 |------------------------------|-----------------------------------------------------------------------------------|
-| **Sprint Planning Background** |  |
-| **Date**|  |
-| **Time**|  |
-| **Location**|		|
+| **Sprint Planning Background** | Durante este sprint se abordaron funcionalidades enfocadas en la optimización del rendimiento, seguridad y mejora de la experiencia del usuario. Se integraron servicios externos, mecanismos de control de acceso y nuevas características orientadas a la gestión eficiente de datos y reservas. El equipo priorizó tareas que fortalecen la escalabilidad, protección frente a abusos del sistema y la usabilidad del producto mediante automatizaciones y conectividad con herramientas de terceros. |
+| **Date**| 5/11/2023 |
+| **Time**| 19:40 |
+| **Location**|	Modalidad remota por Google Meet	|
 | **Prepared By**| Carlos Onofre Ruiz (Scrum Master) |
 | **Attendees (to planning meeting)** |Todos los miembros del grupo StudentConnect|
-| **Sprint 4 Review Summary**  |  |
-| **Sprint 4 Retrospective Summary** | 	|
-| **Sprint Goal & User Stories** |  |
-| **Sprint 4 Goal**            |	 |
-| **Sprint Velocity 4**        |	|
-| **Sum of Story Points**      | 	|
+| **Sprint 4 Review Summary**  | Se implementó Redis para el manejo de sesiones y almacenamiento de tokens de refresco. Se configuró el Rate Limiting para prevenir sobrecarga y ataques. Se integró Google Calendar para la sincronización de reservas. Se añadió la opción de exportar reservas en formato Excel y se incorporó un historial de rutas consultadas para optimizar búsquedas frecuentes. |
+| **Sprint 4 Retrospective Summary** | El equipo logró avances en la estabilidad del sistema con Redis, Rate Limiting y la integración con Google Calendar. Sin embargo, se presentaron demoras por dependencias externas y falta de documentación completa. Para el siguiente sprint se acordó mejorar las pruebas automatizadas, la documentación técnica, el control de dependencias y el monitoreo del sistema para optimizar la eficiencia y reducir retrabajos.	|
+| **Sprint Goal & User Stories** |  El objetivo del sprint fue mejorar la seguridad, estabilidad e integración del sistema. Las user stories incluyeron: mantener sesiones seguras y estables, limitar solicitudes por usuario o IP, sincronizar reservas con Google Calendar, exportar reservas en formato Excel y consultar el historial de rutas frecuentes.|
+| **Sprint 4 Goal**            |Implementar mejoras clave en seguridad, rendimiento e integración para optimizar la gestión de sesiones, prevenir abusos y facilitar la interacción del usuario con sus datos.	 |
+| **Sprint Velocity 4**        |40|
+| **Sum of Story Points**      |40	|
 
 #### [**5.2.4.2. Sprint Backlog 4.**](#sprint-backlog-4) 
 En esta parte mostramos las tareas que se realizaron en este sprint.
@@ -3831,14 +3831,21 @@ En esta parte mostramos las tareas que se realizaron en este sprint.
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|-----|-----|-----|-----|-----|
 | **User Story**  | **Work-item / Task**                                                                                                                                                                                                         |     |     |     |     |     |     |
 | **ID**         | **Title**| **Id** | **Title**| **Description**| **Estimation (hours)** | **Assigned To**    | **Status (To-do / In-Process / To-Review / Done)** |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
+| US-401 | Implementación de Redis para sesiones y tokens | BE-401 | Configuración de Redis | Instalar y configurar Redis para manejar sesiones y tokens de refresco integrados a la API. | 6 | Favio Landeo | Done |
+| |  | FE-401 | Manejo de sesiones con Redis | Ajustar la lógica de autenticación en frontend para soportar sesiones persistentes. | 4 | Abraham Ayquipa | Done |
+| |  | QA-401 | Pruebas de sesiones y token | Validar persistencia de sesiones, expiración y autenticación mediante tokens de refresco. | 3 | Luis Anampa | Done |
+| US-402 | Configuración de Rate Limiting | BE-402 | Implementación de Rate Limiting  | Crear middleware que limite solicitudes por usuario/IP para prevenir abuso. | 5 | Favio Landeo | Done |
+|  |  | FE-402 | Alertas de rate limiting | Implementar mensajes visuales cuando se excedan los límites de solicitudes. | 3 | Abraham Ayquipa | Done |
+|  |  | QA-402 | Pruebas de rate limiting | Simular múltiples peticiones para validar la correcta restricción de solicitudes. | 2 | Luis Anampa | Done |
+| US-403 | Integración con Google Calendar | BE-403 | Integración API Google Calendar | Desarrollar endpoints con OAuth 2.0 para sincronizar reservas con Google Calendar. | 8 | Favio Landeo | Done |
+|  |  | FE-403 | Sincronización con Google Calendar (UI) | Diseñar interfaz para conectar y sincronizar la cuenta del usuario con Google Calendar. | 5 | Abraham Ayquipa | Done |
+|  |  | QA-403 | Pruebas de integración con Google Calendar | Verificar sincronización correcta de reservas con cuentas reales de Google Calendar. | 4 | Luis Anampa | Done |
+| US-404 | Exportación de reservas en Excel | BE-404 | Exportación de reservas (API) | Crear endpoint para generar archivos Excel con las reservas filtradas desde la base de datos. | 5 | Favio Landeo | Done |
+|  |  | FE-404 | Botón de exportación a Excel | Agregar opción visual en la interfaz de reservas para descargar el archivo Excel. | 3 | Abraham Ayquipa | Done |
+|  |  | QA-404 | Pruebas de exportación Excel | Validar descarga y formato correcto del archivo Excel con datos completos. | 2 | Luis Anampa | Done |
+| US-405 | Historial de rutas consultadas | BE-405 | Historial de rutas API | Implementar lógica backend para registrar y consultar rutas más accedidas. | 5 | Favio Landeo | Done |
+|  |  | FE-405 | Historial de rutas (UI) | Crear componente visual para mostrar el historial de rutas más consultadas. | 4 | Abraham Ayquipa | Done |
+|  |  | QA-405 | Pruebas de historial de rutas | Validar que el historial registre y actualice correctamente las rutas consultadas. | 3 | Luis Anampa | Done |
 ---
 #### [**5.2.4.3. Development Evidence for Sprint Review.**](#development-evidence-for-sprint-review) 
 
@@ -3853,9 +3860,10 @@ Frontend: [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_FrontEnd](http
 
 | **Módulo / Feature**                    | **Evidencia**                                               | **Descripción del Desarrollo**                                                                                                                                                                   |
 | --------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|  |  | |
-|  |  | |
-|  |  | |
+| Gestión de Sesiones y Seguridad (Redis y Rate Limiting) | <img src="assets/desr-1"> | Se configuró Redis para el manejo de sesiones y tokens de refresco, mejorando la autenticación y el rendimiento general. Además, se implementó el Rate Limiting para limitar las solicitudes por usuario o IP, protegiendo el sistema ante posibles abusos. |
+| Integración con Google Calendar | <img src="assets/desr-2.png"> | Se desarrolló la integración con Google Calendar mediante la API y el uso de OAuth 2.0, permitiendo sincronizar automáticamente las reservas de los usuarios. También se añadió una interfaz visual para facilitar la vinculación de cuentas y la gestión de eventos. |
+| Exportación de Reservas a Excel | <img src="assets/desr-3.png"> | Se implementó la exportación de reservas a formato Excel, tanto a nivel de backend como en la interfaz del usuario, donde se agregó un botón para descargar los datos filtrados. |
+| Historial de Rutas Consultadas | <img src="assets/desr-4.png"> | Se incorporó un historial de rutas consultadas que registra las rutas más utilizadas, permitiendo una visualización dinámica y mejorando la experiencia de uso.|
 
 ---
 #### [**5.2.4.4. Testing Suite Evidence for Sprint Review.**](#testing-suite-evidence-for-sprint-review)
@@ -3867,46 +3875,27 @@ En este sprint, se han incorporado pruebas unitarias y testings manuales con swa
 
 | **Services** | **Evidencia** |**Descripción** |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-|
-| **IAM**      |<img src="assets/prueba">|PRUEBA |
-| **IAM**      |<img src="assets/prueba">|PRUEBA |
-| **IAM**      |<img src="assets/prueba">|PRUEBA |
-| **IAM**      |<img src="assets/prueba">|PRUEBA |
-| **IAM**      |<img src="assets/prueba">|PRUEBA |
-
-### Casos de Uso Probados
-
-| **ID** | **Caso de Uso** | **Actor** | **Precondiciones** | **Flujo Principal (resumen)** | **Resultado Esperado** |
-|-------|------------------|-----------|---------------------|-------------------------------|------------------------|
-| **UC-01** | Registrar usuario y autenticarse (**IAM**) | Usuario | Correo válido; contraseña válida | (1) Registrar usuario → (2) Iniciar sesión → (3) Obtener JWT | `201 Created` en registro; `200 OK` en login con **JWT** válido |
-| **UC-02** | Crear y confirmar pago (**Payment Intent**) | Usuario | Monto > 0; moneda soportada; método de pago disponible | (1) Crear PaymentIntent → (2) Confirmar con método de pago | `status: succeeded` en éxito; errores mapeados (p. ej., `failed`) |
-| **UC-03** | Consultar notificaciones del usuario (**Notifications**) | Usuario autenticado | Usuario existente con/ sin notificaciones | (1) Listar notificaciones por userId | `200 OK` con lista; `204 No Content` si no hay resultados |
-| **UC-04** | Enviar correo (con/ sin adjunto) (**Email**) | Sistema/Usuario | Destinatario válido; (opcional) adjunto accesible | (1) Enviar correo simple o con adjunto | `200 OK` y confirmación; manejo de error si adjunto inválido |
-
-#### Detalle
-- **UC-01 (IAM)**  
-  - *Alternos:* email inválido, credenciales incorrectas → respuesta de error; token ausente o inválido.
-- **UC-02 (Payment)**  
-  - *Alternos:* `client_secret` inválido, `payment_method` faltante, tarjeta declinada (`failed`), monto 0 → error.
-- **UC-03 (Notifications)**  
-  - *Alternos:* perfil inexistente → error; sin datos → `204 No Content`.
-- **UC-04 (Email)**  
-  - *Alternos:* destinatario `null`, adjunto no encontrado/ ruta inválida → mensaje de error.
+| **Validación de persistencia y expiración de sesiones mediante Redis.**      |<img src="assets/prueba1">|PRUEBA |
+| **Verificación de Rate Limiting ante múltiples solicitudes simultáneas.**      |<img src="assets/prueba2">|PRUEBA |
+| **Pruebas de integración de reservas con Google Calendar.**      |<img src="assets/prueba3">|PRUEBA |
+| **Exportación correcta de datos a Excel.**      |<img src="assets/prueba4">|PRUEBA |
+| **Registro y consulta del historial de rutas más consultadas.**      |<img src="assets/prueba5">|PRUEBA |
 
 #### [**5.2.4.5. Execution Evidence for Sprint Review.**](#execution-evidence-for-sprint-review)
 
 En este sprint se tienen los despliegues actualizados de los endpoints funcionando y el frontend completamente operativo:
 
 - **Frontend:** 
-![alt text](prueba.png)
-![alt text](prueba.png)
+![alt text](prueba1.png)
+![alt text](prueba2.png)
 
 - **Backend:** 
-![alt text](<assets/prueba.png>)
+![alt text](<assets/prueba3.png>)
 
 ---
 #### [**5.2.4.6. Services Documentation Evidence for Sprint Review.**](#services-documentation-evidence-for-sprint-review) 
 
-En el alcance del Sprint 3 se logró desarrollar nuevos endpoints para el backend que se hara la visualizacion mediante el swagger para un testeo manual.
+En el alcance del Sprint 4 se logró desarrollar nuevos endpoints para el backend que se hara la visualizacion mediante el swagger para un testeo manual.
 
 ![alt text](<assets/prueba.png>)
 
@@ -3918,7 +3907,7 @@ Ahora, cada vez que se realiza un **merge** o **push** al branch `main`, el sist
 ---
 #### [**5.2.4.8. Team Collaboration Insights during Sprint.**](#team-collaboration-insights-during-sprint)
 
-A continuación, se presenta una descripción detallada de cómo el equipo trabajó de manera colaborativa durante este sprint. Esta sección destaca las herramientas y métodos utilizados para fomentar una comunicación efectiva, la coordinación de tareas y la resolución de problemas, asegurando que todos los miembros del equipo estuvieran alineados y comprometidos con los objetivos del sprint.
+El equipo trabajó de manera colaborativa usando reuniones diarias, tableros de gestión y comunicación directa (Slack/Teams) para coordinar tareas y resolver problemas, asegurando alineación y cumplimiento de los objetivos del sprint.
 
 Distribución de aportes en el informe:
 
@@ -3952,9 +3941,6 @@ __Backend__
 ![alt text](prueba.png)
 
 **Evidencia de las reuniones:**
-<img src="assets/prueba.jpeg">
-<img src="assets/prueba.jpeg">
-<img src="assets/prueba.jpeg">
 <img src="assets/prueba.jpeg">
 
 ---
