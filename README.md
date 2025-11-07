@@ -3889,9 +3889,17 @@ En este sprint se tienen los despliegues actualizados de los endpoints funcionan
 ![alt text](prueba1.png)
 ![alt text](prueba2.png)
 
-- **Backend:** 
-![alt text](<assets/prueba3.png>)
+- **Backend:**
 
+![alt text](<assets/endpointrides.jpeg>)
+
+
+| Método | Ruta | Descripción |
+|--------|------|--------------|
+| **GET** | `/rides` | Lista todos los viajes |
+| **POST** | `/rides` | Crea un nuevo viaje |
+| **GET** | `/rides/passenger/{passengerUserId}` | Viajes de un pasajero |
+| **GET** | `/rides/driver/{driverUserId}` | Viajes de un conductor |
 ---
 #### [**5.2.4.6. Services Documentation Evidence for Sprint Review.**](#services-documentation-evidence-for-sprint-review) 
 
