@@ -3879,7 +3879,7 @@ En este sprint, se han incorporado pruebas unitarias y testings manuales con swa
 | **Verificación de Rate Limiting ante múltiples solicitudes simultáneas.**      |<img src="assets/US-402.jpeg">|PRUEBA |
 | **Pruebas de integración de reservas con Google Calendar.**      |<img src="assets/calendar2.jpeg">|PRUEBA |
 | **Exportación correcta de datos a Excel.**      |<img src="assets/excel.jpeg">|PRUEBA |
-| **Registro y consulta del historial de rutas más consultadas.**      |<img src="assets/prueba5">|PRUEBA |
+| **Registro y consulta del historial de rutas más consultadas.**      |<img src="assets/Historial.jpeg">|PRUEBA |
 
 #### [**5.2.4.5. Execution Evidence for Sprint Review.**](#execution-evidence-for-sprint-review)
 
