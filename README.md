@@ -8,7 +8,7 @@
     <strong>Ingeniería de Software</strong><br>
     <strong>Team Software Process</strong><br>
     <strong>Profesor: Elio Jefferrson Navarrete Vilca</strong><br>
-    <br>Informe del TB2</br>
+    <br>Informe del TB3</br>
 </p>
 
 <p align="center">
@@ -59,6 +59,17 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
 |**#02 - TB2**| 26/09/25   | Ayquipa Ubaldo, Abraham        | Landing Page, Frontend |
 |**#02 - TB2**| 26/09/25   | Onofre Ruiz, Carlos Jesus     | Sprint 2 |
 |**#02- TB2**| 26/09/25   | Landeo Simeón, Favio Sebastián	      | Backend |
+
+__TB3__
+
+Para el desarrollo de la entrega **TB3**, se optó por dividir el trabajo de la siguiente forma:
+
+| **Versión** | **Fecha**  | **Autor**                         | **Descripción**                                                                                                   |
+|--------------|------------|-----------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| **#03 - TB3** | 08/11/25  | **Carlos Jesús Onofre Ruiz**      | Desarrollo del Sprint 4, documentación del acta de reuniones, participación en Daily Scrum, Retrospective y Review. |
+| **#03 - TB3** | 08/11/25  | **Favio Sebastián Landeo Simeón** | Desarrollo de Student Outcomes, implementación de user stories del backend y correcciones lógicas en el backend. |
+| **#03 - TB3** | 08/11/25  | **Luis Ángel Anampa Lavado**      | Desarrollo del Sprint 4, pruebas de las aplicaciones (testing) y despliegue de la aplicación backend. |
+| **#03 - TB3** | 08/11/25  | **Abraham Israel Ayquipa Ubaldo** | Desarrollo de Student Outcomes, módulo de pagos (payments) y user stories del frontend del Sprint 4. |
 
 # Contenido
 
@@ -263,14 +274,37 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
       - [Sprint Retrospective:](#sprint-retrospective)
     - [**5.2.2. Sprint 2.**](#522-sprint-2)
       - [**5.2.2.1. Sprint Planning 2.**](#5221-sprint-planning-2)
-      - [**5.2.2.2. Sprint Backlog 1.**](#5222-sprint-backlog-1)
+      - [**5.2.2.2. Sprint Backlog 2.**](#5222-sprint-backlog-2)
       - [**5.2.2.3. Development Evidence for Sprint Review.**](#5223-development-evidence-for-sprint-review)
       - [**5.2.2.4. Testing Suite Evidence for Sprint Review.**](#5224-testing-suite-evidence-for-sprint-review)
       - [**5.2.2.5. Execution Evidence for Sprint Review.**](#5225-execution-evidence-for-sprint-review)
       - [**5.2.2.6. Services Documentation Evidence for Sprint Review.**](#5226-services-documentation-evidence-for-sprint-review)
       - [**5.2.2.7. Software Deployment Evidence for Sprint Review.**](#5227-software-deployment-evidence-for-sprint-review)
       - [**5.2.2.8. Team Collaboration Insights during Sprint.**](#5228-team-collaboration-insights-during-sprint)
-  - [**5.2.2.8 Team Collaboration Insights during Sprint.**](#5228-team-collaboration-insights-during-sprint-1)
+    - [**5.2.3. Sprint 3.**](#523-sprint-3)
+      - [**5.2.3.1. Sprint Planning 3.**](#5231-sprint-planning-3)
+      - [**5.2.3.2. Sprint Backlog 3.**](#5232-sprint-backlog-3)
+      - [**5.2.3.3. Development Evidence for Sprint Review.**](#5233-development-evidence-for-sprint-review)
+      - [**5.2.3.4. Testing Suite Evidence for Sprint Review.**](#5234-testing-suite-evidence-for-sprint-review)
+    - [Casos de Uso Probados](#casos-de-uso-probados)
+      - [Detalle](#detalle)
+      - [**5.2.3.5. Execution Evidence for Sprint Review.**](#5235-execution-evidence-for-sprint-review)
+      - [**5.2.3.6. Services Documentation Evidence for Sprint Review.**](#5236-services-documentation-evidence-for-sprint-review)
+      - [**5.2.3.7. Software Deployment Evidence for Sprint Review.**](#5237-software-deployment-evidence-for-sprint-review)
+    - [Flujo Automatizado de Despliegue (CI/CD)](#flujo-automatizado-de-despliegue-cicd)
+      - [**5.2.3.8. Team Collaboration Insights during Sprint.**](#5238-team-collaboration-insights-during-sprint)
+  - [](#)
+    - [**5.2.4. Sprint 4.**](#524-sprint-4)
+      - [**5.2.4.1. Sprint Planning 4.**](#5241-sprint-planning-4)
+      - [**5.2.4.2. Sprint Backlog 4.**](#5242-sprint-backlog-4)
+  - [|  |  | QA-405 | Pruebas de historial de rutas | Validar que el historial registre y actualice correctamente las rutas consultadas. | 3 | Luis Anampa | Done |](#-----qa-405--pruebas-de-historial-de-rutas--validar-que-el-historial-registre-y-actualice-correctamente-las-rutas-consultadas--3--luis-anampa--done-)
+      - [**5.2.4.3. Development Evidence for Sprint Review.**](#5243-development-evidence-for-sprint-review)
+      - [**5.2.4.4. Testing Suite Evidence for Sprint Review.**](#5244-testing-suite-evidence-for-sprint-review)
+      - [**5.2.4.5. Execution Evidence for Sprint Review.**](#5245-execution-evidence-for-sprint-review)
+  - [| **GET** | `/rides/driver/{driverUserId}` | Viajes de un conductor |](#-get--ridesdriverdriveruserid--viajes-de-un-conductor-)
+      - [**5.2.4.6. Services Documentation Evidence for Sprint Review.**](#5246-services-documentation-evidence-for-sprint-review)
+      - [**5.2.4.7. Software Deployment Evidence for Sprint Review.**](#5247-software-deployment-evidence-for-sprint-review)
+      - [**5.2.4.8. Team Collaboration Insights during Sprint.**](#5248-team-collaboration-insights-during-sprint)
 - [**Conclusiones.**](#conclusiones)
   - [**Conclusiones y Recomendaciones.**](#conclusiones-y-recomendaciones)
       - [1. GoUni responde a las necesidades de movilidad estudiantil](#1-gouni-responde-a-las-necesidades-de-movilidad-estudiantil)
@@ -278,6 +312,7 @@ Para el desarrollo de la entrega **TB1**, se optó por dividir el trabajo de la 
       - [3. Enfoque colaborativo y seguro](#3-enfoque-colaborativo-y-seguro)
       - [4. Impacto social y económico](#4-impacto-social-y-económico)
       - [5. Innovación y tecnología como pilares](#5-innovación-y-tecnología-como-pilares)
+    - [**Conclusiones Generales del Proyecto**](#conclusiones-generales-del-proyecto)
 - [**Bibliografia.**](#bibliografia)
 - [**Anexos**](#anexos)
 
