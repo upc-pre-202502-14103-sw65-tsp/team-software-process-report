@@ -3885,9 +3885,14 @@ En este sprint, se han incorporado pruebas unitarias y testings manuales con swa
 
 En este sprint se tienen los despliegues actualizados de los endpoints funcionando y el frontend completamente operativo:
 
-- **Frontend:** 
-![alt text](prueba1.png)
-![alt text](prueba2.png)
+- **Frontend:**
+
+
+
+![alt text](assets/plans.jpeg)
+![alt text](assets/book1.jpeg)
+![alt text](assets/book2.jpeg)
+![alt text](assets/book3.jpeg)
 
 - **Backend:**
 
