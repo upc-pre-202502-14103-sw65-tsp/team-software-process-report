@@ -3910,7 +3910,10 @@ En este sprint se tienen los despliegues actualizados de los endpoints funcionan
 
 En el alcance del Sprint 4 se logró desarrollar nuevos endpoints para el backend que se hara la visualizacion mediante el swagger para un testeo manual.
 
-![alt text](<assets/prueba.png>)
+![alt text](<assets/post.jpeg>)
+![alt text](<assets/get1.jpeg>)
+![alt text](<assets/get2.jpeg>)
+![alt text](<assets/get3.jpeg>)
 
 #### [**5.2.4.7. Software Deployment Evidence for Sprint Review.**](#software-deployment-evidence-for-sprint-review)
 
@@ -3948,10 +3951,10 @@ __Report__
 ![alt text](prueba.png)
 
 __Frontend__
-![alt text](prueba.png)
+![alt text](assets/frontend.jpeg)
 
 __Backend__
-![alt text](prueba.png)
+![alt text](assets/backend.jpeg)
 
 **Evidencia de las reuniones:**
 <img src="assets/prueba.jpeg">
