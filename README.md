@@ -3854,12 +3854,6 @@ En el **Sprint Planning 4**, se presenta evidencia del desarrollo de la pagina w
 #### [**5.2.4.2. Sprint Backlog 4.**](#sprint-backlog-4) 
 En esta parte mostramos las tareas que se realizaron en este sprint.
 
-**Link del Trello:**  
-**Enlace del Trello Sprint 4 - Pendiente**
-
-**Vista del Sprint Backlog en Trello:**  
-<img src="assets/evidence-trello-4.png">
-
 ---
 
 | **Sprint #**   | **Sprint 4**                                                                                                                                                                                                                  |     |     |     |     |     |     |
@@ -3992,7 +3986,10 @@ __Backend__
 ![alt text](assets/backend.jpeg)
 
 **Evidencia de las reuniones:**
-<img src="assets/prueba.jpeg">
+<img src="assets/evidence-1.jpeg">
+<img src="assets/evidence-2.jpeg">
+<img src="assets/evidence-3.jpeg">
+<img src="assets/evidence-4.jpeg">
 
 ---
 ### [**5.2.5. Sprint 5.**](#sprint-5) 
@@ -4017,15 +4014,8 @@ En el **Sprint Planning 5**, se presenta evidencia del desarrollo de la pagina w
 | **Sum of Story Points**      |40	|
 
 #### [**5.2.5.2. Sprint Backlog 5.**](#sprint-backlog-5) 
+
 En esta parte mostramos las tareas que se realizaron en este sprint.
-
-**Link del Trello:**  
-**Enlace del Trello Sprint 5 - Pendiente**
-
-**Vista del Sprint Backlog en Trello:**  
-<img src="assets/evidence-trello-5.png">
-
----
 
 | **Sprint #**   | **Sprint 4**                                                                                                                                                                                                                  |     |     |     |     |     |     |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|-----|-----|-----|-----|-----|
@@ -4128,7 +4118,7 @@ Durante este sprint, para proteger la rama "main", creamos una rama "develop". C
 **GitHub Analytics del Sprint 4:**
 
 __Report__
-![alt text](prueba.png)
+![alt text](assets/contribuitor.jpeg)
 
 __Frontend__
 ![alt text](assets/frontend.jpeg)
@@ -4137,7 +4127,10 @@ __Backend__
 ![alt text](assets/backend.jpeg)
 
 **Evidencia de las reuniones:**
-<img src="assets/prueba.jpeg">
+<img src="assets/evidence-1.jpeg">
+<img src="assets/evidence-2.jpeg">
+<img src="assets/evidence-3.jpeg">
+<img src="assets/evidence-4.jpeg">
 
 ---
 # [**Conclusiones.**](#conclusiones)
