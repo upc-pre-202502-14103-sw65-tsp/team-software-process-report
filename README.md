@@ -4052,9 +4052,9 @@ Frontend: [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_FrontEnd](http
 
 | **Módulo / Feature**                    | **Evidencia**                                               | **Descripción del Desarrollo**                                                                                                                                                                   |
 | --------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Validador de Seguridad de Contraseña | <img src="password-validator.jpeg"> |  Se implementó un validador robusto de contraseñas que incluye reglas de complejidad (longitud mínima, caracteres especiales, mayúsculas/minúsculas). Esta validación se integró en el flujo de registro y actualización de credenciales. Se añadieron mensajes dinámicos de error y confirmación. |
-| Previsualizador de Imagen de Perfil del Conductor | <img src="image-preview.jpeg"> | Se desarrolló un componente de frontend que permite subir una imagen y visualizarla antes de confirmarla. Incluye validación de formato, tamaño del archivo y manejo de errores. Optimiza la experiencia del usuario al actualizar el perfil del conductor. |
-| Listados con Filtros | <img src="filter-endpoints.jpeg"> | Se implementaron endpoints optimizados en el backend que permiten listar datos con filtros avanzados, incluyendo paginación, ordenamiento y parámetros dinámicos. Esto mejora la eficiencia en el consumo de datos y reduce tiempos de respuesta en consultas complejas. |
+| Validador de Seguridad de Contraseña |![alt text](assets/password.jpeg)|  Se implementó un validador robusto de contraseñas que incluye reglas de complejidad (longitud mínima, caracteres especiales, mayúsculas/minúsculas). Esta validación se integró en el flujo de registro y actualización de credenciales. Se añadieron mensajes dinámicos de error y confirmación. |
+| Previsualizador de Imagen de Perfil del Conductor | ![alt text](assets/photo.jpeg) | Se desarrolló un componente de frontend que permite subir una imagen y visualizarla antes de confirmarla. Incluye validación de formato, tamaño del archivo y manejo de errores. Optimiza la experiencia del usuario al actualizar el perfil del conductor. |
+| Listados con Filtros | ![alt text](assets/ride-booking.jpeg) | Se implementaron endpoints optimizados en el backend que permiten listar datos con filtros avanzados, incluyendo paginación, ordenamiento y parámetros dinámicos. Esto mejora la eficiencia en el consumo de datos y reduce tiempos de respuesta en consultas complejas. |
 
 ---
 #### [**5.2.5.4. Testing Suite Evidence for Sprint Review.**](#testing-suite-evidence-for-sprint-review)
@@ -4067,9 +4067,9 @@ A continuación, se presenta el enlace al repositorio correspondiente a las prue
 
 | **Services** | **Evidencia** |**Descripción** |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-|
-| **Validación de contraseñas con reglas de seguridad**      | <img src="assets/password-test.jpeg"> | Se realizaron pruebas unitarias y manuales verificando cada regla de validación: longitud mínima, uso de mayúsculas, minúsculas, números y caracteres especiales. Se comprobó la respuesta del sistema ante contraseñas inválidas y válidas. |
-| **Previsualización y validación de imágenes antes de su carga**      |<img src="assets/image-preview-test.jpeg">| Se ejecutaron pruebas manuales en el frontend validando el correcto renderizado de la imagen seleccionada, manejo de archivos no permitidos, tamaños excesivos y errores del usuario. También se verificó la actualización correcta del componente UI. |
-| **Verificación de endpoints con filtros, ordenamiento y paginació**      |<img src="assets/filter-endpoints-test.jpeg">| Se probaron mediante Swagger los endpoints de listados con filtros dinámicos. Se validaron respuestas correctas ante filtros válidos, escenarios vacíos, ordenamiento, paginación y tiempos de respuesta estables. También se evaluó el manejo de parámetros inválidos. |
+| **Validación de contraseñas con reglas de seguridad**      |![alt text](assets/password.jpeg) | Se realizaron pruebas unitarias y manuales verificando cada regla de validación: longitud mínima, uso de mayúsculas, minúsculas, números y caracteres especiales. Se comprobó la respuesta del sistema ante contraseñas inválidas y válidas. |
+| **Previsualización y validación de imágenes antes de su carga**      |![alt text](assets/photo.jpeg)| Se ejecutaron pruebas manuales en el frontend validando el correcto renderizado de la imagen seleccionada, manejo de archivos no permitidos, tamaños excesivos y errores del usuario. También se verificó la actualización correcta del componente UI. |
+| **Verificación de endpoints con filtros, ordenamiento y paginació**      |![alt text](assets/Test-PU.jpeg)|  Pruebas unitarias en Swagger validando respuestas HTTP 200 (OK) para listas filtradas y manejo de errores 400/500 para inputs inválidos (detectados en Code Review). |
 
 #### [**5.2.5.5. Execution Evidence for Sprint Review.**](#execution-evidence-for-sprint-review)
 
@@ -4120,8 +4120,8 @@ URL del repositorio para el Project Report:
 | **Onofre Ruiz, Carlos Jesus**     | Scrum Master Sprint 5 realizacion de estructura por cada sprint|
 
 **Evidencia de los commits:**
-
-![alt text](prueba.png)
+![alt text](assets/front.jpeg)
+![alt text](assets/back.jpeg)
 
 Durante este sprint, para proteger la rama "main", creamos una rama "develop". Cada integrante creó una sub-rama "feature" para subir un capítulo del informe siguiendo las convenciones establecidas (**Conventional Commits** y **GitFlow**).
 
