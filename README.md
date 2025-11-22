@@ -8,7 +8,7 @@
     <strong>Ingeniería de Software</strong><br>
     <strong>Team Software Process</strong><br>
     <strong>Profesor: Elio Jefferrson Navarrete Vilca</strong><br>
-    <br>Informe del TB3</br>
+    <br>Informe del TB4</br>
 </p>
 
 <p align="center">
