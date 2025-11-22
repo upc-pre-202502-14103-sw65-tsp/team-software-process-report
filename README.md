@@ -3995,6 +3995,151 @@ __Backend__
 <img src="assets/prueba.jpeg">
 
 ---
+### [**5.2.5. Sprint 5.**](#sprint-5) 
+---
+#### [**5.2.5.1. Sprint Planning 5.**](#sprint-planning-5)
+
+En el **Sprint Planning 5**, se presenta evidencia del desarrollo de la pagina web, incluyendo avances del proyecto y aprendizajes de colaboración en equipo registrados en **GitHub**.
+
+| **Sprint #**| Sprint 5|
+|------------------------------|-----------------------------------------------------------------------------------|
+| **Sprint Planning Background** | Durante este sprint se desarrollaron funcionalidades enfocadas en fortalecer la seguridad del sistema y mejorar la experiencia del usuario en la plataforma StudentConnect. Se implementó un validador avanzado de contraseñas para reforzar el control de acceso, un previsualizador de imágenes para agilizar la actualización del perfil del conductor, y endpoints optimizados para listados con filtros específicos, mejorando la eficiencia del backend y reduciendo tiempos de respuesta. |
+| **Date**| 18/11/2025 |
+| **Time**| 19:40 |
+| **Location**|	Modalidad remota por Google Meet	|
+| **Prepared By**| Carlos Onofre Ruiz (Scrum Master) |
+| **Attendees (to planning meeting)** |Todos los miembros del grupo StudentConnect|
+| **Sprint 5 Review Summary**  | Se completó la integración con Google Calendar, se fortaleció la seguridad con Redis para sesiones y Rate Limiting, y se habilitó la exportación a Excel junto con el historial de rutas frecuentes. El sistema mostró mayor estabilidad y menor carga en endpoints críticos. |
+| **Sprint 5 Retrospective Summary** | El equipo logró buena estabilidad técnica, aunque surgieron retrasos por dependencias externas. Se acordó mejorar la documentación, automatizar pruebas y optimizar el monitoreo.El equipo logró buena estabilidad técnica, aunque surgieron retrasos por dependencias externas. Se acordó mejorar la documentación, automatizar pruebas y optimizar el monitoreo.	|
+| **Sprint Goal & User Stories** |  El objetivo del sprint fue mejorar la seguridad y la usabilidad del sistema, además de optimizar el backend. Las user stories incluyeron: US-501 (validador de seguridad de contraseña), US-502 (previsualizador de imagen del conductor), y la implementación de endpoints filtrados para consultas eficientes. |
+| **Sprint 5 Goal**            |Reforzar la seguridad del sistema mediante validación avanzada de contraseñas, mejorar la UX con previsualización de imágenes y optimizar la eficiencia de consultas con endpoints filtrados.	 |
+| **Sprint Velocity 5**        |40|
+| **Sum of Story Points**      |40	|
+
+#### [**5.2.5.2. Sprint Backlog 5.**](#sprint-backlog-5) 
+En esta parte mostramos las tareas que se realizaron en este sprint.
+
+**Link del Trello:**  
+**Enlace del Trello Sprint 5 - Pendiente**
+
+**Vista del Sprint Backlog en Trello:**  
+<img src="assets/evidence-trello-5.png">
+
+---
+
+| **Sprint #**   | **Sprint 4**                                                                                                                                                                                                                  |     |     |     |     |     |     |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|-----|-----|-----|-----|-----|
+| **User Story**  | **Work-item / Task**                                                                                                                                                                                                         |     |     |     |     |     |     |
+| **ID**         | **Title**| **Id** | **Title**| **Description**| **Estimation (hours)** | **Assigned To**    | **Status (To-do / In-Process / To-Review / Done)** |
+| US-501 | Validador de seguridad de contraseña | BE-501 | Implementación del validador de seguridad | Desarrollo de reglas para validar contraseñas (longitud, complejidad, caracteres especiales, etc.). | 5 | Carlos Onofre | Done |
+| | | QA-501 | Pruebas del validador de seguridad | Validar funcionamiento correcto del validador ante distintos casos y errores. | 2 | Luis Anampa | Done |
+| US-502 | Previsualizador de imagen del conductor | FE-502 | Componente de previsualización | Implementación del componente para ver la imagen antes de subirla. | 4 | Carlos Onofre | Done |
+| | | FE-502A | Manejo de carga de imagen | Validación de formato, tamaño y lectura segura de la imagen. | 3 | Carlos Onofre | Done |
+| | | QA-502 | Pruebas del previsualizador | Verificar previsualización, formatos soportados y errores. | 2 | Luis Anampa | Done |
+| US-503 | Endpoints para listados con filtros | BE-503 | Implementación de endpoints filtrados | Desarrollo de endpoints con filtros avanzados, paginación y criterios de búsqueda. | 4 | Carlos Onofre | Done |
+| | | QA-503 | Pruebas de filtros y consultas | Validar paginación, filtros, performance y respuestas correctas del API. | 2 | Luis Anampa | Done |
+
+---
+#### [**5.2.5.3. Development Evidence for Sprint Review.**](#development-evidence-for-sprint-review) 
+Durante este sprint se completaron todas las tareas de desarrollo correspondientes a las historias de usuario planificadas.
+Se implementaron nuevas funcionalidades tanto en el frontend como en el backend del sistema, enfocadas en mejorar la seguridad, la experiencia del usuario y la eficiencia de las consultas.
+A continuación, se presentan las principales evidencias del desarrollo técnico realizado:
+
+Repositorio del Código Fuente
+
+Backend: [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_BackEnd](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_BackEnd)
+Frontend: [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_FrontEnd](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_FrontEnd)
+
+| **Módulo / Feature**                    | **Evidencia**                                               | **Descripción del Desarrollo**                                                                                                                                                                   |
+| --------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Validador de Seguridad de Contraseña | <img src="password-validator.jpeg"> |  Se implementó un validador robusto de contraseñas que incluye reglas de complejidad (longitud mínima, caracteres especiales, mayúsculas/minúsculas). Esta validación se integró en el flujo de registro y actualización de credenciales. Se añadieron mensajes dinámicos de error y confirmación. |
+| Previsualizador de Imagen de Perfil del Conductor | <img src="image-preview.jpeg"> | Se desarrolló un componente de frontend que permite subir una imagen y visualizarla antes de confirmarla. Incluye validación de formato, tamaño del archivo y manejo de errores. Optimiza la experiencia del usuario al actualizar el perfil del conductor. |
+| Listados con Filtros | <img src="filter-endpoints.jpeg"> | Se implementaron endpoints optimizados en el backend que permiten listar datos con filtros avanzados, incluyendo paginación, ordenamiento y parámetros dinámicos. Esto mejora la eficiencia en el consumo de datos y reduce tiempos de respuesta en consultas complejas. |
+
+---
+#### [**5.2.5.4. Testing Suite Evidence for Sprint Review.**](#testing-suite-evidence-for-sprint-review)
+
+En este sprint se realizaron pruebas unitarias, pruebas funcionales y verificaciones manuales mediante Swagger UI, asegurando que las funcionalidades desarrolladas cumplan con los criterios de aceptación definidos en cada historia de usuario.
+A continuación, se presenta el enlace al repositorio correspondiente a las pruebas de aceptación, donde se documentan los escenarios evaluados y su ejecución:
+
+**Repositorio de pruebas de aceptación:**  
+[https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test)
+
+| **Services** | **Evidencia** |**Descripción** |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-|
+| **Validación de contraseñas con reglas de seguridad**      | <img src="assets/password-test.jpeg"> | Se realizaron pruebas unitarias y manuales verificando cada regla de validación: longitud mínima, uso de mayúsculas, minúsculas, números y caracteres especiales. Se comprobó la respuesta del sistema ante contraseñas inválidas y válidas. |
+| **Previsualización y validación de imágenes antes de su carga**      |<img src="assets/image-preview-test.jpeg">| Se ejecutaron pruebas manuales en el frontend validando el correcto renderizado de la imagen seleccionada, manejo de archivos no permitidos, tamaños excesivos y errores del usuario. También se verificó la actualización correcta del componente UI. |
+| **Verificación de endpoints con filtros, ordenamiento y paginació**      |<img src="assets/filter-endpoints-test.jpeg">| Se probaron mediante Swagger los endpoints de listados con filtros dinámicos. Se validaron respuestas correctas ante filtros válidos, escenarios vacíos, ordenamiento, paginación y tiempos de respuesta estables. También se evaluó el manejo de parámetros inválidos. |
+
+#### [**5.2.5.5. Execution Evidence for Sprint Review.**](#execution-evidence-for-sprint-review)
+
+En este sprint se tienen los despliegues actualizados de los endpoints funcionando y el frontend completamente operativo:
+
+- **Frontend:**
+![alt text](assets/plans.jpeg)
+![alt text](assets/book1.jpeg)
+
+- **Backend:**
+![alt text](<assets/endpointrides.jpeg>)
+
+
+| Método | Ruta | Descripción |
+|--------|------|--------------|
+| **GET** | /filters | Obtiene listados aplicando filtros dinámicos, paginación y ordenamiento. |
+| **GET** | /filters?name={value} | Devuelve resultados filtrados por nombre u otros parámetros. |
+| **GET** | /filters?page={n}&size={m} |  Consulta paginada optimizada. |
+
+---
+#### [**5.2.5.6. Services Documentation Evidence for Sprint Review.**](#services-documentation-evidence-for-sprint-review) 
+
+En el alcance del Sprint 5 se logró desarrollar nuevos endpoints para el backend que se hara la visualizacion mediante el swagger para un testeo manual.
+
+![alt text](<assets/post.jpeg>)
+
+#### [**5.2.5.7. Software Deployment Evidence for Sprint Review.**](#software-deployment-evidence-for-sprint-review)
+
+Durante este sprint, el proceso de despliegue fue **totalmente automatizado** a través de una **integración continua (CI/CD Pipeline)** conectada al repositorio principal del proyecto.  
+Ahora, cada vez que se realiza un **merge** o **push** al branch `main`, el sistema ejecuta automáticamente las siguientes etapas:
+
+---
+#### [**5.2.5.8. Team Collaboration Insights during Sprint.**](#team-collaboration-insights-during-sprint)
+
+El equipo trabajó de manera colaborativa usando reuniones diarias, tableros de gestión y comunicación directa (Slack/Teams) para coordinar tareas y resolver problemas, asegurando alineación y cumplimiento de los objetivos del sprint.
+
+Distribución de aportes en el informe:
+
+URL del repositorio para el Project Report:
+[https://github.com/upc-pre-202502-14103-sw65-tsp/](https://github.com/upc-pre-202502-14103-sw65-tsp/)
+
+
+| **Integrante** | **Aporte en el informe** |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Anampa Lavado, Luis Angel**       |Automatizacion del despliegue y realizas pruebas unitarias|
+| **Landeo Simeón, Favio Sebastián**     | Desarrollo Backend App nuevos enpoints |
+| **Ayquipa Ubaldo, Abraham Israel**      | Desarrollo Frontend App nuevas visualizaciones|
+| **Onofre Ruiz, Carlos Jesus**     | Scrum Master Sprint 5 realizacion de estructura por cada sprint|
+
+**Evidencia de los commits:**
+
+![alt text](prueba.png)
+
+Durante este sprint, para proteger la rama "main", creamos una rama "develop". Cada integrante creó una sub-rama "feature" para subir un capítulo del informe siguiendo las convenciones establecidas (**Conventional Commits** y **GitFlow**).
+
+**GitHub Analytics del Sprint 4:**
+
+__Report__
+![alt text](prueba.png)
+
+__Frontend__
+![alt text](assets/frontend.jpeg)
+
+__Backend__
+![alt text](assets/backend.jpeg)
+
+**Evidencia de las reuniones:**
+<img src="assets/prueba.jpeg">
+
+---
 # [**Conclusiones.**](#conclusiones)
 
 ## [**Conclusiones y Recomendaciones.**](#conclusiones-y-recomendaciones)
