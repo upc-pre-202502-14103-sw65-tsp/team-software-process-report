@@ -3165,11 +3165,15 @@ Para configurar el despliegue del proyecto, seguimos los pasos detallados a cont
 
 ---
 
-#### **Enlace de la Landing Page:**
+#### **Enlaces de Despliegue (Deployment Links):**
 
-Este enlace redirige a la landing page desarrollada con **Angular** y desplegada en **Vercel**. La página ofrece una introducción al proyecto, destacando sus características principales y facilitando el acceso a la aplicación web. Está diseñada para ser completamente responsiva y optimizada para dispositivos móviles, tabletas y computadoras de escritorio.
+A continuación se presentan los enlaces a los entornos de producción desplegados para cada componente del proyecto, asegurando su disponibilidad y acceso continuo:
 
-[**https://carpool-smoky.vercel.app/home**](https://carpool-smoky.vercel.app/home)
+| Componente | Descripción | Enlace | Plataforma |
+| :--- | :--- | :--- | :--- |
+| **Landing Page** | Página informativa del proyecto, responsiva y optimizada. | [Ver Landing Page](https://carpool-smoky.vercel.app/home) | Vercel |
+| **Frontend (Web App)** | Aplicación web principal para usuarios (pasajeros y conductores). | [Ver Web App](https://go-uni-front-end.vercel.app/) | Vercel |
+| **Backend (API)** | Servicios RESTful y documentación Swagger. | [Ver API Docs](https://gouni-cloudrun-sa-879620681296.southamerica-west1.run.app/swagger-ui/index.html#/) | Google Cloud Run |
 
 ---
 
@@ -4229,7 +4233,37 @@ Documentación actualizada en Swagger con los nuevos endpoints de rating.
 
 #### [**5.2.6.7. Software Deployment Evidence for Sprint Review.**](#software-deployment-evidence-for-sprint-review-6)
 
-El pipeline de CI/CD continúa operativo, desplegando automáticamente las nuevas características a producción tras la aprobación de los Pull Requests.
+El pipeline de CI/CD continúa operativo, desplegando automáticamente las nuevas características a producción tras la aprobación de los Pull Requests. A continuación, se presenta la evidencia histórica de la configuración y despliegue del Backend en Google Cloud Platform, base fundamental para los servicios desplegados en los Sprints 2, 3, 4, 5 y 6.
+
+**Google Cloud - Configuración y Despliegue del Backend**
+
+**1. Creación de cuenta en Google Cloud**
+
+<img src="assets/images/paso1.jpg">
+
+**2. Crear una nueva instancia para desplegar la base de datos**
+
+<img src="assets/images/pas2.jpg">
+
+**3. Configuración de la instancia**
+
+<img src="assets/images/paso3.jpg">
+
+**4. Visualización del despliegue**
+
+<img src="assets/images/paso4.jpg">
+
+**5. Ingreso por MySQL**
+
+<img src="assets/images/paso5.jpg">
+
+**6. Configuración de Google Cloud para despliegue del backend**
+
+<img src="assets/images/paso6.jpg">
+
+**7. Despliegue mediante terminal**
+
+<img src="assets/images/paso7.jpg">
 
 ---
 #### [**5.2.6.8. Team Collaboration Insights during Sprint.**](#team-collaboration-insights-during-sprint-6)
