@@ -4148,8 +4148,8 @@ En el **Sprint Planning 6**, se presenta evidencia del desarrollo final de la pl
 | **Location**|	Modalidad remota por Google Meet	|
 | **Prepared By**| Favio Landeo Simeón (Scrum Master) |
 | **Attendees (to planning meeting)** |Todos los miembros del grupo StudentConnect|
-| **Sprint 6 Review Summary**  | Se logró la implementación exitosa del sistema de calificaciones y el chat en tiempo real. Las pruebas confirmaron la estabilidad de la conexión WebSocket y la correcta persistencia de los ratings. |
-| **Sprint 6 Retrospective Summary** | El equipo destacó la buena coordinación para la integración de WebSockets. Se identificaron oportunidades de mejora en la gestión de desconexiones y reconexiones en el chat.	|
+| **Sprint 6 Review Summary**  | Se completó la implementación del validador de seguridad de contraseñas, el previsualizador de imágenes y los endpoints con filtros. Se validó la seguridad y la optimización de consultas. |
+| **Sprint 6 Retrospective Summary** | El equipo mejoró en la estimación de tareas de frontend. Se acordó reforzar las pruebas de integración para los nuevos endpoints de filtrado.	|
 | **Sprint Goal & User Stories** |  El objetivo fue habilitar la comunicación directa y el sistema de reputación. User Stories: US-601 (Rating conductores), US-602 (Chat WebSockets). |
 | **Sprint 6 Goal**            |Implementar sistema de calificación de conductores y chat en tiempo real con WebSockets para mejorar la comunicación y confianza.	 |
 | **Sprint Velocity 6**        |40|
@@ -4182,8 +4182,8 @@ Frontend: [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_FrontEnd](http
 
 | **Módulo / Feature**                    | **Evidencia**                                               | **Descripción del Desarrollo**                                                                                                                                                                   |
 | --------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Sistema de Rating |![alt text](assets/rating.jpeg)|  Implementación de endpoints para registrar y consultar calificaciones de conductores. Integración en el frontend para permitir a los usuarios calificar su experiencia. |
-| Chat en Tiempo Real | ![alt text](assets/chat.jpeg) | Implementación de comunicación bidireccional mediante WebSockets, permitiendo a conductores y pasajeros chatear en tiempo real desde la aplicación. |
+| Sistema de Rating |![alt text](assets/rating1.jpeg)|  Implementación de endpoints para registrar y consultar calificaciones de conductores. Integración en el frontend para permitir a los usuarios calificar su experiencia. |
+| Chat en Tiempo Real | ![alt text](assets/chat1.jpeg) | Implementación de comunicación bidireccional mediante WebSockets, permitiendo a conductores y pasajeros chatear en tiempo real desde la aplicación. |
 
 ---
 #### [**5.2.6.4. Testing Suite Evidence for Sprint Review.**](#testing-suite-evidence-for-sprint-review-6)
@@ -4195,19 +4195,20 @@ En este sprint se realizaron pruebas exhaustivas de la comunicación en tiempo r
 
 | **Services** | **Evidencia** |**Descripción** |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-|
-| **Calificación de Conductores**      |![alt text](assets/test-rating.jpeg) | Pruebas de integración para asegurar que las calificaciones se guardan correctamente y actualizan el promedio del conductor. |
-| **Chat WebSocket**      |![alt text](assets/test-chat.jpeg)| Pruebas de conectividad y transmisión de mensajes en tiempo real entre distintos usuarios. |
+| **Calificación de Conductores**      |![alt text](assets/rating2.jpeg) | Pruebas de integración para asegurar que las calificaciones se guardan correctamente y actualizan el promedio del conductor. |
+| **Chat WebSocket**      |![alt text](assets/chat2.jpeg)| Pruebas de conectividad y transmisión de mensajes en tiempo real entre distintos usuarios. |
 
 #### [**5.2.6.5. Execution Evidence for Sprint Review.**](#execution-evidence-for-sprint-review-6)
 
 Despliegue de las nuevas funcionalidades:
 
 - **Frontend:**
-![alt text](assets/chat-view.jpeg)
-![alt text](assets/rating-view.jpeg)
+![alt text](assets/chat3.jpeg)
+![alt text](assets/rating3.jpeg)
 
 - **Backend:**
-![alt text](<assets/endpoint-chat.jpeg>)
+![alt text](<assets/chat_endpoint.jpeg>)
+![alt text](<assets/ratings_endpoint.jpeg>)
 
 
 | Método | Ruta | Descripción |
@@ -4221,7 +4222,10 @@ Despliegue de las nuevas funcionalidades:
 
 Documentación actualizada en Swagger con los nuevos endpoints de rating.
 
-![alt text](<assets/swagger-sprint6.jpeg>)
+![alt text](<assets/chat4.jpeg>)
+![alt text](<assets/rating4.jpeg>)
+![alt text](<assets/chat5.jpeg>)
+![alt text](<assets/rating5.jpeg>)
 
 #### [**5.2.6.7. Software Deployment Evidence for Sprint Review.**](#software-deployment-evidence-for-sprint-review-6)
 
