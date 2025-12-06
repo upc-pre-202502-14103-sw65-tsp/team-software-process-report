@@ -4133,6 +4133,137 @@ __Backend__
 <img src="assets/evidence-4.jpeg">
 
 ---
+
+### [**5.2.6. Sprint 6.**](#sprint-6) 
+---
+#### [**5.2.6.1. Sprint Planning 6.**](#sprint-planning-6)
+
+En el **Sprint Planning 6**, se presenta evidencia del desarrollo final de la plataforma, incluyendo la implementación de características clave de comunicación y feedback.
+
+| **Sprint #**| Sprint 6|
+|------------------------------|-----------------------------------------------------------------------------------|
+| **Sprint Planning Background** | Este sprint final se centró en mejorar la interacción y confianza entre usuarios. Se implementó un sistema de calificación (rating) para conductores y un chat en tiempo real basado en WebSockets para facilitar la comunicación directa antes y durante el servicio de carpooling. |
+| **Date**| 02/12/2025 |
+| **Time**| 19:00 |
+| **Location**|	Modalidad remota por Google Meet	|
+| **Prepared By**| Favio Landeo Simeón (Scrum Master) |
+| **Attendees (to planning meeting)** |Todos los miembros del grupo StudentConnect|
+| **Sprint 6 Review Summary**  | Se logró la implementación exitosa del sistema de calificaciones y el chat en tiempo real. Las pruebas confirmaron la estabilidad de la conexión WebSocket y la correcta persistencia de los ratings. |
+| **Sprint 6 Retrospective Summary** | El equipo destacó la buena coordinación para la integración de WebSockets. Se identificaron oportunidades de mejora en la gestión de desconexiones y reconexiones en el chat.	|
+| **Sprint Goal & User Stories** |  El objetivo fue habilitar la comunicación directa y el sistema de reputación. User Stories: US-601 (Rating conductores), US-602 (Chat WebSockets). |
+| **Sprint 6 Goal**            |Implementar sistema de calificación de conductores y chat en tiempo real con WebSockets para mejorar la comunicación y confianza.	 |
+| **Sprint Velocity 6**        |40|
+| **Sum of Story Points**      |40	|
+
+#### [**5.2.6.2. Sprint Backlog 6.**](#sprint-backlog-6) 
+
+En esta parte mostramos las tareas que se realizaron en este sprint.
+
+| **Sprint #**   | **Sprint 6**                                                                                                                                                                                                                  |     |     |     |     |     |     |
+|-----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|-----|-----|-----|-----|-----|
+| **User Story**  | **Work-item / Task**                                                                                                                                                                                                         |     |     |     |     |     |     |
+| **ID**         | **Title**| **Id** | **Title**| **Description**| **Estimation (hours)** | **Assigned To**    | **Status (To-do / In-Process / To-Review / Done)** |
+| US-601 | Sistema de Calificación (Rating) | BE-601 | Implementación de lógica de Rating | Desarrollo de endpoints y lógica para calificar conductores. | 5 | Luis Anampa | Done |
+| | | FE-601 | Interfaz de Calificación | Implementación de componentes UI para asignar estrellas y comentarios. | 4 | Carlos Onofre | Done |
+| | | QA-601 | Pruebas de Rating | Validar cálculo de promedios y persistencia de calificaciones. | 3 | Abraham Ayquipa | Done |
+| US-602 | Chat con WebSockets | BE-602 | Configuración de WebSockets | Implementación del servidor WebSocket para mensajería en tiempo real. | 6 | Luis Anampa | Done |
+| | | FE-602 | Interfaz de Chat | Desarrollo de la vista de chat y conexión con el socket. | 6 | Carlos Onofre | Done |
+| | | QA-602 | Pruebas de Chat | Verificar envío/recepción de mensajes y manejo de conexión. | 4 | Abraham Ayquipa | Done |
+
+---
+#### [**5.2.6.3. Development Evidence for Sprint Review.**](#development-evidence-for-sprint-review-6) 
+Durante este sprint se completaron las funcionalidades de comunicación y reputación.
+A continuación, se presentan las principales evidencias del desarrollo técnico realizado:
+
+Repositorio del Código Fuente
+
+Backend: [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_BackEnd](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_BackEnd)
+Frontend: [https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_FrontEnd](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_FrontEnd)
+
+| **Módulo / Feature**                    | **Evidencia**                                               | **Descripción del Desarrollo**                                                                                                                                                                   |
+| --------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Sistema de Rating |![alt text](assets/rating.jpeg)|  Implementación de endpoints para registrar y consultar calificaciones de conductores. Integración en el frontend para permitir a los usuarios calificar su experiencia. |
+| Chat en Tiempo Real | ![alt text](assets/chat.jpeg) | Implementación de comunicación bidireccional mediante WebSockets, permitiendo a conductores y pasajeros chatear en tiempo real desde la aplicación. |
+
+---
+#### [**5.2.6.4. Testing Suite Evidence for Sprint Review.**](#testing-suite-evidence-for-sprint-review-6)
+
+En este sprint se realizaron pruebas exhaustivas de la comunicación en tiempo real y el sistema de calificaciones.
+
+**Repositorio de pruebas de aceptación:**  
+[https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test](https://github.com/upc-pre-202502-14103-sw65-tsp/GoUni_acceptance-test)
+
+| **Services** | **Evidencia** |**Descripción** |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-|
+| **Calificación de Conductores**      |![alt text](assets/test-rating.jpeg) | Pruebas de integración para asegurar que las calificaciones se guardan correctamente y actualizan el promedio del conductor. |
+| **Chat WebSocket**      |![alt text](assets/test-chat.jpeg)| Pruebas de conectividad y transmisión de mensajes en tiempo real entre distintos usuarios. |
+
+#### [**5.2.6.5. Execution Evidence for Sprint Review.**](#execution-evidence-for-sprint-review-6)
+
+Despliegue de las nuevas funcionalidades:
+
+- **Frontend:**
+![alt text](assets/chat-view.jpeg)
+![alt text](assets/rating-view.jpeg)
+
+- **Backend:**
+![alt text](<assets/endpoint-chat.jpeg>)
+
+
+| Método | Ruta | Descripción |
+|--------|------|--------------|
+| **POST** | /ratings | Registrar una nueva calificación para un conductor. |
+| **GET** | /ratings/driver/{id} | Obtener el promedio y comentarios de un conductor. |
+| **WS** | /chat | Endpoint para conexión WebSocket. |
+
+---
+#### [**5.2.6.6. Services Documentation Evidence for Sprint Review.**](#services-documentation-evidence-for-sprint-review-6) 
+
+Documentación actualizada en Swagger con los nuevos endpoints de rating.
+
+![alt text](<assets/swagger-sprint6.jpeg>)
+
+#### [**5.2.6.7. Software Deployment Evidence for Sprint Review.**](#software-deployment-evidence-for-sprint-review-6)
+
+El pipeline de CI/CD continúa operativo, desplegando automáticamente las nuevas características a producción tras la aprobación de los Pull Requests.
+
+---
+#### [**5.2.6.8. Team Collaboration Insights during Sprint.**](#team-collaboration-insights-during-sprint-6)
+
+El equipo mantuvo una comunicación fluida, especialmente crítica para la integración del chat.
+
+Distribución de aportes en el informe:
+
+URL del repositorio para el Project Report:
+[https://github.com/upc-pre-202502-14103-sw65-tsp/](https://github.com/upc-pre-202502-14103-sw65-tsp/)
+
+
+| **Integrante** | **Aporte en el informe** |
+|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Anampa Lavado, Luis Angel**       | Desarrollo Backend: Rating y WebSockets |
+| **Landeo Simeón, Favio Sebastián**     | Scrum Master Sprint 6, facilitador y documentación |
+| **Ayquipa Ubaldo, Abraham Israel**      | QA: Pruebas de chat y rating |
+| **Onofre Ruiz, Carlos Jesus**     | Desarrollo Frontend: Interfaces de chat y rating |
+
+**Evidencia de los commits:**
+![alt text](assets/commits-sprint6.jpeg)
+
+**GitHub Analytics del Sprint 6:**
+
+__Report__
+![alt text](assets/analytics-report-6.jpeg)
+
+__Frontend__
+![alt text](assets/analytics-front-6.jpeg)
+
+__Backend__
+![alt text](assets/analytics-back-6.jpeg)
+
+**Evidencia de las reuniones:**
+<img src="assets/evidence-sprint6-1.jpeg">
+<img src="assets/evidence-sprint6-2.jpeg">
+
+---
 # [**Conclusiones.**](#conclusiones)
 
 ## [**Conclusiones y Recomendaciones.**](#conclusiones-y-recomendaciones)
