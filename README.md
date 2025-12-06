@@ -4284,22 +4284,24 @@ URL del repositorio para el Project Report:
 | **Onofre Ruiz, Carlos Jesus**     | Desarrollo Frontend: Interfaces de chat y rating |
 
 **Evidencia de los commits:**
-![alt text](assets/commits-sprint6.jpeg)
+![alt text](assets/commits.jpeg)
 
 **GitHub Analytics del Sprint 6:**
 
 __Report__
-![alt text](assets/analytics-report-6.jpeg)
+![alt text](assets/report.jpeg)
 
 __Frontend__
-![alt text](assets/analytics-front-6.jpeg)
+![alt text](assets/frontend.jpeg)
 
 __Backend__
-![alt text](assets/analytics-back-6.jpeg)
+![alt text](assets/backend.jpeg)
 
 **Evidencia de las reuniones:**
-<img src="assets/evidence-sprint6-1.jpeg">
-<img src="assets/evidence-sprint6-2.jpeg">
+<img src="assets/evidence-1.jpeg">
+<img src="assets/evidence-2.jpeg">
+<img src="assets/evidence-3.jpeg">
+<img src="assets/evidence-4.jpeg">
 
 ---
 # [**Conclusiones.**](#conclusiones)
